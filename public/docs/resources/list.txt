@@ -1,0 +1,15 @@
+SONIRA - current canonical identity
+
+Updated: 2026-11-09 (Asia/Shanghai)
+
+Brand name: Sonira
+Display form: SONIRA
+Slug: sonira
+Pronunciation: so-NEE-rah
+Meaning: sonar + aura; a heard signal that travels out to listeners and is released as a sound token.
+Tagline: Hear it. Set it in motion.
+Official domain: https://sonira.site
+Official X: https://x.com/Sonira_site (@Sonira_site)
+Proposed ticker only: SNRA. No platform token has been issued or approved.
+
+The final public identity is sonira.site and @Sonira_site. The 21 October 2026 read-only checks in research/brand-verification.md concerned the earlier sonira.xyz / @sonira candidate; they are retained as dated evidence and do not describe the current identity. Earlier project identities remain in output/history, brand.txt and dated evidence as historical records.

@@ -14,13 +14,13 @@ Start with English-speaking independent beat makers, original sound designers an
 
 Show “Testnet” near prelaunch actions. Explain creator economics as a 1% base fee, split 70% creator / 30% protocol in both phases, plus any creator-selected tax. Optional buybacks purchase that sound token for linear vesting; they do not burn a platform token or guarantee price support. Never imply token ownership grants music copyright, royalties, company equity, audited safety or a Robinhood partnership.
 
-The selected brand is SONIRA, with `sonira.xyz` and `@sonira`. [Public checks](research__brand-verification.md) found no registered domain/public profile at the recorded time; neither has been acquired. Registrar control and successful X signup are required before advertising operated destinations. Public search absence is not trademark clearance or a signup guarantee.
+The selected brand is SONIRA, with the official site [sonira.site](https://sonira.site) and X profile [@Sonira_site](https://x.com/Sonira_site). Confirm DNS, TLS and account control in the operating account before campaigns point to them. The earlier `.xyz` / `@sonira` availability notes in [brand verification](research__brand-verification.md) are superseded dated evidence; public search absence is not trademark clearance.
 
 ## 2. Launch prerequisites and owners
 
 | Requirement | Owner | Completion evidence |
 |---|---|---|
-| Acquire domain and X identity | Founder | Registrar control, created account, company recovery and MFA |
+| Confirm domain and X identity | Founder | DNS/TLS control for `sonira.site`, account access for `@Sonira_site`, recovery and MFA |
 | Configure hosting and HTTPS | Engineering | Reviewed Vue build at public URL; SPA fallback and rollback |
 | Validate and deploy v2 | Engineering | Separate local/fork evidence; actual testnet 46630 receipts and configuration read-back |
 | Verify launch and trading | Engineering | Atomic media launch; native/ERC-20 quotes, approvals, buys/sells, refunds and deadlines |

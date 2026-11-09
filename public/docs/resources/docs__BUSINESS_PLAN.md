@@ -3,11 +3,11 @@
 **Prepared 17 September 2026 · Version 2.1 · English-language launch plan**
 
 **Brand:** SONIRA, pronounced so-NEE-rah; an original blend of sonar and aura, giving a heard signal room to travel.  
-**Selected domain:** `sonira.xyz`  
-**Selected X handle:** `@sonira`  
+**Official domain:** [`sonira.site`](https://sonira.site)  
+**Official X:** [`@Sonira_site`](https://x.com/Sonira_site)  
 **Positioning:** Turn an original sound into a playable onchain community.
 
-Live checks on 21 October 2026 found no RDAP registration object for `sonira.xyz`, X's public profile page returned not found for `@sonira`, and a registrar search listed the domain at a standard first-year price. These are time-bound observations, not reservations or proof of worldwide historical uniqueness; see [brand verification](research__brand-verification.md). Neither the domain nor the handle has been acquired.
+Official project links are [sonira.site](https://sonira.site) and [@Sonira_site on X](https://x.com/Sonira_site). The earlier 21 October 2026 availability notes for the superseded `sonira.xyz` / `@sonira` candidate are retained in [brand verification](research__brand-verification.md) as dated evidence and do not describe the current identity.
 
 **Release status:** The v2 protocol has completed local contract and fork validation; historical browser evidence is retained and current rebrand/UI validation is recorded separately in docs/VALIDATION.md. Public testnet deployment is pending. This plan describes the validated local implementation and commercial assumptions; public deployment must still be confirmed with its own receipts and configuration checks. No public SONIRA deployment, commercial traction or audit is claimed.
 
