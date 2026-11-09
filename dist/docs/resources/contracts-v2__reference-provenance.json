@@ -1,0 +1,562 @@
+{
+  "upstream": "Groove verified contract source",
+  "network": 4663,
+  "address": "0x8C36645F6f1Ee058FF2aE4f05BCfE5A066b04765",
+  "url": "https://sourcify.dev/server/v2/contract/4663/0x8C36645F6f1Ee058FF2aE4f05BCfE5A066b04765?fields=all",
+  "archiveSha256": "bc64c318fcac7acf693e46998b20832361e82735d43620115deff0630ebae74e",
+  "importedAt": "2026-09-17T12:52:37.709Z",
+  "files": [
+    {
+      "upstream": "src/GrooveLaunchFactory.sol",
+      "local": "src/SoniraLaunchFactory.sol",
+      "sha256": "3aa963061242dd0853fab09d419066c17b8d40fd1ae6f3877f71b2e2efd616a4",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "sha256": "38578bd71c0a909840e67202db527cc6b4e6b437e0f39f0c909da32c1e30cb81",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/access/Ownable2Step.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/access/Ownable2Step.sol",
+      "sha256": "c75345d7b9feef17ae29f2a800ca2f65f8021cf80436a41d6ec00f57f5180f36",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol",
+      "sha256": "94e409e8f6e3184236651a6cc2b1a6a3ea0f0a25eb85b71e524ad5791bb2fbc8",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "sha256": "01b6f5c4fa45fd38822b286ecef6daf983d27306dd6362496fa71b3e4600b72c",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "sha256": "0b7132f17d14d1d84b41b0bb429be62dafdff00fd3470f68724d8018eb07f57a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
+      "sha256": "5efe51a154b5be6f7e00ffcfaed6fb6f2b17a7a29f99e157e045f723cccead40",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/IPoolManager.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/IPoolManager.sol",
+      "sha256": "a98405333567e4ab344489728014795721cf0071c151536377d2fcc986e0600c",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/Slot0.sol",
+      "local": "vendor/lib/v4-core/src/types/Slot0.sol",
+      "sha256": "378b45486644dc7e49726358e83d0e2fffdaee088d18cac1a3df00d02c3635b4",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/ProtocolFeeLibrary.sol",
+      "local": "vendor/lib/v4-core/src/libraries/ProtocolFeeLibrary.sol",
+      "sha256": "f8d96d9c8b5d12ab927b34551699bd7086750475f70254c9505e636f2cafe56a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/LiquidityMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/LiquidityMath.sol",
+      "sha256": "67a39e58732340af4870342ba9230691f35501d89ed8725ca1b338deaa0eb26a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/FixedPoint96.sol",
+      "local": "vendor/lib/v4-core/src/libraries/FixedPoint96.sol",
+      "sha256": "66ee26d4fb3ac639124bdfa27d3256d196970997fa127c09e9bf7154e30d4590",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/Errors.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/Errors.sol",
+      "sha256": "0704b9d6c032cca8512a3bc3f30f49f86f1f03102d2896a3d23e794b82efea66",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/LowLevelCall.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/LowLevelCall.sol",
+      "sha256": "e128cbe9c6c406d5a42c26e4079c0a95b369ce552f2d0c3dfd2fcb836c5708f2",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/TickBitmap.sol",
+      "local": "vendor/lib/v4-core/src/libraries/TickBitmap.sol",
+      "sha256": "19b25dccfac8bd90f9d615fb182547eb7b5908a5cbf21a1c5920b92c47383cb6",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/UnsafeMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/UnsafeMath.sol",
+      "sha256": "2de236e7ca0b9572a6b0184557565b6fd54e177224e202c727fe248785ede427",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/FixedPoint128.sol",
+      "local": "vendor/lib/v4-core/src/libraries/FixedPoint128.sol",
+      "sha256": "1ca2f55160697b73bd66fd27c8724d79a57108121ce1e8a0ab8b79f38bb58fbb",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/SqrtPriceMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/SqrtPriceMath.sol",
+      "sha256": "42440c21bbab86c7eed4716b281ed5ca281cf14af8b5e06dc6dc3bc6864bcfdf",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/SwapMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/SwapMath.sol",
+      "sha256": "eb3971ea0ba84ff0a01f2fbe43f62f9c393121ef1724774ed3f3ab7760780e4a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/interfaces/IERC6093.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/interfaces/IERC6093.sol",
+      "sha256": "d56b4239e73bbaa9f5426d1e7b3bd8064a59cbd0f575d3538a0be1e5812fa86b",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/Panic.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/Panic.sol",
+      "sha256": "270fc8401c1a13fae6a7a4a2dd6e381b95d658896701e51f0d3e2688acab3dec",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+      "sha256": "9055c2994b37dea1a41b7b7926dcb510f05dbe2540b0aafc5fbee9558fffd0ca",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/LPFeeLibrary.sol",
+      "local": "vendor/lib/v4-core/src/libraries/LPFeeLibrary.sol",
+      "sha256": "e96c3fa7deac991dc09b6c5e560a340d01d6c68ccba483d4b29f8a66e5aa44e0",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/ParseBytes.sol",
+      "local": "vendor/lib/v4-core/src/libraries/ParseBytes.sol",
+      "sha256": "6a6f3d1cec0143fd70ea68c34e6dce3bde72f368b213f1a225ada23dbfd99bb8",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/Position.sol",
+      "local": "vendor/lib/v4-core/src/libraries/Position.sol",
+      "sha256": "3dc4e2ad1564fa94eddf3ff06ce9ac592c9d578ea64ca194050382da454c8fcb",
+      "license": "BUSL-1.1"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/base/ImmutableState.sol",
+      "local": "vendor/lib/v4-periphery/src/base/ImmutableState.sol",
+      "sha256": "d3ef34f9c00fae08ec1eb24aa341d5d916c4d6d62e6c2118ef4afe9c7470fde5",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/Create2.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/Create2.sol",
+      "sha256": "9623aa59745a23a72f313adc5adbf583968bf366a7cbf3fc43c1148d7d2c3c86",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/Pool.sol",
+      "local": "vendor/lib/v4-core/src/libraries/Pool.sol",
+      "sha256": "59c493035ad25d56f24a457e8b40d9d1e3784504b8ff13d171db1eb25c6f128e",
+      "license": "BUSL-1.1"
+    },
+    {
+      "upstream": "src/GrooveFeeEscrow.sol",
+      "local": "src/SoniraFeeEscrow.sol",
+      "sha256": "89cd9bee85ba9875b2cd2d946148ba285bc7fb96c8b38d84c08b95dc0349a05c",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol",
+      "sha256": "0158e2d3e0e28bedd99eec13dcf1a8aa3a70a5b7e4bb2ad709609c95fcc740d1",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/interfaces/IERC165.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/interfaces/IERC165.sol",
+      "sha256": "dfb3f56fa928a7c6cae41a7ce2c86b9210fa18d33fa26389099d66a0fa790368",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/SafeCast.sol",
+      "local": "vendor/lib/v4-core/src/libraries/SafeCast.sol",
+      "sha256": "c1a815a41607be5b4c86ca588a951f368156da8ee21bdfc18b5d51b58a0f27be",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/ISubscriber.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/ISubscriber.sol",
+      "sha256": "9672e03c964da7cd484df290ad3395b6beacd90adcdd8ea2236f835407fb8e2e",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol",
+      "sha256": "ff0eb9902bf0ac099205615fac90eacf34fae637571b05aab3ea35dea53d5f17",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol",
+      "sha256": "1383297308cf3802d54dc724e22325db744d009201d1c3c5c3e89d1571ba311f",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/callback/IUnlockCallback.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/callback/IUnlockCallback.sol",
+      "sha256": "2e4a514730654da2e08a82eff5b3eabae12dc1c6198951396e1d466d4c0e223e",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/Hooks.sol",
+      "local": "vendor/lib/v4-core/src/libraries/Hooks.sol",
+      "sha256": "297d577998cdede64d48b47b12f15e4f442eea032fbb9676bb3c2f89da89b83c",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/StateLibrary.sol",
+      "local": "vendor/lib/v4-core/src/libraries/StateLibrary.sol",
+      "sha256": "eebdbc1b6e431072ce5521b9e1b603d43831e3b6e062743e6665e070d5cf8a1a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-hooks-public/src/base/BaseHook.sol",
+      "local": "vendor/lib/v4-hooks-public/src/base/BaseHook.sol",
+      "sha256": "f8c2c11468e23d3d31adc0428980b395d6898b08e74e55a132602bc6b6649438",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/libraries/Actions.sol",
+      "local": "vendor/lib/v4-periphery/src/libraries/Actions.sol",
+      "sha256": "c5f2579951a1d7ca38b6f417db330965875f02efa812a5a487773a51b116e33d",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/libraries/LiquidityAmounts.sol",
+      "local": "vendor/lib/v4-periphery/src/libraries/LiquidityAmounts.sol",
+      "sha256": "02d6eaaa62d45ac8170b3668e92a31808d2003b0f8eb821581cb4a028b175b45",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "sha256": "acb04d2fd908e2e4d76d5a964fdb46aded638a927c0b05c29d690fd435650e2e",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "sha256": "73a072fe19957844b14b87a3ef77283d78a424a6690f03f32928f94e4b042b41",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/Base64.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/Base64.sol",
+      "sha256": "1c143572893f50f04fe8e507d89f9997cd3242102ba4200c8de0803ecbaf8cec",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveAudio.sol",
+      "local": "src/SoniraAudio.sol",
+      "sha256": "5be5c559f7b3751a5e2430636907b3a0e00e3e6dcb33ee223ad8ef4504c25420",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveAudioRegistry.sol",
+      "local": "src/SoniraAudioRegistry.sol",
+      "sha256": "1d568d3b58813262990390e6cd968108189b69b22efa494f739535db1645df77",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveAddresses.sol",
+      "local": "src/SoniraAddresses.sol",
+      "sha256": "7f45b669287309a40eb7274ed2448640ccdfdba096fab64c208bb001691aa0e3",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+      "sha256": "bdfdbe133991c0c78042957ff5cd97167926fcaf6d15664f3835a076cb066457",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/IGrooveGraduation.sol",
+      "local": "src/ISoniraGraduation.sol",
+      "sha256": "8498960f301883068d88ec4191ae4e0bc156d31556f03f330a9644e05453abbf",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IERC721Permit_v4.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IERC721Permit_v4.sol",
+      "sha256": "80680771bccd7bf47641417d5a656f950746072766e24703f354e58c2ee0875c",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IEIP712_v4.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IEIP712_v4.sol",
+      "sha256": "ee4cc46349cc7f1f894197f368ddea0f71f2564c2962822eead755714f3ba57d",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IMulticall_v4.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IMulticall_v4.sol",
+      "sha256": "0c0f4f1cccb7cf63c1ee3dc53e8d48cf867cbff08f5a8f85dd820873277e9481",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IPoolInitializer_v4.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IPoolInitializer_v4.sol",
+      "sha256": "ca6ecf95cfbc647d49b774801d84c49c8213010771b44555b056118102d644fc",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IUnorderedNonce.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IUnorderedNonce.sol",
+      "sha256": "12e02d4e7e03a668fc1d493840315b4f2aaee2f366ca677574d37d3811d45701",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IPermit2Forwarder.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IPermit2Forwarder.sol",
+      "sha256": "3b28167d65673e7de2bbed1e6f3508350cf889f8439e8680da23ad7586f4cc57",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/permit2/src/interfaces/IEIP712.sol",
+      "local": "vendor/lib/permit2/src/interfaces/IEIP712.sol",
+      "sha256": "e386407da496dbe874c10a81801c55744fb2922a51389a51c79001422e81e0cd",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/BeforeSwapDelta.sol",
+      "local": "vendor/lib/v4-core/src/types/BeforeSwapDelta.sol",
+      "sha256": "6aee06f1553e879f5909e8f4c0eac26ec23dd4821a7e56e4d5077db39a227e12",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/external/IERC20Minimal.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/external/IERC20Minimal.sol",
+      "sha256": "5e966a2d22b3b234a56af4b17e36bf7be90f9b29b1ddb6a15bfefc0b6dab4282",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/CustomRevert.sol",
+      "local": "vendor/lib/v4-core/src/libraries/CustomRevert.sol",
+      "sha256": "9d3dbe6b742cb1ac30f57df89d879ade9649389de1165fc637114bd062d39fca",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/BitMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/BitMath.sol",
+      "sha256": "e8a45eb3d57f9427fc47bbb2543c1a6a5f394113b378123ac7ca9f113a7502b4",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/libraries/PositionInfoLibrary.sol",
+      "local": "vendor/lib/v4-periphery/src/libraries/PositionInfoLibrary.sol",
+      "sha256": "6abfa1c06d62753d177df1a4ce7af8028ea3724943ca8673f7083c1cf09bc4d9",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/INotifier.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/INotifier.sol",
+      "sha256": "7fadc8550f73d9ae57925bb27f5ab3a134d4c020972a13683e1121fc11691249",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IImmutableState.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IImmutableState.sol",
+      "sha256": "86f06a1f388f91ee0185495cb5d2912d564f73fabb163b3767e9c292c5069276",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/interfaces/IERC1363.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/interfaces/IERC1363.sol",
+      "sha256": "9c3a75a925a6dac9e88b03cddc58d42fe3131b0aaaad84408521f3f7af2f991b",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/external/IERC6909Claims.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/external/IERC6909Claims.sol",
+      "sha256": "1cd65496c829036bc6aee67bc71363ab5fb6989c65e793087d0e1e2379f7d7d8",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/IProtocolFees.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/IProtocolFees.sol",
+      "sha256": "807d68adea106ec2aa51a8009155de09ebfe09e1ee7053d5a5ae448d7e840654",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/BalanceDelta.sol",
+      "local": "vendor/lib/v4-core/src/types/BalanceDelta.sol",
+      "sha256": "320d9c13dec135c3903729e66d3a1040fe86d537a7ee53728915012ca183af32",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/IExtsload.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/IExtsload.sol",
+      "sha256": "9421ef4ba198d94058cd9a4c9fd2d663c61fc682f7dafa449a873456853f0025",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/IExttload.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/IExttload.sol",
+      "sha256": "c21643d2c7f48d2d2407438a64a3ff0f376324cf6a0c62608977713652308c9e",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/PoolOperation.sol",
+      "local": "vendor/lib/v4-core/src/types/PoolOperation.sol",
+      "sha256": "cf72ad0c3e5e91662029e862acd841fabce8753040b0d4e802dee64ef1157232",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveGraduationGuard.sol",
+      "local": "src/SoniraGraduationGuard.sol",
+      "sha256": "a5bd1a306d790c7810330ad13d0395bf1bf2e17224724b189579d02c55f223d1",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveGraduationMath.sol",
+      "local": "src/SoniraGraduationMath.sol",
+      "sha256": "0153f6d06f568b644d518e2aaa3df1d7fa377c33c38080be458cf8003887e487",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveBondingCurveMath.sol",
+      "local": "src/SoniraBondingCurveMath.sol",
+      "sha256": "71f3a0c6d82bf7081fb365a7fe5c81bc5754fbf147d077a823ca2dbb7dacc44f",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/IGrooveLaunchpad.sol",
+      "local": "src/ISoniraLaunchpad.sol",
+      "sha256": "d5fe9da66b85a1f1e2bf018c1d5ca0127459d184b77dc8ac0628665e27a956d6",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "sha256": "847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/utils/StorageSlot.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/utils/StorageSlot.sol",
+      "sha256": "cf1e3a87912e70ad4a342a33b0227f73d9b02cf2a8dadfd426a81173f24d5b91",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/openzeppelin-contracts/contracts/interfaces/IERC20Metadata.sol",
+      "local": "vendor/lib/openzeppelin-contracts/contracts/interfaces/IERC20Metadata.sol",
+      "sha256": "0ef8d844d8e066abd5c0d8cc1c550c89f2628a4ea9c9bb16c7593d4207800ca8",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/permit2/src/interfaces/IAllowanceTransfer.sol",
+      "local": "vendor/lib/permit2/src/interfaces/IAllowanceTransfer.sol",
+      "sha256": "a31c712c5cc8d171818a4225c09011f9ba86b2d5edf6045ac812bab93b6bbb87",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveToken.sol",
+      "local": "src/SoniraToken.sol",
+      "sha256": "487f80ecf1310127b08bef97729f9836d02cc6ee7831fe58028a9269ab6e1dd0",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveBondingCurve.sol",
+      "local": "src/SoniraBondingCurve.sol",
+      "sha256": "7ee88e4e2e240270f559f0674f0ae6169b91c1fcb4fcba5a041ebf331a50d22d",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveBuybackVault.sol",
+      "local": "src/SoniraBuybackVault.sol",
+      "sha256": "adf9e0c09b9520e82c8fa1ffe18c93593a8de0bd90a0b94908d348391873619f",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveLaunchLocker.sol",
+      "local": "src/SoniraLaunchLocker.sol",
+      "sha256": "c727543137d29b08facc5f2ef1a7f7142485793073883df0a8d846ebb0306869",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveHook.sol",
+      "local": "src/SoniraHook.sol",
+      "sha256": "4f1012a36ce388751aa32fedd683023daad8191d5da1bc907d90b92c8125248a",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveGraduationExecutor.sol",
+      "local": "src/SoniraGraduationExecutor.sol",
+      "sha256": "e6f29e624651cb807a62aedf350c4fb6b0e0e2a23a56df7d8a2eb8709f878979",
+      "license": "MIT"
+    },
+    {
+      "upstream": "src/GrooveLaunchDeployer.sol",
+      "local": "src/SoniraLaunchDeployer.sol",
+      "sha256": "fee95f44c82e28a7686195aa1d642f61936a897435d4af937290b462bb316477",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/interfaces/IHooks.sol",
+      "local": "vendor/lib/v4-core/src/interfaces/IHooks.sol",
+      "sha256": "6eb35c9c598eb932e963219f1ff180748bc4c30ac6a02d924893b3c29abb1d73",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/PoolKey.sol",
+      "local": "vendor/lib/v4-core/src/types/PoolKey.sol",
+      "sha256": "99e1afe285b5c614ebc9586ab5196db9d24a63fd924a449f5d99f490a6a6d6a9",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/PoolId.sol",
+      "local": "vendor/lib/v4-core/src/types/PoolId.sol",
+      "sha256": "548424ac50ad58212545da70207283fb8990731578c115c85d5acbcb0e1d3c9f",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/types/Currency.sol",
+      "local": "vendor/lib/v4-core/src/types/Currency.sol",
+      "sha256": "ba6726fd24fbc66848208dfbb2899116c10729c505e6e5552316ac2444f1dfc3",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/TickMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/TickMath.sol",
+      "sha256": "272d4f6d3ff9ae33596ebcdb84a71a3c2d4542ae8fb5c88ddf1aca8043f5d06b",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-core/src/libraries/FullMath.sol",
+      "local": "vendor/lib/v4-core/src/libraries/FullMath.sol",
+      "sha256": "a9607255a6fd604d9c92f6b7416811c38b9d86e5dfdb0c345a494ebd35f7a4a3",
+      "license": "MIT"
+    },
+    {
+      "upstream": "lib/v4-periphery/src/interfaces/IPositionManager.sol",
+      "local": "vendor/lib/v4-periphery/src/interfaces/IPositionManager.sol",
+      "sha256": "439bcd1310f47092a15fa1cc98971898a536eaaff91ac397d8b12eee3c7d79c1",
+      "license": "MIT"
+    }
+  ]
+}

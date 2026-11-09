@@ -1,0 +1,4736 @@
+{
+  "schemaVersion": 1,
+  "label": "current",
+  "generatedAt": "2026-10-21T17:53:53.973Z",
+  "baseUrl": "http://127.0.0.1:4317/",
+  "browser": {
+    "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
+    "playwrightSource": "reskin-tools",
+    "axe": true
+  },
+  "pages": {
+    "/": {
+      "route": "/",
+      "url": "http://127.0.0.1:4317/",
+      "status": 200,
+      "desktop": {
+        "meta": {
+          "title": "Sonira - Hear it. Set it in motion.",
+          "lang": "en",
+          "h1Count": 1,
+          "bodyTextLength": 2488,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "focusableCount": 44
+        },
+        "words": [
+          {
+            "word": "00:08",
+            "count": 1
+          },
+          {
+            "word": "001",
+            "count": 2
+          },
+          {
+            "word": "01",
+            "count": 4
+          },
+          {
+            "word": "02",
+            "count": 3
+          },
+          {
+            "word": "03",
+            "count": 4
+          },
+          {
+            "word": "04",
+            "count": 2
+          },
+          {
+            "word": "1%",
+            "count": 2
+          },
+          {
+            "word": "10%",
+            "count": 1
+          },
+          {
+            "word": "15",
+            "count": 1
+          },
+          {
+            "word": "2026",
+            "count": 1
+          },
+          {
+            "word": "25",
+            "count": 1
+          },
+          {
+            "word": "30%",
+            "count": 1
+          },
+          {
+            "word": "32",
+            "count": 1
+          },
+          {
+            "word": "35",
+            "count": 3
+          },
+          {
+            "word": "4",
+            "count": 1
+          },
+          {
+            "word": "70/30",
+            "count": 1
+          },
+          {
+            "word": "70%",
+            "count": 2
+          },
+          {
+            "word": "96",
+            "count": 1
+          },
+          {
+            "word": "99%",
+            "count": 1
+          },
+          {
+            "word": "a",
+            "count": 13
+          },
+          {
+            "word": "A",
+            "count": 8
+          },
+          {
+            "word": "across",
+            "count": 1
+          },
+          {
+            "word": "active",
+            "count": 1
+          },
+          {
+            "word": "add",
+            "count": 2
+          },
+          {
+            "word": "affiliated",
+            "count": 1
+          },
+          {
+            "word": "affiliation",
+            "count": 1
+          },
+          {
+            "word": "after",
+            "count": 2
+          },
+          {
+            "word": "AFTERLIFE",
+            "count": 1
+          },
+          {
+            "word": "airdrop",
+            "count": 1
+          },
+          {
+            "word": "All",
+            "count": 1
+          },
+          {
+            "word": "allocates",
+            "count": 1
+          },
+          {
+            "word": "allocation",
+            "count": 1
+          },
+          {
+            "word": "also",
+            "count": 1
+          },
+          {
+            "word": "Ambient",
+            "count": 2
+          },
+          {
+            "word": "an",
+            "count": 6
+          },
+          {
+            "word": "An",
+            "count": 2
+          },
+          {
+            "word": "AN",
+            "count": 2
+          },
+          {
+            "word": "and",
+            "count": 16
+          },
+          {
+            "word": "answers",
+            "count": 1
+          },
+          {
+            "word": "Arbitrum",
+            "count": 1
+          },
+          {
+            "word": "archive",
+            "count": 2
+          },
+          {
+            "word": "ARCHIVE",
+            "count": 1
+          },
+          {
+            "word": "are",
+            "count": 3
+          },
+          {
+            "word": "ARTIST",
+            "count": 1
+          },
+          {
+            "word": "as",
+            "count": 1
+          },
+          {
+            "word": "assets",
+            "count": 2
+          },
+          {
+            "word": "at",
+            "count": 2
+          },
+          {
+            "word": "audio",
+            "count": 7
+          },
+          {
+            "word": "Audio",
+            "count": 2
+          },
+          {
+            "word": "AUDIO",
+            "count": 1
+          },
+          {
+            "word": "avoid",
+            "count": 1
+          },
+          {
+            "word": "avoids",
+            "count": 1
+          },
+          {
+            "word": "back",
+            "count": 1
+          },
+          {
+            "word": "base",
+            "count": 3
+          },
+          {
+            "word": "base-fee",
+            "count": 1
+          },
+          {
+            "word": "basis",
+            "count": 1
+          },
+          {
+            "word": "be",
+            "count": 1
+          },
+          {
+            "word": "become",
+            "count": 1
+          },
+          {
+            "word": "Before",
+            "count": 1
+          },
+          {
+            "word": "BEST",
+            "count": 1
+          },
+          {
+            "word": "BIG",
+            "count": 1
+          },
+          {
+            "word": "billion",
+            "count": 1
+          },
+          {
+            "word": "bloom",
+            "count": 2
+          },
+          {
+            "word": "Blue",
+            "count": 1
+          },
+          {
+            "word": "bought",
+            "count": 1
+          },
+          {
+            "word": "browser",
+            "count": 1
+          },
+          {
+            "word": "BROWSER",
+            "count": 1
+          },
+          {
+            "word": "built",
+            "count": 1
+          },
+          {
+            "word": "BUILT",
+            "count": 1
+          },
+          {
+            "word": "buy",
+            "count": 2
+          },
+          {
+            "word": "buybacks",
+            "count": 1
+          },
+          {
+            "word": "by",
+            "count": 2
+          },
+          {
+            "word": "By",
+            "count": 1
+          },
+          {
+            "word": "can",
+            "count": 4
+          },
+          {
+            "word": "cannot",
+            "count": 1
+          },
+          {
+            "word": "capped",
+            "count": 1
+          },
+          {
+            "word": "Capture",
+            "count": 1
+          },
+          {
+            "word": "Chain",
+            "count": 4
+          },
+          {
+            "word": "Check",
+            "count": 1
+          },
+          {
+            "word": "Choose",
+            "count": 1
+          },
+          {
+            "word": "Chrome",
+            "count": 2
+          },
+          {
+            "word": "claimable",
+            "count": 1
+          },
+          {
+            "word": "clear",
+            "count": 1
+          },
+          {
+            "word": "CLEAR",
+            "count": 1
+          },
+          {
+            "word": "clip",
+            "count": 2
+          },
+          {
+            "word": "collect",
+            "count": 1
+          },
+          {
+            "word": "commercial",
+            "count": 1
+          },
+          {
+            "word": "compact",
+            "count": 1
+          },
+          {
+            "word": "configured",
+            "count": 1
+          },
+          {
+            "word": "Connect",
+            "count": 1
+          },
+          {
+            "word": "connected",
+            "count": 1
+          },
+          {
+            "word": "content",
+            "count": 2
+          },
+          {
+            "word": "contract",
+            "count": 1
+          },
+          {
+            "word": "contracts",
+            "count": 1
+          },
+          {
+            "word": "CONTRACTS",
+            "count": 1
+          },
+          {
+            "word": "conversions",
+            "count": 1
+          },
+          {
+            "word": "copyright",
+            "count": 2
+          },
+          {
+            "word": "cover",
+            "count": 2
+          },
+          {
+            "word": "creation",
+            "count": 1
+          },
+          {
+            "word": "creative",
+            "count": 1
+          },
+          {
+            "word": "creator",
+            "count": 6
+          },
+          {
+            "word": "creator/protocol",
+            "count": 1
+          },
+          {
+            "word": "creators",
+            "count": 1
+          },
+          {
+            "word": "Creators",
+            "count": 1
+          },
+          {
+            "word": "CREATORS",
+            "count": 1
+          },
+          {
+            "word": "currency",
+            "count": 1
+          },
+          {
+            "word": "current",
+            "count": 2
+          },
+          {
+            "word": "curve",
+            "count": 2
+          },
+          {
+            "word": "cycle",
+            "count": 1
+          },
+          {
+            "word": "decays",
+            "count": 1
+          },
+          {
+            "word": "declared",
+            "count": 1
+          },
+          {
+            "word": "default",
+            "count": 4
+          },
+          {
+            "word": "demo",
+            "count": 4
+          },
+          {
+            "word": "DEMO",
+            "count": 1
+          },
+          {
+            "word": "demos",
+            "count": 2
+          },
+          {
+            "word": "deployed",
+            "count": 1
+          },
+          {
+            "word": "deployment",
+            "count": 2
+          },
+          {
+            "word": "deserve",
+            "count": 1
+          },
+          {
+            "word": "details",
+            "count": 1
+          },
+          {
+            "word": "Details",
+            "count": 4
+          },
+          {
+            "word": "directly",
+            "count": 1
+          },
+          {
+            "word": "discover",
+            "count": 2
+          },
+          {
+            "word": "DISCOVER",
+            "count": 2
+          },
+          {
+            "word": "distribution",
+            "count": 1
+          },
+          {
+            "word": "do",
+            "count": 2
+          },
+          {
+            "word": "docs",
+            "count": 1
+          },
+          {
+            "word": "does",
+            "count": 1
+          },
+          {
+            "word": "DOESN’T",
+            "count": 1
+          },
+          {
+            "word": "easy",
+            "count": 1
+          },
+          {
+            "word": "Electronic",
+            "count": 3
+          },
+          {
+            "word": "enabled",
+            "count": 1
+          },
+          {
+            "word": "endorsed",
+            "count": 1
+          },
+          {
+            "word": "endorsement",
+            "count": 1
+          },
+          {
+            "word": "ends",
+            "count": 1
+          },
+          {
+            "word": "erased",
+            "count": 1
+          },
+          {
+            "word": "ERC-20",
+            "count": 1
+          },
+          {
+            "word": "ETH",
+            "count": 1
+          },
+          {
+            "word": "Ethereum-compatible",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 1
+          },
+          {
+            "word": "exempt",
+            "count": 1
+          },
+          {
+            "word": "EXPERIENCED",
+            "count": 1
+          },
+          {
+            "word": "Experimental",
+            "count": 2
+          },
+          {
+            "word": "Explore",
+            "count": 1
+          },
+          {
+            "word": "EXPLORE",
+            "count": 1
+          },
+          {
+            "word": "exposure",
+            "count": 1
+          },
+          {
+            "word": "extra",
+            "count": 1
+          },
+          {
+            "word": "factory",
+            "count": 1
+          },
+          {
+            "word": "Featured",
+            "count": 1
+          },
+          {
+            "word": "FEATURED",
+            "count": 1
+          },
+          {
+            "word": "fee",
+            "count": 4
+          },
+          {
+            "word": "fees",
+            "count": 1
+          },
+          {
+            "word": "Fees",
+            "count": 1
+          },
+          {
+            "word": "FEES",
+            "count": 1
+          },
+          {
+            "word": "files",
+            "count": 1
+          },
+          {
+            "word": "find",
+            "count": 1
+          },
+          {
+            "word": "Find",
+            "count": 1
+          },
+          {
+            "word": "FINE",
+            "count": 1
+          },
+          {
+            "word": "first",
+            "count": 1
+          },
+          {
+            "word": "five",
+            "count": 1
+          },
+          {
+            "word": "followed",
+            "count": 1
+          },
+          {
+            "word": "follows",
+            "count": 1
+          },
+          {
+            "word": "for",
+            "count": 2
+          },
+          {
+            "word": "FOR",
+            "count": 2
+          },
+          {
+            "word": "frequency",
+            "count": 1
+          },
+          {
+            "word": "FREQUENCY",
+            "count": 1
+          },
+          {
+            "word": "from",
+            "count": 2
+          },
+          {
+            "word": "FROM",
+            "count": 1
+          },
+          {
+            "word": "future",
+            "count": 1
+          },
+          {
+            "word": "Gas",
+            "count": 1
+          },
+          {
+            "word": "GENRE",
+            "count": 1
+          },
+          {
+            "word": "get",
+            "count": 1
+          },
+          {
+            "word": "Give",
+            "count": 2
+          },
+          {
+            "word": "Good",
+            "count": 1
+          },
+          {
+            "word": "graduation",
+            "count": 2
+          },
+          {
+            "word": "grant",
+            "count": 1
+          },
+          {
+            "word": "half",
+            "count": 1
+          },
+          {
+            "word": "happens",
+            "count": 1
+          },
+          {
+            "word": "have",
+            "count": 3
+          },
+          {
+            "word": "HEADPHONES",
+            "count": 1
+          },
+          {
+            "word": "Hear",
+            "count": 2
+          },
+          {
+            "word": "Heat",
+            "count": 1
+          },
+          {
+            "word": "here",
+            "count": 1
+          },
+          {
+            "word": "history",
+            "count": 1
+          },
+          {
+            "word": "hit",
+            "count": 1
+          },
+          {
+            "word": "Holding",
+            "count": 1
+          },
+          {
+            "word": "home",
+            "count": 2
+          },
+          {
+            "word": "hook",
+            "count": 1
+          },
+          {
+            "word": "hour",
+            "count": 1
+          },
+          {
+            "word": "How",
+            "count": 1
+          },
+          {
+            "word": "I",
+            "count": 1
+          },
+          {
+            "word": "IDEA",
+            "count": 1
+          },
+          {
+            "word": "IDEAS",
+            "count": 1
+          },
+          {
+            "word": "IDENTITY",
+            "count": 1
+          },
+          {
+            "word": "immutable",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 5
+          },
+          {
+            "word": "IN",
+            "count": 2
+          },
+          {
+            "word": "includes",
+            "count": 1
+          },
+          {
+            "word": "independent",
+            "count": 2
+          },
+          {
+            "word": "Independent",
+            "count": 1
+          },
+          {
+            "word": "information",
+            "count": 1
+          },
+          {
+            "word": "is",
+            "count": 9
+          },
+          {
+            "word": "Is",
+            "count": 2
+          },
+          {
+            "word": "it",
+            "count": 7
+          },
+          {
+            "word": "IT",
+            "count": 1
+          },
+          {
+            "word": "its",
+            "count": 5
+          },
+          {
+            "word": "JUST",
+            "count": 1
+          },
+          {
+            "word": "Keep",
+            "count": 1
+          },
+          {
+            "word": "KiB",
+            "count": 1
+          },
+          {
+            "word": "kind",
+            "count": 1
+          },
+          {
+            "word": "LABEL",
+            "count": 2
+          },
+          {
+            "word": "last",
+            "count": 1
+          },
+          {
+            "word": "launch",
+            "count": 1
+          },
+          {
+            "word": "least",
+            "count": 1
+          },
+          {
+            "word": "leave",
+            "count": 1
+          },
+          {
+            "word": "Let",
+            "count": 1
+          },
+          {
+            "word": "lets",
+            "count": 1
+          },
+          {
+            "word": "limit",
+            "count": 1
+          },
+          {
+            "word": "LIMITLESS",
+            "count": 1
+          },
+          {
+            "word": "LISTEN",
+            "count": 1
+          },
+          {
+            "word": "Listeners",
+            "count": 1
+          },
+          {
+            "word": "live",
+            "count": 1
+          },
+          {
+            "word": "loop",
+            "count": 1
+          },
+          {
+            "word": "M4A",
+            "count": 1
+          },
+          {
+            "word": "make",
+            "count": 2
+          },
+          {
+            "word": "Make",
+            "count": 1
+          },
+          {
+            "word": "market",
+            "count": 1
+          },
+          {
+            "word": "MARKET",
+            "count": 1
+          },
+          {
+            "word": "markets",
+            "count": 2
+          },
+          {
+            "word": "MB",
+            "count": 1
+          },
+          {
+            "word": "monetary",
+            "count": 1
+          },
+          {
+            "word": "mono",
+            "count": 1
+          },
+          {
+            "word": "motion",
+            "count": 3
+          },
+          {
+            "word": "MOTION",
+            "count": 1
+          },
+          {
+            "word": "MP3",
+            "count": 1
+          },
+          {
+            "word": "NEED",
+            "count": 1
+          },
+          {
+            "word": "network",
+            "count": 1
+          },
+          {
+            "word": "new",
+            "count": 1
+          },
+          {
+            "word": "night",
+            "count": 1
+          },
+          {
+            "word": "no",
+            "count": 1
+          },
+          {
+            "word": "No",
+            "count": 3
+          },
+          {
+            "word": "NO",
+            "count": 1
+          },
+          {
+            "word": "not",
+            "count": 3
+          },
+          {
+            "word": "of",
+            "count": 2
+          },
+          {
+            "word": "offered",
+            "count": 1
+          },
+          {
+            "word": "OGG",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 2
+          },
+          {
+            "word": "onchain",
+            "count": 5
+          },
+          {
+            "word": "Onchain",
+            "count": 2
+          },
+          {
+            "word": "ONCHAIN",
+            "count": 2
+          },
+          {
+            "word": "one",
+            "count": 1
+          },
+          {
+            "word": "only",
+            "count": 1
+          },
+          {
+            "word": "Only",
+            "count": 1
+          },
+          {
+            "word": "OPEN",
+            "count": 2
+          },
+          {
+            "word": "opening",
+            "count": 3
+          },
+          {
+            "word": "operator",
+            "count": 1
+          },
+          {
+            "word": "optional",
+            "count": 1
+          },
+          {
+            "word": "Optional",
+            "count": 1
+          },
+          {
+            "word": "Opus",
+            "count": 1
+          },
+          {
+            "word": "or",
+            "count": 9
+          },
+          {
+            "word": "OR",
+            "count": 1
+          },
+          {
+            "word": "original",
+            "count": 4
+          },
+          {
+            "word": "Original",
+            "count": 1
+          },
+          {
+            "word": "ORIGINAL",
+            "count": 2
+          },
+          {
+            "word": "our",
+            "count": 1
+          },
+          {
+            "word": "output",
+            "count": 1
+          },
+          {
+            "word": "over",
+            "count": 1
+          },
+          {
+            "word": "own",
+            "count": 2
+          },
+          {
+            "word": "paid",
+            "count": 1
+          },
+          {
+            "word": "panel",
+            "count": 1
+          },
+          {
+            "word": "part",
+            "count": 1
+          },
+          {
+            "word": "people",
+            "count": 2
+          },
+          {
+            "word": "permanently",
+            "count": 1
+          },
+          {
+            "word": "permission",
+            "count": 1
+          },
+          {
+            "word": "platform",
+            "count": 1
+          },
+          {
+            "word": "play",
+            "count": 1
+          },
+          {
+            "word": "playable",
+            "count": 2
+          },
+          {
+            "word": "plus",
+            "count": 2
+          },
+          {
+            "word": "Pool",
+            "count": 1
+          },
+          {
+            "word": "PREPARED",
+            "count": 1
+          },
+          {
+            "word": "prepares",
+            "count": 1
+          },
+          {
+            "word": "Press",
+            "count": 1
+          },
+          {
+            "word": "preview",
+            "count": 1
+          },
+          {
+            "word": "Preview",
+            "count": 2
+          },
+          {
+            "word": "PREVIEW",
+            "count": 1
+          },
+          {
+            "word": "previews",
+            "count": 1
+          },
+          {
+            "word": "price",
+            "count": 2
+          },
+          {
+            "word": "Privacy",
+            "count": 1
+          },
+          {
+            "word": "private",
+            "count": 1
+          },
+          {
+            "word": "PRIVATELY",
+            "count": 1
+          },
+          {
+            "word": "process",
+            "count": 1
+          },
+          {
+            "word": "project",
+            "count": 2
+          },
+          {
+            "word": "Project",
+            "count": 2
+          },
+          {
+            "word": "promise",
+            "count": 1
+          },
+          {
+            "word": "protocol",
+            "count": 1
+          },
+          {
+            "word": "public",
+            "count": 1
+          },
+          {
+            "word": "publish",
+            "count": 2
+          },
+          {
+            "word": "published",
+            "count": 1
+          },
+          {
+            "word": "Publishing",
+            "count": 2
+          },
+          {
+            "word": "purchase",
+            "count": 1
+          },
+          {
+            "word": "questions",
+            "count": 1
+          },
+          {
+            "word": "quote",
+            "count": 1
+          },
+          {
+            "word": "Read",
+            "count": 1
+          },
+          {
+            "word": "real",
+            "count": 1
+          },
+          {
+            "word": "recipient",
+            "count": 1
+          },
+          {
+            "word": "record",
+            "count": 2
+          },
+          {
+            "word": "RECORD",
+            "count": 1
+          },
+          {
+            "word": "release",
+            "count": 6
+          },
+          {
+            "word": "Release",
+            "count": 1
+          },
+          {
+            "word": "RELEASE",
+            "count": 1
+          },
+          {
+            "word": "require",
+            "count": 2
+          },
+          {
+            "word": "REQUIRED",
+            "count": 1
+          },
+          {
+            "word": "requires",
+            "count": 1
+          },
+          {
+            "word": "Review",
+            "count": 1
+          },
+          {
+            "word": "right",
+            "count": 1
+          },
+          {
+            "word": "rights",
+            "count": 2
+          },
+          {
+            "word": "risks",
+            "count": 2
+          },
+          {
+            "word": "Robinhood",
+            "count": 4
+          },
+          {
+            "word": "royalties",
+            "count": 1
+          },
+          {
+            "word": "royalty",
+            "count": 1
+          },
+          {
+            "word": "samples",
+            "count": 1
+          },
+          {
+            "word": "SCROLL",
+            "count": 1
+          },
+          {
+            "word": "SEC",
+            "count": 1
+          },
+          {
+            "word": "seconds",
+            "count": 3
+          },
+          {
+            "word": "SECONDS",
+            "count": 1
+          },
+          {
+            "word": "sell",
+            "count": 1
+          },
+          {
+            "word": "separate",
+            "count": 1
+          },
+          {
+            "word": "Sessions",
+            "count": 1
+          },
+          {
+            "word": "Set",
+            "count": 2
+          },
+          {
+            "word": "share",
+            "count": 1
+          },
+          {
+            "word": "signal",
+            "count": 1
+          },
+          {
+            "word": "SIGNAL",
+            "count": 2
+          },
+          {
+            "word": "simple",
+            "count": 1
+          },
+          {
+            "word": "Skip",
+            "count": 1
+          },
+          {
+            "word": "SMALL",
+            "count": 1
+          },
+          {
+            "word": "so",
+            "count": 1
+          },
+          {
+            "word": "softer",
+            "count": 1
+          },
+          {
+            "word": "sonira",
+            "count": 2
+          },
+          {
+            "word": "Sonira",
+            "count": 8
+          },
+          {
+            "word": "SONIRA",
+            "count": 1
+          },
+          {
+            "word": "Sort",
+            "count": 1
+          },
+          {
+            "word": "sound",
+            "count": 3
+          },
+          {
+            "word": "Sound",
+            "count": 1
+          },
+          {
+            "word": "SOUND",
+            "count": 5
+          },
+          {
+            "word": "sounds",
+            "count": 3
+          },
+          {
+            "word": "SOUNDS",
+            "count": 1
+          },
+          {
+            "word": "spark",
+            "count": 1
+          },
+          {
+            "word": "split",
+            "count": 2
+          },
+          {
+            "word": "Start",
+            "count": 1
+          },
+          {
+            "word": "starts",
+            "count": 1
+          },
+          {
+            "word": "state",
+            "count": 1
+          },
+          {
+            "word": "status",
+            "count": 3
+          },
+          {
+            "word": "step",
+            "count": 1
+          },
+          {
+            "word": "stock",
+            "count": 1
+          },
+          {
+            "word": "stored",
+            "count": 1
+          },
+          {
+            "word": "STORED",
+            "count": 1
+          },
+          {
+            "word": "story",
+            "count": 1
+          },
+          {
+            "word": "studio",
+            "count": 1
+          },
+          {
+            "word": "Studio",
+            "count": 10
+          },
+          {
+            "word": "STUDIO",
+            "count": 2
+          },
+          {
+            "word": "supply",
+            "count": 1
+          },
+          {
+            "word": "support",
+            "count": 1
+          },
+          {
+            "word": "swap",
+            "count": 1
+          },
+          {
+            "word": "tax",
+            "count": 6
+          },
+          {
+            "word": "technology",
+            "count": 1
+          },
+          {
+            "word": "temporary",
+            "count": 1
+          },
+          {
+            "word": "terms",
+            "count": 2
+          },
+          {
+            "word": "Terms",
+            "count": 1
+          },
+          {
+            "word": "Test",
+            "count": 2
+          },
+          {
+            "word": "test-asset",
+            "count": 1
+          },
+          {
+            "word": "test-token",
+            "count": 1
+          },
+          {
+            "word": "testnet",
+            "count": 5
+          },
+          {
+            "word": "TESTNET",
+            "count": 1
+          },
+          {
+            "word": "that",
+            "count": 1
+          },
+          {
+            "word": "the",
+            "count": 16
+          },
+          {
+            "word": "The",
+            "count": 7
+          },
+          {
+            "word": "THE",
+            "count": 3
+          },
+          {
+            "word": "their",
+            "count": 1
+          },
+          {
+            "word": "then",
+            "count": 2
+          },
+          {
+            "word": "theory",
+            "count": 1
+          },
+          {
+            "word": "there",
+            "count": 1
+          },
+          {
+            "word": "this",
+            "count": 1
+          },
+          {
+            "word": "This",
+            "count": 1
+          },
+          {
+            "word": "to",
+            "count": 14
+          },
+          {
+            "word": "TO",
+            "count": 4
+          },
+          {
+            "word": "token",
+            "count": 5
+          },
+          {
+            "word": "tokens",
+            "count": 4
+          },
+          {
+            "word": "TRACK",
+            "count": 1
+          },
+          {
+            "word": "trade",
+            "count": 2
+          },
+          {
+            "word": "trading",
+            "count": 4
+          },
+          {
+            "word": "transfer",
+            "count": 1
+          },
+          {
+            "word": "transparent",
+            "count": 1
+          },
+          {
+            "word": "try",
+            "count": 1
+          },
+          {
+            "word": "TUNING",
+            "count": 1
+          },
+          {
+            "word": "Understand",
+            "count": 1
+          },
+          {
+            "word": "Uniswap",
+            "count": 1
+          },
+          {
+            "word": "unlicensed",
+            "count": 1
+          },
+          {
+            "word": "until",
+            "count": 1
+          },
+          {
+            "word": "up",
+            "count": 3
+          },
+          {
+            "word": "UP",
+            "count": 1
+          },
+          {
+            "word": "upload",
+            "count": 1
+          },
+          {
+            "word": "Upload",
+            "count": 1
+          },
+          {
+            "word": "UPLOAD",
+            "count": 1
+          },
+          {
+            "word": "use",
+            "count": 3
+          },
+          {
+            "word": "uses",
+            "count": 1
+          },
+          {
+            "word": "usually",
+            "count": 1
+          },
+          {
+            "word": "V",
+            "count": 1
+          },
+          {
+            "word": "v4",
+            "count": 1
+          },
+          {
+            "word": "value",
+            "count": 1
+          },
+          {
+            "word": "vest",
+            "count": 1
+          },
+          {
+            "word": "voice",
+            "count": 1
+          },
+          {
+            "word": "VOL",
+            "count": 1
+          },
+          {
+            "word": "Waiting",
+            "count": 1
+          },
+          {
+            "word": "wallet",
+            "count": 2
+          },
+          {
+            "word": "wallets",
+            "count": 1
+          },
+          {
+            "word": "WAV",
+            "count": 1
+          },
+          {
+            "word": "WebM",
+            "count": 1
+          },
+          {
+            "word": "What",
+            "count": 3
+          },
+          {
+            "word": "Why",
+            "count": 1
+          },
+          {
+            "word": "window",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 5
+          },
+          {
+            "word": "WITH",
+            "count": 1
+          },
+          {
+            "word": "years",
+            "count": 1
+          },
+          {
+            "word": "you",
+            "count": 2
+          },
+          {
+            "word": "You",
+            "count": 1
+          },
+          {
+            "word": "YOU",
+            "count": 1
+          },
+          {
+            "word": "your",
+            "count": 7
+          },
+          {
+            "word": "Your",
+            "count": 1
+          },
+          {
+            "word": "YOUR",
+            "count": 1
+          },
+          {
+            "word": "yours",
+            "count": 1
+          },
+          {
+            "word": "zero",
+            "count": 1
+          }
+        ],
+        "attrs": [
+          {
+            "key": "alt=Cover artwork for A softer signal",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Chrome bloom",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Business plan document",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Connect wallet",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Filter sounds",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Main navigation",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open A softer signal",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Chrome bloom",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play A softer signal",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play Chrome bloom",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Play Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Project links",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Release studio",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Scroll to sound archive",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search sounds, tickers or creators",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Sonira home",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Sound archive",
+            "count": 1
+          },
+          {
+            "key": "aria-label=The process",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View A softer signal details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Blue hour theory details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Chrome bloom details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Heat in motion details",
+            "count": 1
+          },
+          {
+            "key": "placeholder=Find a sound...",
+            "count": 1
+          }
+        ],
+        "links": [
+          {
+            "href": "/",
+            "count": 1
+          },
+          {
+            "href": "/docs/business-plan.pdf",
+            "count": 1
+          },
+          {
+            "href": "#explore",
+            "count": 3
+          },
+          {
+            "href": "#how-it-works",
+            "count": 1
+          },
+          {
+            "href": "#main",
+            "count": 3
+          },
+          {
+            "href": "https://docs.robinhood.com/chain/",
+            "count": 1
+          }
+        ],
+        "forms": [
+          {
+            "key": "input::text",
+            "count": 1
+          },
+          {
+            "key": "select::select",
+            "count": 1
+          }
+        ],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [
+          "ab-archive",
+          "ab-band",
+          "ab-bar",
+          "ab-bar-actions",
+          "ab-bar-loc",
+          "ab-bar-slash",
+          "ab-bar-vol",
+          "ab-brand",
+          "ab-btn",
+          "ab-btn-ghost",
+          "ab-btn-hot",
+          "ab-call-glyph",
+          "ab-call-note",
+          "ab-canvas",
+          "ab-chips",
+          "ab-console-deck",
+          "ab-coord",
+          "ab-coord-a",
+          "ab-coord-b",
+          "ab-count",
+          "ab-cover",
+          "ab-dot",
+          "ab-duration",
+          "ab-faq",
+          "ab-faq-list",
+          "ab-feed-note",
+          "ab-foot",
+          "ab-foot-base",
+          "ab-foot-head",
+          "ab-foot-legal",
+          "ab-foot-links",
+          "ab-foot-mark",
+          "ab-frame",
+          "ab-glyph",
+          "ab-glyph-num",
+          "ab-glyphs",
+          "ab-head-row",
+          "ab-hero",
+          "ab-hero-cta",
+          "ab-hero-lead",
+          "ab-hero-note",
+          "ab-hero-play",
+          "ab-hero-plus",
+          "ab-hero-strip",
+          "ab-kicker",
+          "ab-ledger",
+          "ab-ledger-head",
+          "ab-main",
+          "ab-maker",
+          "ab-margin",
+          "ab-net",
+          "ab-origin",
+          "ab-play",
+          "ab-process",
+          "ab-rail",
+          "ab-search",
+          "ab-signal",
+          "ab-signal-core",
+          "ab-signal-grid",
+          "ab-signal-live",
+          "ab-signal-rings",
+          "ab-signal-top",
+          "ab-signal-visual",
+          "ab-skip",
+          "ab-sort",
+          "ab-sound",
+          "ab-sound-actions",
+          "ab-sound-genre",
+          "ab-sound-id",
+          "ab-sound-num",
+          "ab-sound-open",
+          "ab-sound-signal",
+          "ab-stage",
+          "ab-stage-main",
+          "ab-step-detail",
+          "ab-step-grid",
+          "ab-step-note",
+          "ab-step-num",
+          "ab-studio-call",
+          "ab-text-btn",
+          "ab-tool-right",
+          "ab-tools",
+          "ab-verified",
+          "ab-wallet-btn",
+          "ab-wave",
+          "is-current",
+          "is-on",
+          "lucide",
+          "lucide-arrow-right",
+          "lucide-arrow-up-right",
+          "lucide-audio-lines",
+          "lucide-check",
+          "lucide-chevron-down",
+          "lucide-grid-2-x-2",
+          "lucide-grid-2x2",
+          "lucide-headphones",
+          "lucide-play",
+          "lucide-plus",
+          "lucide-search",
+          "lucide-sliders-horizontal",
+          "lucide-upload",
+          "lucide-wallet",
+          "sr-only"
+        ],
+        "fingerprint": [
+          "a@10:1",
+          "a@4:0",
+          "a@6:2",
+          "a@7:3",
+          "a@8:0",
+          "a@8:1",
+          "a@9:1",
+          "button@10:1",
+          "button@11:1",
+          "button@12:0",
+          "button@12:1",
+          "button@13:1",
+          "button@13:2",
+          "button@14:0",
+          "button@7:3",
+          "button@8:1",
+          "button@8:3",
+          "button@9:0",
+          "button@9:1",
+          "circle@14:0",
+          "details@9:2",
+          "div@10:0",
+          "div@10:1",
+          "div@10:2",
+          "div@10:4+",
+          "div@11:2",
+          "div@11:4+",
+          "div@12:0",
+          "div@12:2",
+          "div@12:3",
+          "div@12:4+",
+          "div@3:3",
+          "div@4:2",
+          "div@5:3",
+          "div@6:3",
+          "div@7:2",
+          "div@7:3",
+          "div@7:4+",
+          "div@8:1",
+          "div@8:2",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:0",
+          "div@9:1",
+          "div@9:2",
+          "div@9:4+",
+          "footer@6:3",
+          "h1@9:2",
+          "h2@10:2",
+          "h2@10:3",
+          "h2@12:1",
+          "h2@9:2",
+          "h3@10:0",
+          "h3@13:1",
+          "header@6:2",
+          "i@11:0",
+          "i@12:0",
+          "i@13:0",
+          "i@14:0",
+          "i@8:0",
+          "i@8:1",
+          "i@9:0",
+          "img@13:0",
+          "img@7:0",
+          "input@13:0",
+          "label@12:3",
+          "li@11:4+",
+          "li@9:4+",
+          "main@6:4+",
+          "nav@5:4+",
+          "nav@8:4+",
+          "nav@9:4+",
+          "ol@8:3",
+          "p@10:0",
+          "p@10:1",
+          "p@10:2",
+          "p@7:0",
+          "p@8:0",
+          "p@8:1",
+          "p@9:0",
+          "p@9:1",
+          "path@10:0",
+          "path@11:0",
+          "path@12:0",
+          "path@13:0",
+          "path@14:0",
+          "path@15:0",
+          "path@16:0",
+          "rect@9:0",
+          "section@7:2",
+          "section@7:3",
+          "section@9:4+",
+          "select@13:2",
+          "span@10:0",
+          "span@10:1",
+          "span@11:0",
+          "span@11:1",
+          "span@12:0",
+          "span@12:1",
+          "span@13:0",
+          "span@13:1",
+          "span@14:0",
+          "span@14:1",
+          "span@7:0",
+          "span@8:0",
+          "span@8:1",
+          "span@9:0",
+          "strong@11:0",
+          "strong@12:0",
+          "summary@10:1",
+          "svg@10:2",
+          "svg@10:3",
+          "svg@10:4+",
+          "svg@11:1",
+          "svg@11:2",
+          "svg@12:2",
+          "svg@13:1",
+          "svg@13:2",
+          "svg@14:1",
+          "svg@14:2",
+          "svg@15:1",
+          "svg@8:3",
+          "svg@8:4+",
+          "svg@9:1",
+          "svg@9:2",
+          "ul@10:4+"
+        ],
+        "landmarks": [
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 0,
+            "left": 0,
+            "width": 76,
+            "height": 900
+          },
+          {
+            "tag": "header",
+            "role": "",
+            "top": 16,
+            "left": 100,
+            "width": 1316,
+            "height": 58
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 74,
+            "left": 76,
+            "width": 1364,
+            "height": 2628
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 1019,
+            "left": 1102,
+            "width": 280,
+            "height": 417
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 2702,
+            "left": 76,
+            "width": 1364,
+            "height": 282
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 2895,
+            "left": 1057,
+            "width": 325,
+            "height": 19
+          }
+        ],
+        "colors": [
+          {
+            "hex": "#f4f7fa",
+            "count": 272
+          },
+          {
+            "hex": "#ff0000",
+            "count": 129
+          },
+          {
+            "hex": "#8fa3b5",
+            "count": 78
+          },
+          {
+            "hex": "#9fb0bf",
+            "count": 31
+          },
+          {
+            "hex": "#5ce1a0",
+            "count": 17
+          },
+          {
+            "hex": "#111a24",
+            "count": 6
+          },
+          {
+            "hex": "#ffffff",
+            "count": 4
+          },
+          {
+            "hex": "#080808",
+            "count": 3
+          },
+          {
+            "hex": "#000000",
+            "count": 1
+          },
+          {
+            "hex": "#030508",
+            "count": 1
+          },
+          {
+            "hex": "#04070a",
+            "count": 1
+          },
+          {
+            "hex": "#06090d",
+            "count": 1
+          },
+          {
+            "hex": "#0a0f15",
+            "count": 1
+          }
+        ],
+        "contrast": [],
+        "contrastChecked": 111,
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "SMALL SOUND. BIG AFTERLIFE."
+          },
+          {
+            "tag": "h2",
+            "text": "Press play. Find your frequency."
+          },
+          {
+            "tag": "h3",
+            "text": "Chrome bloom"
+          },
+          {
+            "tag": "h3",
+            "text": "A softer signal"
+          },
+          {
+            "tag": "h3",
+            "text": "Heat in motion"
+          },
+          {
+            "tag": "h3",
+            "text": "Blue hour theory"
+          },
+          {
+            "tag": "h2",
+            "text": "IT DOESN’T NEED A LABEL. JUST YOU."
+          },
+          {
+            "tag": "h2",
+            "text": "A new kind of release cycle."
+          },
+          {
+            "tag": "h3",
+            "text": "Capture the spark."
+          },
+          {
+            "tag": "h3",
+            "text": "Give it a future."
+          },
+          {
+            "tag": "h3",
+            "text": "Let it find its people."
+          },
+          {
+            "tag": "h2",
+            "text": "Before you hit release."
+          }
+        ],
+        "navTargets": [
+          "",
+          "/",
+          "/docs/business-plan.pdf"
+        ],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "axe": {
+        "skipped": true,
+        "violations": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "failedResponses": [],
+      "screenshots": {
+        "desktop": "current/home-desktop.png",
+        "mobile": "current/home-mobile.png"
+      },
+      "mobile": {
+        "meta": {
+          "title": "Sonira - Hear it. Set it in motion.",
+          "lang": "en",
+          "h1Count": 1,
+          "bodyTextLength": 2358,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "focusableCount": 44
+        },
+        "words": [
+          {
+            "word": "00:08",
+            "count": 1
+          },
+          {
+            "word": "001",
+            "count": 1
+          },
+          {
+            "word": "01",
+            "count": 4
+          },
+          {
+            "word": "02",
+            "count": 3
+          },
+          {
+            "word": "03",
+            "count": 4
+          },
+          {
+            "word": "04",
+            "count": 2
+          },
+          {
+            "word": "1%",
+            "count": 2
+          },
+          {
+            "word": "10%",
+            "count": 1
+          },
+          {
+            "word": "15",
+            "count": 1
+          },
+          {
+            "word": "2026",
+            "count": 1
+          },
+          {
+            "word": "25",
+            "count": 1
+          },
+          {
+            "word": "30%",
+            "count": 1
+          },
+          {
+            "word": "32",
+            "count": 1
+          },
+          {
+            "word": "35",
+            "count": 3
+          },
+          {
+            "word": "4",
+            "count": 1
+          },
+          {
+            "word": "70/30",
+            "count": 1
+          },
+          {
+            "word": "70%",
+            "count": 2
+          },
+          {
+            "word": "96",
+            "count": 1
+          },
+          {
+            "word": "99%",
+            "count": 1
+          },
+          {
+            "word": "a",
+            "count": 13
+          },
+          {
+            "word": "A",
+            "count": 8
+          },
+          {
+            "word": "across",
+            "count": 1
+          },
+          {
+            "word": "active",
+            "count": 1
+          },
+          {
+            "word": "add",
+            "count": 2
+          },
+          {
+            "word": "affiliated",
+            "count": 1
+          },
+          {
+            "word": "affiliation",
+            "count": 1
+          },
+          {
+            "word": "after",
+            "count": 2
+          },
+          {
+            "word": "AFTERLIFE",
+            "count": 1
+          },
+          {
+            "word": "airdrop",
+            "count": 1
+          },
+          {
+            "word": "All",
+            "count": 1
+          },
+          {
+            "word": "allocates",
+            "count": 1
+          },
+          {
+            "word": "allocation",
+            "count": 1
+          },
+          {
+            "word": "also",
+            "count": 1
+          },
+          {
+            "word": "Ambient",
+            "count": 2
+          },
+          {
+            "word": "an",
+            "count": 6
+          },
+          {
+            "word": "An",
+            "count": 2
+          },
+          {
+            "word": "AN",
+            "count": 2
+          },
+          {
+            "word": "and",
+            "count": 16
+          },
+          {
+            "word": "answers",
+            "count": 1
+          },
+          {
+            "word": "Arbitrum",
+            "count": 1
+          },
+          {
+            "word": "archive",
+            "count": 2
+          },
+          {
+            "word": "ARCHIVE",
+            "count": 1
+          },
+          {
+            "word": "are",
+            "count": 3
+          },
+          {
+            "word": "as",
+            "count": 1
+          },
+          {
+            "word": "assets",
+            "count": 2
+          },
+          {
+            "word": "at",
+            "count": 2
+          },
+          {
+            "word": "audio",
+            "count": 7
+          },
+          {
+            "word": "Audio",
+            "count": 2
+          },
+          {
+            "word": "AUDIO",
+            "count": 1
+          },
+          {
+            "word": "avoid",
+            "count": 1
+          },
+          {
+            "word": "avoids",
+            "count": 1
+          },
+          {
+            "word": "back",
+            "count": 1
+          },
+          {
+            "word": "base",
+            "count": 3
+          },
+          {
+            "word": "base-fee",
+            "count": 1
+          },
+          {
+            "word": "basis",
+            "count": 1
+          },
+          {
+            "word": "be",
+            "count": 1
+          },
+          {
+            "word": "become",
+            "count": 1
+          },
+          {
+            "word": "Before",
+            "count": 1
+          },
+          {
+            "word": "BEST",
+            "count": 1
+          },
+          {
+            "word": "BIG",
+            "count": 1
+          },
+          {
+            "word": "billion",
+            "count": 1
+          },
+          {
+            "word": "bloom",
+            "count": 2
+          },
+          {
+            "word": "Blue",
+            "count": 1
+          },
+          {
+            "word": "bought",
+            "count": 1
+          },
+          {
+            "word": "browser",
+            "count": 1
+          },
+          {
+            "word": "BROWSER",
+            "count": 1
+          },
+          {
+            "word": "built",
+            "count": 1
+          },
+          {
+            "word": "buy",
+            "count": 2
+          },
+          {
+            "word": "buybacks",
+            "count": 1
+          },
+          {
+            "word": "by",
+            "count": 2
+          },
+          {
+            "word": "By",
+            "count": 1
+          },
+          {
+            "word": "can",
+            "count": 4
+          },
+          {
+            "word": "cannot",
+            "count": 1
+          },
+          {
+            "word": "capped",
+            "count": 1
+          },
+          {
+            "word": "Capture",
+            "count": 1
+          },
+          {
+            "word": "Chain",
+            "count": 4
+          },
+          {
+            "word": "Check",
+            "count": 1
+          },
+          {
+            "word": "Choose",
+            "count": 1
+          },
+          {
+            "word": "Chrome",
+            "count": 2
+          },
+          {
+            "word": "claimable",
+            "count": 1
+          },
+          {
+            "word": "clear",
+            "count": 1
+          },
+          {
+            "word": "CLEAR",
+            "count": 1
+          },
+          {
+            "word": "clip",
+            "count": 2
+          },
+          {
+            "word": "collect",
+            "count": 1
+          },
+          {
+            "word": "commercial",
+            "count": 1
+          },
+          {
+            "word": "compact",
+            "count": 1
+          },
+          {
+            "word": "configured",
+            "count": 1
+          },
+          {
+            "word": "Connect",
+            "count": 1
+          },
+          {
+            "word": "connected",
+            "count": 1
+          },
+          {
+            "word": "content",
+            "count": 2
+          },
+          {
+            "word": "contract",
+            "count": 1
+          },
+          {
+            "word": "contracts",
+            "count": 1
+          },
+          {
+            "word": "CONTRACTS",
+            "count": 1
+          },
+          {
+            "word": "conversions",
+            "count": 1
+          },
+          {
+            "word": "copyright",
+            "count": 2
+          },
+          {
+            "word": "cover",
+            "count": 2
+          },
+          {
+            "word": "creation",
+            "count": 1
+          },
+          {
+            "word": "creative",
+            "count": 1
+          },
+          {
+            "word": "creator",
+            "count": 6
+          },
+          {
+            "word": "creator/protocol",
+            "count": 1
+          },
+          {
+            "word": "creators",
+            "count": 1
+          },
+          {
+            "word": "Creators",
+            "count": 1
+          },
+          {
+            "word": "currency",
+            "count": 1
+          },
+          {
+            "word": "current",
+            "count": 2
+          },
+          {
+            "word": "curve",
+            "count": 2
+          },
+          {
+            "word": "cycle",
+            "count": 1
+          },
+          {
+            "word": "decays",
+            "count": 1
+          },
+          {
+            "word": "declared",
+            "count": 1
+          },
+          {
+            "word": "default",
+            "count": 4
+          },
+          {
+            "word": "demo",
+            "count": 4
+          },
+          {
+            "word": "DEMO",
+            "count": 1
+          },
+          {
+            "word": "demos",
+            "count": 2
+          },
+          {
+            "word": "deployed",
+            "count": 1
+          },
+          {
+            "word": "deployment",
+            "count": 2
+          },
+          {
+            "word": "deserve",
+            "count": 1
+          },
+          {
+            "word": "details",
+            "count": 1
+          },
+          {
+            "word": "directly",
+            "count": 1
+          },
+          {
+            "word": "discover",
+            "count": 2
+          },
+          {
+            "word": "DISCOVER",
+            "count": 2
+          },
+          {
+            "word": "distribution",
+            "count": 1
+          },
+          {
+            "word": "do",
+            "count": 2
+          },
+          {
+            "word": "docs",
+            "count": 1
+          },
+          {
+            "word": "does",
+            "count": 1
+          },
+          {
+            "word": "DOESN’T",
+            "count": 1
+          },
+          {
+            "word": "easy",
+            "count": 1
+          },
+          {
+            "word": "Electronic",
+            "count": 3
+          },
+          {
+            "word": "enabled",
+            "count": 1
+          },
+          {
+            "word": "endorsed",
+            "count": 1
+          },
+          {
+            "word": "endorsement",
+            "count": 1
+          },
+          {
+            "word": "ends",
+            "count": 1
+          },
+          {
+            "word": "erased",
+            "count": 1
+          },
+          {
+            "word": "ERC-20",
+            "count": 1
+          },
+          {
+            "word": "ETH",
+            "count": 1
+          },
+          {
+            "word": "Ethereum-compatible",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 1
+          },
+          {
+            "word": "exempt",
+            "count": 1
+          },
+          {
+            "word": "EXPERIENCED",
+            "count": 1
+          },
+          {
+            "word": "Experimental",
+            "count": 2
+          },
+          {
+            "word": "Explore",
+            "count": 1
+          },
+          {
+            "word": "exposure",
+            "count": 1
+          },
+          {
+            "word": "extra",
+            "count": 1
+          },
+          {
+            "word": "factory",
+            "count": 1
+          },
+          {
+            "word": "Featured",
+            "count": 1
+          },
+          {
+            "word": "FEATURED",
+            "count": 1
+          },
+          {
+            "word": "fee",
+            "count": 4
+          },
+          {
+            "word": "fees",
+            "count": 1
+          },
+          {
+            "word": "Fees",
+            "count": 1
+          },
+          {
+            "word": "FEES",
+            "count": 1
+          },
+          {
+            "word": "files",
+            "count": 1
+          },
+          {
+            "word": "find",
+            "count": 1
+          },
+          {
+            "word": "Find",
+            "count": 1
+          },
+          {
+            "word": "FINE",
+            "count": 1
+          },
+          {
+            "word": "first",
+            "count": 1
+          },
+          {
+            "word": "five",
+            "count": 1
+          },
+          {
+            "word": "followed",
+            "count": 1
+          },
+          {
+            "word": "follows",
+            "count": 1
+          },
+          {
+            "word": "for",
+            "count": 2
+          },
+          {
+            "word": "FOR",
+            "count": 1
+          },
+          {
+            "word": "frequency",
+            "count": 1
+          },
+          {
+            "word": "FREQUENCY",
+            "count": 1
+          },
+          {
+            "word": "from",
+            "count": 2
+          },
+          {
+            "word": "FROM",
+            "count": 1
+          },
+          {
+            "word": "future",
+            "count": 1
+          },
+          {
+            "word": "Gas",
+            "count": 1
+          },
+          {
+            "word": "get",
+            "count": 1
+          },
+          {
+            "word": "Give",
+            "count": 2
+          },
+          {
+            "word": "Good",
+            "count": 1
+          },
+          {
+            "word": "graduation",
+            "count": 2
+          },
+          {
+            "word": "grant",
+            "count": 1
+          },
+          {
+            "word": "half",
+            "count": 1
+          },
+          {
+            "word": "happens",
+            "count": 1
+          },
+          {
+            "word": "have",
+            "count": 3
+          },
+          {
+            "word": "HEADPHONES",
+            "count": 1
+          },
+          {
+            "word": "Hear",
+            "count": 2
+          },
+          {
+            "word": "Heat",
+            "count": 1
+          },
+          {
+            "word": "here",
+            "count": 1
+          },
+          {
+            "word": "history",
+            "count": 1
+          },
+          {
+            "word": "hit",
+            "count": 1
+          },
+          {
+            "word": "Holding",
+            "count": 1
+          },
+          {
+            "word": "home",
+            "count": 2
+          },
+          {
+            "word": "hook",
+            "count": 1
+          },
+          {
+            "word": "hour",
+            "count": 1
+          },
+          {
+            "word": "How",
+            "count": 1
+          },
+          {
+            "word": "I",
+            "count": 1
+          },
+          {
+            "word": "IDEA",
+            "count": 1
+          },
+          {
+            "word": "IDEAS",
+            "count": 1
+          },
+          {
+            "word": "IDENTITY",
+            "count": 1
+          },
+          {
+            "word": "immutable",
+            "count": 1
+          },
+          {
+            "word": "in",
+            "count": 5
+          },
+          {
+            "word": "IN",
+            "count": 2
+          },
+          {
+            "word": "includes",
+            "count": 1
+          },
+          {
+            "word": "independent",
+            "count": 2
+          },
+          {
+            "word": "Independent",
+            "count": 1
+          },
+          {
+            "word": "information",
+            "count": 1
+          },
+          {
+            "word": "is",
+            "count": 9
+          },
+          {
+            "word": "Is",
+            "count": 2
+          },
+          {
+            "word": "it",
+            "count": 7
+          },
+          {
+            "word": "IT",
+            "count": 1
+          },
+          {
+            "word": "its",
+            "count": 5
+          },
+          {
+            "word": "JUST",
+            "count": 1
+          },
+          {
+            "word": "Keep",
+            "count": 1
+          },
+          {
+            "word": "KiB",
+            "count": 1
+          },
+          {
+            "word": "kind",
+            "count": 1
+          },
+          {
+            "word": "LABEL",
+            "count": 2
+          },
+          {
+            "word": "last",
+            "count": 1
+          },
+          {
+            "word": "launch",
+            "count": 1
+          },
+          {
+            "word": "least",
+            "count": 1
+          },
+          {
+            "word": "leave",
+            "count": 1
+          },
+          {
+            "word": "Let",
+            "count": 1
+          },
+          {
+            "word": "lets",
+            "count": 1
+          },
+          {
+            "word": "limit",
+            "count": 1
+          },
+          {
+            "word": "LIMITLESS",
+            "count": 1
+          },
+          {
+            "word": "Listeners",
+            "count": 1
+          },
+          {
+            "word": "live",
+            "count": 1
+          },
+          {
+            "word": "loop",
+            "count": 1
+          },
+          {
+            "word": "M4A",
+            "count": 1
+          },
+          {
+            "word": "make",
+            "count": 2
+          },
+          {
+            "word": "Make",
+            "count": 1
+          },
+          {
+            "word": "market",
+            "count": 1
+          },
+          {
+            "word": "MARKET",
+            "count": 1
+          },
+          {
+            "word": "markets",
+            "count": 2
+          },
+          {
+            "word": "MB",
+            "count": 1
+          },
+          {
+            "word": "monetary",
+            "count": 1
+          },
+          {
+            "word": "mono",
+            "count": 1
+          },
+          {
+            "word": "motion",
+            "count": 3
+          },
+          {
+            "word": "MOTION",
+            "count": 1
+          },
+          {
+            "word": "MP3",
+            "count": 1
+          },
+          {
+            "word": "NEED",
+            "count": 1
+          },
+          {
+            "word": "network",
+            "count": 1
+          },
+          {
+            "word": "new",
+            "count": 1
+          },
+          {
+            "word": "night",
+            "count": 1
+          },
+          {
+            "word": "no",
+            "count": 1
+          },
+          {
+            "word": "No",
+            "count": 3
+          },
+          {
+            "word": "NO",
+            "count": 1
+          },
+          {
+            "word": "not",
+            "count": 3
+          },
+          {
+            "word": "of",
+            "count": 2
+          },
+          {
+            "word": "offered",
+            "count": 1
+          },
+          {
+            "word": "OGG",
+            "count": 1
+          },
+          {
+            "word": "on",
+            "count": 2
+          },
+          {
+            "word": "onchain",
+            "count": 5
+          },
+          {
+            "word": "Onchain",
+            "count": 2
+          },
+          {
+            "word": "ONCHAIN",
+            "count": 1
+          },
+          {
+            "word": "one",
+            "count": 1
+          },
+          {
+            "word": "only",
+            "count": 1
+          },
+          {
+            "word": "Only",
+            "count": 1
+          },
+          {
+            "word": "OPEN",
+            "count": 2
+          },
+          {
+            "word": "opening",
+            "count": 3
+          },
+          {
+            "word": "operator",
+            "count": 1
+          },
+          {
+            "word": "optional",
+            "count": 1
+          },
+          {
+            "word": "Optional",
+            "count": 1
+          },
+          {
+            "word": "Opus",
+            "count": 1
+          },
+          {
+            "word": "or",
+            "count": 9
+          },
+          {
+            "word": "OR",
+            "count": 1
+          },
+          {
+            "word": "original",
+            "count": 4
+          },
+          {
+            "word": "Original",
+            "count": 1
+          },
+          {
+            "word": "ORIGINAL",
+            "count": 2
+          },
+          {
+            "word": "our",
+            "count": 1
+          },
+          {
+            "word": "output",
+            "count": 1
+          },
+          {
+            "word": "over",
+            "count": 1
+          },
+          {
+            "word": "own",
+            "count": 2
+          },
+          {
+            "word": "paid",
+            "count": 1
+          },
+          {
+            "word": "panel",
+            "count": 1
+          },
+          {
+            "word": "part",
+            "count": 1
+          },
+          {
+            "word": "people",
+            "count": 2
+          },
+          {
+            "word": "permanently",
+            "count": 1
+          },
+          {
+            "word": "permission",
+            "count": 1
+          },
+          {
+            "word": "platform",
+            "count": 1
+          },
+          {
+            "word": "play",
+            "count": 1
+          },
+          {
+            "word": "playable",
+            "count": 2
+          },
+          {
+            "word": "plus",
+            "count": 2
+          },
+          {
+            "word": "Pool",
+            "count": 1
+          },
+          {
+            "word": "PREPARED",
+            "count": 1
+          },
+          {
+            "word": "prepares",
+            "count": 1
+          },
+          {
+            "word": "Press",
+            "count": 1
+          },
+          {
+            "word": "preview",
+            "count": 1
+          },
+          {
+            "word": "Preview",
+            "count": 2
+          },
+          {
+            "word": "previews",
+            "count": 1
+          },
+          {
+            "word": "price",
+            "count": 2
+          },
+          {
+            "word": "Privacy",
+            "count": 1
+          },
+          {
+            "word": "private",
+            "count": 1
+          },
+          {
+            "word": "PRIVATELY",
+            "count": 1
+          },
+          {
+            "word": "process",
+            "count": 1
+          },
+          {
+            "word": "project",
+            "count": 2
+          },
+          {
+            "word": "Project",
+            "count": 2
+          },
+          {
+            "word": "promise",
+            "count": 1
+          },
+          {
+            "word": "protocol",
+            "count": 1
+          },
+          {
+            "word": "public",
+            "count": 1
+          },
+          {
+            "word": "publish",
+            "count": 2
+          },
+          {
+            "word": "published",
+            "count": 1
+          },
+          {
+            "word": "Publishing",
+            "count": 2
+          },
+          {
+            "word": "purchase",
+            "count": 1
+          },
+          {
+            "word": "questions",
+            "count": 1
+          },
+          {
+            "word": "quote",
+            "count": 1
+          },
+          {
+            "word": "Read",
+            "count": 1
+          },
+          {
+            "word": "real",
+            "count": 1
+          },
+          {
+            "word": "recipient",
+            "count": 1
+          },
+          {
+            "word": "record",
+            "count": 2
+          },
+          {
+            "word": "RECORD",
+            "count": 1
+          },
+          {
+            "word": "release",
+            "count": 6
+          },
+          {
+            "word": "Release",
+            "count": 1
+          },
+          {
+            "word": "RELEASE",
+            "count": 1
+          },
+          {
+            "word": "require",
+            "count": 2
+          },
+          {
+            "word": "REQUIRED",
+            "count": 1
+          },
+          {
+            "word": "requires",
+            "count": 1
+          },
+          {
+            "word": "Review",
+            "count": 1
+          },
+          {
+            "word": "right",
+            "count": 1
+          },
+          {
+            "word": "rights",
+            "count": 2
+          },
+          {
+            "word": "risks",
+            "count": 2
+          },
+          {
+            "word": "Robinhood",
+            "count": 4
+          },
+          {
+            "word": "royalties",
+            "count": 1
+          },
+          {
+            "word": "royalty",
+            "count": 1
+          },
+          {
+            "word": "samples",
+            "count": 1
+          },
+          {
+            "word": "SCROLL",
+            "count": 1
+          },
+          {
+            "word": "SEC",
+            "count": 1
+          },
+          {
+            "word": "seconds",
+            "count": 3
+          },
+          {
+            "word": "SECONDS",
+            "count": 1
+          },
+          {
+            "word": "sell",
+            "count": 1
+          },
+          {
+            "word": "separate",
+            "count": 1
+          },
+          {
+            "word": "Sessions",
+            "count": 1
+          },
+          {
+            "word": "Set",
+            "count": 2
+          },
+          {
+            "word": "share",
+            "count": 1
+          },
+          {
+            "word": "signal",
+            "count": 1
+          },
+          {
+            "word": "SIGNAL",
+            "count": 1
+          },
+          {
+            "word": "simple",
+            "count": 1
+          },
+          {
+            "word": "Skip",
+            "count": 1
+          },
+          {
+            "word": "SMALL",
+            "count": 1
+          },
+          {
+            "word": "so",
+            "count": 1
+          },
+          {
+            "word": "softer",
+            "count": 1
+          },
+          {
+            "word": "sonira",
+            "count": 2
+          },
+          {
+            "word": "Sonira",
+            "count": 8
+          },
+          {
+            "word": "SONIRA",
+            "count": 1
+          },
+          {
+            "word": "Sort",
+            "count": 1
+          },
+          {
+            "word": "sound",
+            "count": 3
+          },
+          {
+            "word": "Sound",
+            "count": 1
+          },
+          {
+            "word": "SOUND",
+            "count": 5
+          },
+          {
+            "word": "sounds",
+            "count": 3
+          },
+          {
+            "word": "SOUNDS",
+            "count": 1
+          },
+          {
+            "word": "spark",
+            "count": 1
+          },
+          {
+            "word": "split",
+            "count": 2
+          },
+          {
+            "word": "Start",
+            "count": 1
+          },
+          {
+            "word": "starts",
+            "count": 1
+          },
+          {
+            "word": "state",
+            "count": 1
+          },
+          {
+            "word": "status",
+            "count": 3
+          },
+          {
+            "word": "step",
+            "count": 1
+          },
+          {
+            "word": "stock",
+            "count": 1
+          },
+          {
+            "word": "stored",
+            "count": 1
+          },
+          {
+            "word": "story",
+            "count": 1
+          },
+          {
+            "word": "studio",
+            "count": 1
+          },
+          {
+            "word": "Studio",
+            "count": 10
+          },
+          {
+            "word": "STUDIO",
+            "count": 2
+          },
+          {
+            "word": "supply",
+            "count": 1
+          },
+          {
+            "word": "support",
+            "count": 1
+          },
+          {
+            "word": "swap",
+            "count": 1
+          },
+          {
+            "word": "tax",
+            "count": 6
+          },
+          {
+            "word": "technology",
+            "count": 1
+          },
+          {
+            "word": "temporary",
+            "count": 1
+          },
+          {
+            "word": "terms",
+            "count": 2
+          },
+          {
+            "word": "Terms",
+            "count": 1
+          },
+          {
+            "word": "Test",
+            "count": 2
+          },
+          {
+            "word": "test-asset",
+            "count": 1
+          },
+          {
+            "word": "test-token",
+            "count": 1
+          },
+          {
+            "word": "testnet",
+            "count": 5
+          },
+          {
+            "word": "TESTNET",
+            "count": 1
+          },
+          {
+            "word": "that",
+            "count": 1
+          },
+          {
+            "word": "the",
+            "count": 16
+          },
+          {
+            "word": "The",
+            "count": 7
+          },
+          {
+            "word": "THE",
+            "count": 3
+          },
+          {
+            "word": "their",
+            "count": 1
+          },
+          {
+            "word": "then",
+            "count": 2
+          },
+          {
+            "word": "theory",
+            "count": 1
+          },
+          {
+            "word": "there",
+            "count": 1
+          },
+          {
+            "word": "this",
+            "count": 1
+          },
+          {
+            "word": "This",
+            "count": 1
+          },
+          {
+            "word": "to",
+            "count": 14
+          },
+          {
+            "word": "TO",
+            "count": 4
+          },
+          {
+            "word": "token",
+            "count": 5
+          },
+          {
+            "word": "tokens",
+            "count": 4
+          },
+          {
+            "word": "trade",
+            "count": 2
+          },
+          {
+            "word": "trading",
+            "count": 4
+          },
+          {
+            "word": "transfer",
+            "count": 1
+          },
+          {
+            "word": "transparent",
+            "count": 1
+          },
+          {
+            "word": "try",
+            "count": 1
+          },
+          {
+            "word": "TUNING",
+            "count": 1
+          },
+          {
+            "word": "Understand",
+            "count": 1
+          },
+          {
+            "word": "Uniswap",
+            "count": 1
+          },
+          {
+            "word": "unlicensed",
+            "count": 1
+          },
+          {
+            "word": "until",
+            "count": 1
+          },
+          {
+            "word": "up",
+            "count": 3
+          },
+          {
+            "word": "UP",
+            "count": 1
+          },
+          {
+            "word": "upload",
+            "count": 1
+          },
+          {
+            "word": "Upload",
+            "count": 1
+          },
+          {
+            "word": "UPLOAD",
+            "count": 1
+          },
+          {
+            "word": "use",
+            "count": 3
+          },
+          {
+            "word": "uses",
+            "count": 1
+          },
+          {
+            "word": "usually",
+            "count": 1
+          },
+          {
+            "word": "V",
+            "count": 1
+          },
+          {
+            "word": "v4",
+            "count": 1
+          },
+          {
+            "word": "value",
+            "count": 1
+          },
+          {
+            "word": "vest",
+            "count": 1
+          },
+          {
+            "word": "voice",
+            "count": 1
+          },
+          {
+            "word": "Waiting",
+            "count": 1
+          },
+          {
+            "word": "wallet",
+            "count": 2
+          },
+          {
+            "word": "wallets",
+            "count": 1
+          },
+          {
+            "word": "WAV",
+            "count": 1
+          },
+          {
+            "word": "WebM",
+            "count": 1
+          },
+          {
+            "word": "What",
+            "count": 3
+          },
+          {
+            "word": "Why",
+            "count": 1
+          },
+          {
+            "word": "window",
+            "count": 1
+          },
+          {
+            "word": "with",
+            "count": 5
+          },
+          {
+            "word": "WITH",
+            "count": 1
+          },
+          {
+            "word": "years",
+            "count": 1
+          },
+          {
+            "word": "you",
+            "count": 2
+          },
+          {
+            "word": "You",
+            "count": 1
+          },
+          {
+            "word": "YOU",
+            "count": 1
+          },
+          {
+            "word": "your",
+            "count": 7
+          },
+          {
+            "word": "Your",
+            "count": 1
+          },
+          {
+            "word": "YOUR",
+            "count": 1
+          },
+          {
+            "word": "yours",
+            "count": 1
+          },
+          {
+            "word": "zero",
+            "count": 1
+          }
+        ],
+        "attrs": [
+          {
+            "key": "alt=Cover artwork for A softer signal",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Chrome bloom",
+            "count": 1
+          },
+          {
+            "key": "alt=Cover artwork for Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Business plan document",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Connect wallet",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Filter sounds",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Main navigation",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open A softer signal",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Chrome bloom",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Open Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play A softer signal",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play Blue hour theory",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Play Chrome bloom",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Play Heat in motion",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Project links",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Release studio",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Scroll to sound archive",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search sounds, tickers or creators",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Sonira home",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Sound archive",
+            "count": 1
+          },
+          {
+            "key": "aria-label=The process",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Toggle navigation",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View A softer signal details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Blue hour theory details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Chrome bloom details",
+            "count": 1
+          },
+          {
+            "key": "aria-label=View Heat in motion details",
+            "count": 1
+          },
+          {
+            "key": "placeholder=Find a sound...",
+            "count": 1
+          }
+        ],
+        "links": [
+          {
+            "href": "/",
+            "count": 1
+          },
+          {
+            "href": "/docs/business-plan.pdf",
+            "count": 1
+          },
+          {
+            "href": "#explore",
+            "count": 3
+          },
+          {
+            "href": "#how-it-works",
+            "count": 1
+          },
+          {
+            "href": "#main",
+            "count": 3
+          },
+          {
+            "href": "https://docs.robinhood.com/chain/",
+            "count": 1
+          }
+        ],
+        "forms": [
+          {
+            "key": "input::text",
+            "count": 1
+          },
+          {
+            "key": "select::select",
+            "count": 1
+          }
+        ],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [
+          "ab-archive",
+          "ab-band",
+          "ab-bar",
+          "ab-bar-actions",
+          "ab-bar-loc",
+          "ab-bar-slash",
+          "ab-brand",
+          "ab-btn",
+          "ab-btn-ghost",
+          "ab-btn-hot",
+          "ab-burger",
+          "ab-call-glyph",
+          "ab-call-note",
+          "ab-canvas",
+          "ab-chips",
+          "ab-console-deck",
+          "ab-coord",
+          "ab-coord-a",
+          "ab-coord-b",
+          "ab-count",
+          "ab-cover",
+          "ab-dot",
+          "ab-duration",
+          "ab-faq",
+          "ab-faq-list",
+          "ab-feed-note",
+          "ab-foot",
+          "ab-foot-base",
+          "ab-foot-head",
+          "ab-foot-legal",
+          "ab-foot-links",
+          "ab-foot-mark",
+          "ab-frame",
+          "ab-glyph",
+          "ab-glyph-num",
+          "ab-glyphs",
+          "ab-head-row",
+          "ab-hero",
+          "ab-hero-cta",
+          "ab-hero-lead",
+          "ab-hero-note",
+          "ab-hero-play",
+          "ab-hero-plus",
+          "ab-hero-strip",
+          "ab-icon-btn",
+          "ab-kicker",
+          "ab-ledger",
+          "ab-main",
+          "ab-maker",
+          "ab-margin",
+          "ab-origin",
+          "ab-play",
+          "ab-process",
+          "ab-rail",
+          "ab-search",
+          "ab-signal",
+          "ab-signal-core",
+          "ab-signal-grid",
+          "ab-signal-live",
+          "ab-signal-rings",
+          "ab-signal-top",
+          "ab-signal-visual",
+          "ab-skip",
+          "ab-sort",
+          "ab-sound",
+          "ab-sound-actions",
+          "ab-sound-genre",
+          "ab-sound-id",
+          "ab-sound-num",
+          "ab-sound-open",
+          "ab-sound-signal",
+          "ab-stage",
+          "ab-stage-main",
+          "ab-step-detail",
+          "ab-step-grid",
+          "ab-step-note",
+          "ab-step-num",
+          "ab-studio-call",
+          "ab-text-btn",
+          "ab-tool-right",
+          "ab-tools",
+          "ab-verified",
+          "ab-wallet-btn",
+          "ab-wave",
+          "is-current",
+          "is-on",
+          "lucide",
+          "lucide-arrow-right",
+          "lucide-arrow-up-right",
+          "lucide-audio-lines",
+          "lucide-check",
+          "lucide-chevron-down",
+          "lucide-grid-2-x-2",
+          "lucide-grid-2x2",
+          "lucide-headphones",
+          "lucide-menu",
+          "lucide-play",
+          "lucide-plus",
+          "lucide-search",
+          "lucide-sliders-horizontal",
+          "lucide-upload",
+          "lucide-wallet",
+          "sr-only"
+        ],
+        "fingerprint": [
+          "a@10:1",
+          "a@4:0",
+          "a@6:2",
+          "a@7:3",
+          "a@8:0",
+          "a@8:1",
+          "a@9:1",
+          "button@10:1",
+          "button@11:1",
+          "button@12:0",
+          "button@12:1",
+          "button@13:1",
+          "button@13:2",
+          "button@14:0",
+          "button@7:3",
+          "button@8:1",
+          "button@8:3",
+          "button@9:0",
+          "button@9:1",
+          "circle@14:0",
+          "details@9:2",
+          "div@10:0",
+          "div@10:1",
+          "div@10:2",
+          "div@10:4+",
+          "div@11:2",
+          "div@11:4+",
+          "div@12:0",
+          "div@12:2",
+          "div@12:3",
+          "div@12:4+",
+          "div@3:3",
+          "div@4:2",
+          "div@5:3",
+          "div@6:3",
+          "div@7:2",
+          "div@7:3",
+          "div@7:4+",
+          "div@8:1",
+          "div@8:2",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:0",
+          "div@9:1",
+          "div@9:2",
+          "div@9:4+",
+          "footer@6:3",
+          "h1@9:2",
+          "h2@10:2",
+          "h2@10:3",
+          "h2@12:1",
+          "h2@9:2",
+          "h3@10:0",
+          "h3@13:1",
+          "header@6:2",
+          "i@11:0",
+          "i@12:0",
+          "i@13:0",
+          "i@14:0",
+          "i@8:0",
+          "i@8:1",
+          "img@13:0",
+          "img@7:0",
+          "input@13:0",
+          "label@12:3",
+          "li@11:4+",
+          "li@9:4+",
+          "main@6:4+",
+          "nav@5:4+",
+          "nav@8:4+",
+          "nav@9:4+",
+          "ol@8:3",
+          "p@10:0",
+          "p@10:1",
+          "p@10:2",
+          "p@7:0",
+          "p@8:0",
+          "p@8:1",
+          "p@9:0",
+          "p@9:1",
+          "path@10:0",
+          "path@11:0",
+          "path@12:0",
+          "path@13:0",
+          "path@14:0",
+          "path@15:0",
+          "path@16:0",
+          "rect@9:0",
+          "section@7:2",
+          "section@7:3",
+          "section@9:4+",
+          "select@13:2",
+          "span@10:0",
+          "span@10:1",
+          "span@11:0",
+          "span@11:1",
+          "span@12:0",
+          "span@12:1",
+          "span@13:0",
+          "span@13:1",
+          "span@14:1",
+          "span@7:0",
+          "span@8:0",
+          "span@8:1",
+          "span@9:0",
+          "strong@11:0",
+          "strong@12:0",
+          "summary@10:1",
+          "svg@10:2",
+          "svg@10:3",
+          "svg@10:4+",
+          "svg@11:1",
+          "svg@11:2",
+          "svg@12:2",
+          "svg@13:1",
+          "svg@13:2",
+          "svg@14:1",
+          "svg@14:2",
+          "svg@15:1",
+          "svg@8:3",
+          "svg@8:4+",
+          "svg@9:1",
+          "svg@9:2",
+          "svg@9:3",
+          "ul@10:4+"
+        ],
+        "landmarks": [
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 0,
+            "left": -333,
+            "width": 320,
+            "height": 844
+          },
+          {
+            "tag": "header",
+            "role": "",
+            "top": 12,
+            "left": 14,
+            "width": 362,
+            "height": 52
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 64,
+            "left": 0,
+            "width": 390,
+            "height": 3872
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 1989,
+            "left": 16,
+            "width": 358,
+            "height": 290
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 3936,
+            "left": 0,
+            "width": 390,
+            "height": 289
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 4137,
+            "left": 16,
+            "width": 325,
+            "height": 19
+          }
+        ],
+        "colors": [
+          {
+            "hex": "#f4f7fa",
+            "count": 263
+          },
+          {
+            "hex": "#ff0000",
+            "count": 128
+          },
+          {
+            "hex": "#8fa3b5",
+            "count": 79
+          },
+          {
+            "hex": "#9fb0bf",
+            "count": 25
+          },
+          {
+            "hex": "#5ce1a0",
+            "count": 16
+          },
+          {
+            "hex": "#111a24",
+            "count": 6
+          },
+          {
+            "hex": "#ffffff",
+            "count": 4
+          },
+          {
+            "hex": "#080808",
+            "count": 3
+          },
+          {
+            "hex": "#000000",
+            "count": 1
+          },
+          {
+            "hex": "#030508",
+            "count": 1
+          },
+          {
+            "hex": "#04070a",
+            "count": 1
+          },
+          {
+            "hex": "#06090d",
+            "count": 1
+          },
+          {
+            "hex": "#0a0f15",
+            "count": 1
+          }
+        ],
+        "contrast": [],
+        "contrastChecked": 104,
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "SMALL SOUND. BIG AFTERLIFE."
+          },
+          {
+            "tag": "h2",
+            "text": "Press play. Find your frequency."
+          },
+          {
+            "tag": "h3",
+            "text": "Chrome bloom"
+          },
+          {
+            "tag": "h3",
+            "text": "A softer signal"
+          },
+          {
+            "tag": "h3",
+            "text": "Heat in motion"
+          },
+          {
+            "tag": "h3",
+            "text": "Blue hour theory"
+          },
+          {
+            "tag": "h2",
+            "text": "IT DOESN’T NEED A LABEL. JUST YOU."
+          },
+          {
+            "tag": "h2",
+            "text": "A new kind of release cycle."
+          },
+          {
+            "tag": "h3",
+            "text": "Capture the spark."
+          },
+          {
+            "tag": "h3",
+            "text": "Give it a future."
+          },
+          {
+            "tag": "h3",
+            "text": "Let it find its people."
+          },
+          {
+            "tag": "h2",
+            "text": "Before you hit release."
+          }
+        ],
+        "navTargets": [
+          "",
+          "/",
+          "/docs/business-plan.pdf"
+        ],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "mobileNav": {
+        "opened": false,
+        "targets": [
+          "",
+          "/",
+          "/docs/business-plan.pdf"
+        ],
+        "reachable": true
+      },
+      "focus": {
+        "samples": [
+          {
+            "tag": "a",
+            "text": "SKIP TO CONTENT",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 8, 8)",
+            "backgroundColor": "rgb(255, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "Sonira home",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(244, 247, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "Sound archive",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgba(255, 0, 0, 0.6)",
+            "backgroundColor": "rgba(255, 0, 0, 0.1)"
+          },
+          {
+            "tag": "button",
+            "text": "Release studio",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "The process",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "Sonira home",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(244, 247, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "Business plan document",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(244, 247, 250)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "button",
+            "text": "PREVIEW",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgba(255, 0, 0, 0.4)",
+            "backgroundColor": "rgba(255, 0, 0, 0.08)"
+          }
+        ],
+        "visibleCount": 8,
+        "passed": true
+      }
+    },
+    "/docs/business-plan.pdf": {
+      "route": "/docs/business-plan.pdf",
+      "url": "http://127.0.0.1:4317/docs/business-plan.pdf",
+      "status": 200,
+      "desktop": {
+        "meta": {
+          "title": "",
+          "lang": "",
+          "h1Count": 0,
+          "bodyTextLength": 0,
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "focusableCount": 0
+        },
+        "words": [],
+        "attrs": [],
+        "links": [],
+        "forms": [],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [],
+        "fingerprint": [],
+        "landmarks": [],
+        "colors": [],
+        "contrast": [],
+        "contrastChecked": 0,
+        "headings": [],
+        "navTargets": [],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "axe": {
+        "skipped": true,
+        "violations": []
+      },
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "failedResponses": [],
+      "screenshots": {
+        "desktop": "current/docs-business-plan-pdf-desktop.png",
+        "mobile": "current/docs-business-plan-pdf-mobile.png"
+      },
+      "mobile": {
+        "meta": {
+          "title": "",
+          "lang": "",
+          "h1Count": 0,
+          "bodyTextLength": 0,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "focusableCount": 0
+        },
+        "words": [],
+        "attrs": [],
+        "links": [],
+        "forms": [],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [],
+        "fingerprint": [],
+        "landmarks": [],
+        "colors": [],
+        "contrast": [],
+        "contrastChecked": 0,
+        "headings": [],
+        "navTargets": [],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": []
+        }
+      },
+      "mobileNav": {
+        "opened": false,
+        "targets": [],
+        "reachable": false
+      }
+    }
+  }
+}

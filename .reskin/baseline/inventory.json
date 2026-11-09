@@ -1,0 +1,3483 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T17:18:23.688Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/710/website",
+    "name": "sonira-website",
+    "vueVersion": "^3.5.43",
+    "nuxt": false,
+    "dependencies": [
+      "@lucide/vue",
+      "@vitejs/plugin-vue",
+      "ethers",
+      "sharp",
+      "typescript",
+      "vite",
+      "vue",
+      "vue-tsc"
+    ],
+    "packageManager": "npm",
+    "scripts": {
+      "dev": "vite --host 127.0.0.1",
+      "build": "vue-tsc -b && vite build",
+      "preview": "vite preview --host 127.0.0.1"
+    },
+    "frameworks": []
+  },
+  "stats": {
+    "filesScanned": 18,
+    "vueFiles": 6,
+    "routes": 2,
+    "staticTextTokens": 565,
+    "bindingTokens": 470,
+    "eventTokens": 154,
+    "classNames": 231,
+    "colors": 588
+  },
+  "routes": [
+    {
+      "path": "/",
+      "dynamic": false
+    },
+    {
+      "path": "/docs/business-plan.pdf",
+      "dynamic": false,
+      "source": "link"
+    }
+  ],
+  "unresolvedRoutes": [],
+  "archetype": {
+    "id": "dashboard-shell",
+    "family": "shell",
+    "traits": {
+      "sidebar": true,
+      "topbar": true,
+      "cards": true,
+      "hero": true,
+      "table": true,
+      "grid": true,
+      "tabs": true,
+      "modal": true,
+      "charts": true,
+      "sticky": true,
+      "orbital": false,
+      "terminal": true,
+      "bento": false,
+      "ticker": true,
+      "gallery": false
+    }
+  },
+  "palette": [
+    {
+      "hex": "#61727d",
+      "count": 112
+    },
+    {
+      "hex": "#14243a",
+      "count": 54
+    },
+    {
+      "hex": "#ffffff",
+      "count": 54
+    },
+    {
+      "hex": "#d7e0dc",
+      "count": 46
+    },
+    {
+      "hex": "#edf2f0",
+      "count": 34
+    },
+    {
+      "hex": "#f4f7f5",
+      "count": 16
+    },
+    {
+      "hex": "#265dff",
+      "count": 10
+    },
+    {
+      "hex": "#b8c8c1",
+      "count": 10
+    },
+    {
+      "hex": "#f8fbf9",
+      "count": 10
+    },
+    {
+      "hex": "#15232d",
+      "count": 8
+    },
+    {
+      "hex": "#555555",
+      "count": 8
+    },
+    {
+      "hex": "#b8efd6",
+      "count": 8
+    },
+    {
+      "hex": "#c5d3ff",
+      "count": 8
+    },
+    {
+      "hex": "#e5ebff",
+      "count": 8
+    },
+    {
+      "hex": "#f0c5bc",
+      "count": 8
+    },
+    {
+      "hex": "#fff0ed",
+      "count": 8
+    },
+    {
+      "hex": "#1646d8",
+      "count": 6
+    },
+    {
+      "hex": "#171717",
+      "count": 6
+    },
+    {
+      "hex": "#2fb57e",
+      "count": 6
+    },
+    {
+      "hex": "#9cafaa",
+      "count": 6
+    },
+    {
+      "hex": "#b43e4a",
+      "count": 6
+    },
+    {
+      "hex": "#1b5648",
+      "count": 4
+    },
+    {
+      "hex": "#245a4c",
+      "count": 4
+    },
+    {
+      "hex": "#29404d",
+      "count": 4
+    },
+    {
+      "hex": "#31508f",
+      "count": 4
+    },
+    {
+      "hex": "#383838",
+      "count": 4
+    },
+    {
+      "hex": "#82938f",
+      "count": 4
+    },
+    {
+      "hex": "#899993",
+      "count": 4
+    },
+    {
+      "hex": "#8f3340",
+      "count": 4
+    },
+    {
+      "hex": "#8fa09c",
+      "count": 4
+    },
+    {
+      "hex": "#0e3c32",
+      "count": 2
+    },
+    {
+      "hex": "#151515",
+      "count": 2
+    }
+  ],
+  "fonts": [
+    {
+      "value": "'DM Sans'",
+      "count": 4
+    },
+    {
+      "value": "'Space Grotesk'",
+      "count": 4
+    },
+    {
+      "value": "'DM Sans',Arial,sans-serif",
+      "count": 2
+    }
+  ],
+  "classNames": [
+    "!sound.demo",
+    "+",
+    "1",
+    "1,",
+    "===",
+    ">",
+    "active",
+    "active:",
+    "activity-empty",
+    "activity-heading",
+    "activity-scroll",
+    "activity-table",
+    "amount-shortcuts",
+    "app-workspace",
+    "archive-count",
+    "archive-table-head",
+    "audio-player",
+    "audio-progress",
+    "audio-proof",
+    "audio-settings",
+    "button",
+    "button-dark",
+    "button-lime",
+    "button-small",
+    "buyback-choice",
+    "card-market-stats",
+    "card-play",
+    "chart-axis",
+    "chart-caption",
+    "chart-grid",
+    "chart-tabs",
+    "chart-value-labels",
+    "checkbox-label",
+    "complete:",
+    "console-duration",
+    "console-player",
+    "content",
+    "contents",
+    "contents-grid",
+    "coordinate-a",
+    "coordinate-b",
+    "cover",
+    "cover-bottom",
+    "cover-note",
+    "cover-open",
+    "cover-picker",
+    "cover-placeholder",
+    "cover-summary",
+    "cover-top",
+    "creator-banner",
+    "creator-banner-side",
+    "creator-buttons",
+    "creator-line",
+    "creator-management",
+    "creator-note",
+    "creator-numbers",
+    "creator-panel",
+    "creator-section",
+    "creator-settings",
+    "creator-settings-body",
+    "creator-socials",
+    "creator-symbol",
+    "creator-tax",
+    "curve-chart",
+    "curve-line",
+    "demo-explainer",
+    "demos[0].id",
+    "desktop-br",
+    "dex-notice",
+    "disconnect-button",
+    "discovery-note",
+    "document",
+    "edition",
+    "empty-state",
+    "endmark",
+    "explore",
+    "explore-tools",
+    "eyebrow",
+    "faq-list",
+    "faq-section",
+    "field-hint",
+    "filter",
+    "filter-tabs",
+    "fine-print",
+    "footer-bottom",
+    "footer-disclaimer",
+    "footer-top",
+    "footer-wordmark",
+    "form-row",
+    "full-width",
+    "genre",
+    "graduation-ready",
+    "header-actions",
+    "header-location",
+    "header-slash",
+    "header-version",
+    "hero",
+    "hero-actions",
+    "hero-bottom",
+    "hero-copy",
+    "hero-cross",
+    "hero-intro",
+    "how-section",
+    "icon-button",
+    "index",
+    "inline-warning",
+    "intro",
+    "inventory-progress",
+    "launch-summary",
+    "legal-copy",
+    "live:",
+    "load-more",
+    "loading-state",
+    "market-chart-panel",
+    "market-columns",
+    "market-detail",
+    "market-error",
+    "market-eyebrow",
+    "market-header",
+    "market-identity",
+    "market-links",
+    "market-listen",
+    "market-main",
+    "market-stat-grid",
+    "market-symbol",
+    "market-trade",
+    "metadata-links",
+    "metadata-note",
+    "mobile-toggle",
+    "modal",
+    "modal-close",
+    "modal-content",
+    "modal-icon",
+    "modal-message",
+    "moving:",
+    "nav-index",
+    "navigation-rail",
+    "network-pill",
+    "player-time",
+    "player-volume",
+    "playing",
+    "pool-proof",
+    "preparation-status",
+    "print-only",
+    "quote-choice",
+    "rail-bottom",
+    "rail-caption",
+    "rail-link",
+    "rail-studio",
+    "rail-studio-icon",
+    "record.side===",
+    "recording",
+    "release-details",
+    "release-details-body",
+    "release-preview",
+    "remove-cover",
+    "return-button",
+    "round-play",
+    "sample-button",
+    "screen-only",
+    "search-field",
+    "section-top",
+    "section-wrap",
+    "settings-error",
+    "signal-center",
+    "signal-console",
+    "signal-console-top",
+    "signal-coordinate",
+    "signal-grid",
+    "signal-live",
+    "signal-rings",
+    "signal-visual",
+    "site-footer",
+    "site-header",
+    "skip-link",
+    "snipe-notice",
+    "sort-label",
+    "sort-tools",
+    "sound-card",
+    "sound-grid",
+    "sound-modal-head",
+    "sound-story",
+    "sound-type",
+    "sound.id",
+    "spin",
+    "sr-only",
+    "stage-heading",
+    "status",
+    "status-dot",
+    "status-list",
+    "status-note",
+    "step-detail",
+    "step-number",
+    "steps-grid",
+    "steps-note",
+    "studio-back",
+    "studio-check",
+    "studio-header",
+    "studio-next",
+    "studio-stage",
+    "studio-steps",
+    "studioStep",
+    "table-scroll",
+    "text-button",
+    "ticker-input",
+    "toast",
+    "toolbar",
+    "toolbar-label",
+    "track-actions",
+    "track-genre",
+    "track-identity",
+    "track-number",
+    "track-open",
+    "track-signal",
+    "trade-amount",
+    "trade-fee-note",
+    "trade-quote",
+    "trade-tabs",
+    "trade-title",
+    "transaction-link",
+    "upload-area",
+    "upload-buttons",
+    "upload-preview",
+    "vesting-details",
+    "wallet-button",
+    "wallet-choice",
+    "wallet-detail",
+    "wallet-help",
+    "waveform",
+    "wordmark",
+    "}"
+  ],
+  "designSignals": {
+    "frameworks": [],
+    "cssVars": [
+      "--accent",
+      "--accent-soft",
+      "--accent-strong",
+      "--border",
+      "--error",
+      "--heading",
+      "--ink",
+      "--lime",
+      "--mint",
+      "--mint-ink",
+      "--mono",
+      "--muted",
+      "--panel",
+      "--paper",
+      "--radius",
+      "--rail",
+      "--warning"
+    ],
+    "colorVars": [
+      {
+        "name": "--accent",
+        "value": "#265dff"
+      },
+      {
+        "name": "--accent-soft",
+        "value": "#e5ebff"
+      },
+      {
+        "name": "--accent-strong",
+        "value": "#1646d8"
+      },
+      {
+        "name": "--border",
+        "value": "#d7e0dc"
+      },
+      {
+        "name": "--error",
+        "value": "#b43e4a"
+      },
+      {
+        "name": "--ink",
+        "value": "#15232d"
+      },
+      {
+        "name": "--lime",
+        "value": "#265dff"
+      },
+      {
+        "name": "--mint",
+        "value": "#b8efd6"
+      },
+      {
+        "name": "--mint-ink",
+        "value": "#0e3c32"
+      },
+      {
+        "name": "--muted",
+        "value": "#61727d"
+      },
+      {
+        "name": "--panel",
+        "value": "#ffffff"
+      },
+      {
+        "name": "--paper",
+        "value": "#f4f7f5"
+      },
+      {
+        "name": "--warning",
+        "value": "#b96c16"
+      }
+    ],
+    "mediaQueries": [
+      "@media (max-width: 640px)",
+      "@media (max-width: 900px)",
+      "@media(forced-colors:active)",
+      "@media(max-width:1190px)",
+      "@media(max-width:370px)",
+      "@media(max-width:450px)",
+      "@media(max-width:560px)",
+      "@media(max-width:740px)",
+      "@media(max-width:760px)",
+      "@media(max-width:960px)",
+      "@media(min-width:1600px)",
+      "@media(prefers-reduced-motion:reduce)"
+    ],
+    "darkMode": false
+  },
+  "structure": {
+    "tagCounts": {
+      "a": 40,
+      "arrowleft": 4,
+      "arrowright": 12,
+      "arrowupright": 46,
+      "article": 8,
+      "aside": 4,
+      "audio": 2,
+      "audiolines": 12,
+      "br": 36,
+      "button": 134,
+      "check": 10,
+      "chevrondown": 2,
+      "circle": 2,
+      "code": 2,
+      "component": 2,
+      "copy": 4,
+      "creatorsettings": 2,
+      "details": 12,
+      "dialog": 2,
+      "disc3": 4,
+      "div": 260,
+      "externallink": 8,
+      "footer": 2,
+      "form": 2,
+      "g": 2,
+      "grid2x2": 2,
+      "h1": 2,
+      "h2": 22,
+      "h3": 22,
+      "header": 4,
+      "headphones": 2,
+      "i": 16,
+      "img": 14,
+      "input": 34,
+      "label": 42,
+      "loadercircle": 10,
+      "main": 2,
+      "marketdetail": 2,
+      "menu": 2,
+      "mic": 2,
+      "nav": 4,
+      "option": 14,
+      "p": 138,
+      "path": 6,
+      "pause": 10,
+      "play": 10,
+      "plus": 14,
+      "progress": 6,
+      "radio": 2,
+      "refreshcw": 2,
+      "search": 2,
+      "section": 18,
+      "select": 6,
+      "shieldcheck": 6,
+      "slidershorizontal": 2,
+      "small": 8,
+      "span": 224,
+      "square": 2,
+      "strong": 72,
+      "summary": 12,
+      "svg": 2,
+      "table": 2,
+      "tbody": 2,
+      "td": 10,
+      "template": 24,
+      "textarea": 4,
+      "th": 10,
+      "thead": 2,
+      "tr": 4,
+      "transition": 4,
+      "upload": 6,
+      "volume2": 2,
+      "wallet": 12,
+      "x": 10
+    },
+    "depthHistogram": {
+      "0": 16,
+      "1": 38,
+      "2": 122,
+      "3": 222,
+      "4": 280,
+      "5": 350,
+      "6": 236,
+      "7": 112,
+      "8": 40,
+      "9": 24,
+      "10": 4
+    },
+    "maxDepth": 10,
+    "topLevelTags": [
+      "a",
+      "aside",
+      "div",
+      "transition",
+      "transition",
+      "dialog",
+      "details",
+      "section",
+      "a",
+      "aside",
+      "div",
+      "transition",
+      "transition",
+      "dialog",
+      "details",
+      "section"
+    ],
+    "skeletonSample": [
+      "a",
+      "aside",
+      "  a",
+      "    img",
+      "    span",
+      "  span",
+      "  nav",
+      "    a",
+      "      grid2x2",
+      "      span",
+      "      span",
+      "    button",
+      "      slidershorizontal",
+      "      span",
+      "      plus",
+      "    a",
+      "      audiolines",
+      "      span",
+      "      span",
+      "  div",
+      "    div",
+      "      audiolines",
+      "    span",
+      "    p",
+      "      br",
+      "    button",
+      "      arrowupright",
+      "  div",
+      "    button",
+      "      span",
+      "      arrowupright",
+      "    span",
+      "      br",
+      "    a",
+      "      arrowupright",
+      "div",
+      "  header",
+      "    div",
+      "      span",
+      "      span",
+      "    div",
+      "      button",
+      "        i",
+      "      button",
+      "        wallet",
+      "        span",
+      "        arrowupright",
+      "      button",
+      "        x",
+      "        menu",
+      "  main",
+      "    section",
+      "      div",
+      "        div",
+      "          span",
+      "        h1",
+      "          br",
+      "          span",
+      "        div",
+      "          span",
+      "          p",
+      "            br",
+      "            br",
+      "        div",
+      "          button",
+      "            plus",
+      "          a",
+      "            arrowright",
+      "      div",
+      "        div",
+      "          span",
+      "          span",
+      "            i",
+      "        div",
+      "          div",
+      "          div",
+      "            i",
+      "          div",
+      "            span",
+      "          span",
+      "            br",
+      "          span",
+      "            br",
+      "        div",
+      "          button",
+      "            pause",
+      "            play",
+      "          div",
+      "            span",
+      "            strong",
+      "          div",
+      "            i",
+      "          span",
+      "      div",
+      "        span",
+      "          headphones",
+      "        span",
+      "        a",
+      "          arrowright",
+      "    section",
+      "      div",
+      "        div",
+      "          div",
+      "          h2",
+      "            span",
+      "        div",
+      "          strong",
+      "          span",
+      "            br",
+      "      div",
+      "        div",
+      "          button",
+      "            span",
+      "        div",
+      "          div",
+      "            search",
+      "            input",
+      "            button",
+      "              x",
+      "          label"
+    ]
+  },
+  "contentContract": {
+    "schemaVersion": 1,
+    "meta": {
+      "projectName": "sonira-website",
+      "title": "SONIRA — Business Plan · September 2026",
+      "lang": "en"
+    },
+    "routes": [
+      "/",
+      "/docs/business-plan.pdf"
+    ],
+    "visibleText": [
+      {
+        "value": "-second opening window",
+        "count": 2
+      },
+      {
+        "value": ". Public checks found the domain unregistered and X reported the handle available. Neither has been acquired yet.",
+        "count": 2
+      },
+      {
+        "value": "· TESTNET",
+        "count": 2
+      },
+      {
+        "value": "@sonira",
+        "count": 2
+      },
+      {
+        "value": "/ 96 KiB for audio + cover. Cover: up to 16 KiB. All published details are permanent.",
+        "count": 2
+      },
+      {
+        "value": "&copy;",
+        "count": 2
+      },
+      {
+        "value": "% before the fee cap and decays across",
+        "count": 2
+      },
+      {
+        "value": "% before the fee cap and decays to zero across",
+        "count": 2
+      },
+      {
+        "value": "% creator /",
+        "count": 2
+      },
+      {
+        "value": "% creator +",
+        "count": 2
+      },
+      {
+        "value": "% of base fees are allocated to the creator. Additional creator tax:",
+        "count": 2
+      },
+      {
+        "value": "% of the base fee is allocated to the creator; extra creator tax goes entirely to that recipient.",
+        "count": 2
+      },
+      {
+        "value": "% of the creator base-fee allocation funds buybacks of this sound token. Additional creator tax is excluded. Bought tokens vest linearly over five years, with weighted deposit schedules. Releases split",
+        "count": 2
+      },
+      {
+        "value": "% of your base-fee allocation to buy this sound token. Bought tokens vest linearly over five years, split",
+        "count": 2
+      },
+      {
+        "value": "% protocol and must then be claimed from escrow.",
+        "count": 2
+      },
+      {
+        "value": "% protocol.",
+        "count": 2
+      },
+      {
+        "value": "% to the creator fee recipient and",
+        "count": 2
+      },
+      {
+        "value": "% to the protocol. This reduces immediate creator cash; it does not guarantee returns.",
+        "count": 2
+      },
+      {
+        "value": "%. Market reserve target:",
+        "count": 2
+      },
+      {
+        "value": "0 tokens released",
+        "count": 2
+      },
+      {
+        "value": "00:08",
+        "count": 2
+      },
+      {
+        "value": "01",
+        "count": 4
+      },
+      {
+        "value": "01 / THE SOUND ARCHIVE",
+        "count": 2
+      },
+      {
+        "value": "02",
+        "count": 2
+      },
+      {
+        "value": "02 / THE RELEASE STUDIO",
+        "count": 2
+      },
+      {
+        "value": "03",
+        "count": 4
+      },
+      {
+        "value": "03 / FROM IDEA TO ONCHAIN",
+        "count": 2
+      },
+      {
+        "value": "1%",
+        "count": 2
+      },
+      {
+        "value": "12 kbps · compact",
+        "count": 2
+      },
+      {
+        "value": "16 kbps · balanced",
+        "count": 2
+      },
+      {
+        "value": "24 kbps · richer",
+        "count": 2
+      },
+      {
+        "value": "35 SEC",
+        "count": 2
+      },
+      {
+        "value": "5,000 BLOCKS · UP TO 100 TRADES",
+        "count": 2
+      },
+      {
+        "value": "96 KiB audio + cover limit",
+        "count": 2
+      },
+      {
+        "value": "A clear name and ticker help listeners find your release.",
+        "count": 2
+      },
+      {
+        "value": "A conversion or buyback is pending. The configured operator must process it before these fees become claimable.",
+        "count": 2
+      },
+      {
+        "value": "A default 1% base fee splits 70% creator / 30% protocol, plus any creator-selected tax. The launch-window buy tax can consume most of an opening purchase; review the quoted cost or wait for it to decay. Creator and declared wallets are exempt. Pool hook fees continue after graduation and use swap output as their basis. Optional buybacks use half the creator base-fee allocation, followed by five-year linear vesting and a 70/30 release split. Conversions require a configured operator. Sale proceeds and unused inputs return directly to wallets; distributed fees and vested releases are claimed from escrow. Gas is additional. A default 0.0005 ETH launch fee applies.",
+        "count": 2
+      },
+      {
+        "value": "A LABEL.",
+        "count": 2
+      },
+      {
+        "value": "a little noise.",
+        "count": 2
+      },
+      {
+        "value": "A little sound can go a long way.",
+        "count": 2
+      },
+      {
+        "value": "A loop from last night. A voice with a story.",
+        "count": 2
+      },
+      {
+        "value": "A new kind of",
+        "count": 2
+      },
+      {
+        "value": "A SOUND. AN IDENTITY. A TESTNET MARKET.",
+        "count": 2
+      },
+      {
+        "value": "A taste of what's possible.",
+        "count": 2
+      },
+      {
+        "value": "A to Z",
+        "count": 2
+      },
+      {
+        "value": "Added to the base trading fee and paid entirely to your fee recipient. Buyers and sellers can review the rate before trading.",
+        "count": 2
+      },
+      {
+        "value": "Additional creator tax",
+        "count": 2
+      },
+      {
+        "value": "ADDITIONAL CREATOR TAX",
+        "count": 2
+      },
+      {
+        "value": "Additional creator tax is separate.",
+        "count": 2
+      },
+      {
+        "value": "Address",
+        "count": 2
+      },
+      {
+        "value": "An independent home to release, discover",
+        "count": 2
+      },
+      {
+        "value": "AN OPEN FREQUENCY FOR ORIGINAL SOUND",
+        "count": 2
+      },
+      {
+        "value": "and",
+        "count": 2
+      },
+      {
+        "value": "and collect original audio onchain.",
+        "count": 2
+      },
+      {
+        "value": "Artwork & story",
+        "count": 2
+      },
+      {
+        "value": "Audio",
+        "count": 2
+      },
+      {
+        "value": "Audio hash",
+        "count": 2
+      },
+      {
+        "value": "Awaiting distribution",
+        "count": 2
+      },
+      {
+        "value": "Back to identity",
+        "count": 2
+      },
+      {
+        "value": "Base fee (included)",
+        "count": 2
+      },
+      {
+        "value": "Base trading fee",
+        "count": 2
+      },
+      {
+        "value": "Base-fee allocation:",
+        "count": 2
+      },
+      {
+        "value": "Before you",
+        "count": 2
+      },
+      {
+        "value": "BEST EXPERIENCED WITH HEADPHONES",
+        "count": 2
+      },
+      {
+        "value": "BIG AFTERLIFE.",
+        "count": 2
+      },
+      {
+        "value": "BUILT FOR CREATORS. STORED ONCHAIN.",
+        "count": 2
+      },
+      {
+        "value": "Buy",
+        "count": 2
+      },
+      {
+        "value": "Buys show total spent including fees. Sells show net received after fees. Pool swaps are outside this curve history.",
+        "count": 2
+      },
+      {
+        "value": "Cancel",
+        "count": 2
+      },
+      {
+        "value": "Capture the spark.",
+        "count": 2
+      },
+      {
+        "value": "Chain docs",
+        "count": 2
+      },
+      {
+        "value": "Choose your market currency and creator terms. Review the details, then publish permanently onchain.",
+        "count": 2
+      },
+      {
+        "value": "Claim",
+        "count": 4
+      },
+      {
+        "value": "CLEAR FEES. OPEN CONTRACTS.",
+        "count": 2
+      },
+      {
+        "value": "Closest to graduation",
+        "count": 2
+      },
+      {
+        "value": "Connect wallet",
+        "count": 4
+      },
+      {
+        "value": "Connect wallet to continue",
+        "count": 2
+      },
+      {
+        "value": "Connect your wallet to launch and trade sounds on Robinhood Chain testnet.",
+        "count": 2
+      },
+      {
+        "value": "CONTRACT MODEL",
+        "count": 2
+      },
+      {
+        "value": "Created by",
+        "count": 2
+      },
+      {
+        "value": "Creator fees & vesting",
+        "count": 2
+      },
+      {
+        "value": "Creator pilot and independent contract audit planned",
+        "count": 2
+      },
+      {
+        "value": "Creator settings",
+        "count": 2
+      },
+      {
+        "value": "Creator tax (included)",
+        "count": 2
+      },
+      {
+        "value": "curve allocation",
+        "count": 2
+      },
+      {
+        "value": "Curve allocation completed",
+        "count": 2
+      },
+      {
+        "value": "Description",
+        "count": 2
+      },
+      {
+        "value": "Disconnect wallet",
+        "count": 2
+      },
+      {
+        "value": "Discord",
+        "count": 2
+      },
+      {
+        "value": "Distribute ready fees",
+        "count": 2
+      },
+      {
+        "value": "Edit",
+        "count": 2
+      },
+      {
+        "value": "Enable sound buyback & lock",
+        "count": 2
+      },
+      {
+        "value": "Encoding privately in this browser. Keep this tab open.",
+        "count": 2
+      },
+      {
+        "value": "Estimated immediate refund",
+        "count": 2
+      },
+      {
+        "value": "Estimated output",
+        "count": 2
+      },
+      {
+        "value": "ETH",
+        "count": 2
+      },
+      {
+        "value": "Exempt wallets",
+        "count": 2
+      },
+      {
+        "value": "Explore the archive",
+        "count": 2
+      },
+      {
+        "value": "Farcaster",
+        "count": 2
+      },
+      {
+        "value": "FEATURED STUDIO DEMO",
+        "count": 2
+      },
+      {
+        "value": "Fee recipient",
+        "count": 2
+      },
+      {
+        "value": "Fee recipient:",
+        "count": 2
+      },
+      {
+        "value": "fees",
+        "count": 2
+      },
+      {
+        "value": "Fees & long-term ownership",
+        "count": 2
+      },
+      {
+        "value": "Find your frequency.",
+        "count": 2
+      },
+      {
+        "value": "FIXED TOKEN SUPPLY",
+        "count": 2
+      },
+      {
+        "value": "Future fees and unreleased vesting follow the new address. Already credited fees remain claimable by their current owner.",
+        "count": 2
+      },
+      {
+        "value": "GENRE",
+        "count": 2
+      },
+      {
+        "value": "Get a wallet",
+        "count": 2
+      },
+      {
+        "value": "Get test ETH",
+        "count": 2
+      },
+      {
+        "value": "Give it a future.",
+        "count": 2
+      },
+      {
+        "value": "Give your original audio a home of its own.",
+        "count": 2
+      },
+      {
+        "value": "Good questions deserve clear answers.",
+        "count": 2
+      },
+      {
+        "value": "Hear it.",
+        "count": 2
+      },
+      {
+        "value": "Hear it. Set it in motion.",
+        "count": 2
+      },
+      {
+        "value": "hit release.",
+        "count": 2
+      },
+      {
+        "value": "Hosting and RPC providers may process IP addresses under their own policies. An accountable operator and privacy contact must be identified before commercial launch.",
+        "count": 2
+      },
+      {
+        "value": "I own this audio and artwork or have permission to publish them. I understand that onchain audio is permanent.",
+        "count": 2
+      },
+      {
+        "value": "Illustrative no-buyback path from",
+        "count": 2
+      },
+      {
+        "value": "Immutable bytes identify this sound; they do not certify copyright ownership.",
+        "count": 2
+      },
+      {
+        "value": "in virtual reserves. Trades use live contract quotes. This is not a forecast or a pool price chart.",
+        "count": 2
+      },
+      {
+        "value": "Independent project on Robinhood Chain testnet. No affiliation or endorsement. Test assets have no monetary value.",
+        "count": 2
+      },
+      {
+        "value": "INDEPENDENT SOUND.",
+        "count": 2
+      },
+      {
+        "value": "IT DOESN’T NEED",
+        "count": 2
+      },
+      {
+        "value": "It starts with",
+        "count": 2
+      },
+      {
+        "value": "JUST YOU.",
+        "count": 2
+      },
+      {
+        "value": "KB",
+        "count": 2
+      },
+      {
+        "value": "Keep the creative part simple.",
+        "count": 2
+      },
+      {
+        "value": "KiB",
+        "count": 2
+      },
+      {
+        "value": "Latest releases",
+        "count": 2
+      },
+      {
+        "value": "Launch fee",
+        "count": 2
+      },
+      {
+        "value": "Launch protection",
+        "count": 2
+      },
+      {
+        "value": "Launch protection is active",
+        "count": 2
+      },
+      {
+        "value": "Let it find its people.",
+        "count": 2
+      },
+      {
+        "value": "LIMITLESS IDEAS",
+        "count": 2
+      },
+      {
+        "value": "LISTEN / EXPLORE",
+        "count": 2
+      },
+      {
+        "value": "Listen. Understand.",
+        "count": 2
+      },
+      {
+        "value": "Listeners can discover and trade your sound. The default base trading fee allocates 70% to its creator.",
+        "count": 2
+      },
+      {
+        "value": "Locked liquidity · Continuing creator fees",
+        "count": 2
+      },
+      {
+        "value": "Locked position #",
+        "count": 2
+      },
+      {
+        "value": "Make your first release",
+        "count": 2
+      },
+      {
+        "value": "Market currency",
+        "count": 2
+      },
+      {
+        "value": "Max",
+        "count": 2
+      },
+      {
+        "value": "Microphone access is requested only when you press Record. Audio remains in your browser until you publish a transaction. The microphone stops after recording, at a maximum of 35 seconds. Uploads are decoded and compressed locally before publication. Do not record private or identifying information.",
+        "count": 2
+      },
+      {
+        "value": "Name your sound",
+        "count": 2
+      },
+      {
+        "value": "Native and enabled test-token markets graduate into Uniswap v4. No mainnet release, real stock exposure or platform token is offered.",
+        "count": 2
+      },
+      {
+        "value": "Network unavailable:",
+        "count": 2
+      },
+      {
+        "value": "New here?",
+        "count": 2
+      },
+      {
+        "value": "Next upload quality",
+        "count": 2
+      },
+      {
+        "value": "No funds move when you connect or sign in. Sign-in is local to this tab; it does not create a server account.",
+        "count": 2
+      },
+      {
+        "value": "NO LABEL",
+        "count": 2
+      },
+      {
+        "value": "One last sound check.",
+        "count": 2
+      },
+      {
+        "value": "OPEN NOTES",
+        "count": 2
+      },
+      {
+        "value": "OPEN POSSIBILITIES.",
+        "count": 2
+      },
+      {
+        "value": "Open studio",
+        "count": 2
+      },
+      {
+        "value": "Open the launch studio",
+        "count": 2
+      },
+      {
+        "value": "Opening buy tax starts at",
+        "count": 2
+      },
+      {
+        "value": "Opening tax (included)",
+        "count": 2
+      },
+      {
+        "value": "operator address ↗",
+        "count": 2
+      },
+      {
+        "value": "Optional",
+        "count": 2
+      },
+      {
+        "value": "Or try our original sample ↗",
+        "count": 2
+      },
+      {
+        "value": "ORIGINAL AUDIO",
+        "count": 2
+      },
+      {
+        "value": "Original brand, playable studio and wallet connection",
+        "count": 2
+      },
+      {
+        "value": "ORIGINAL STUDIO DEMO",
+        "count": 2
+      },
+      {
+        "value": "Our intended home is",
+        "count": 2
+      },
+      {
+        "value": "Outputs and refunds go directly to your wallet. Network gas is separate. Test assets have no monetary value. No guaranteed returns.",
+        "count": 2
+      },
+      {
+        "value": "paid / received",
+        "count": 2
+      },
+      {
+        "value": "Partial fill: the price limit scales with actual spend. The remaining payment returns directly to your wallet.",
+        "count": 2
+      },
+      {
+        "value": "PNG, JPG or WebP. Cropped to a square and compressed in your browser.",
+        "count": 2
+      },
+      {
+        "value": "PREPARED PRIVATELY IN YOUR BROWSER",
+        "count": 2
+      },
+      {
+        "value": "Preparing your sound ·",
+        "count": 2
+      },
+      {
+        "value": "Press play.",
+        "count": 2
+      },
+      {
+        "value": "Price tolerance",
+        "count": 2
+      },
+      {
+        "value": "Privacy",
+        "count": 2
+      },
+      {
+        "value": "PRIVACY / PREVIEW",
+        "count": 2
+      },
+      {
+        "value": "Project status",
+        "count": 2
+      },
+      {
+        "value": "Proof",
+        "count": 2
+      },
+      {
+        "value": "Protocol administration can propose a recipient override with a 3-day delay and 3-day execution window. Internal conversions depend on the operator; view",
+        "count": 2
+      },
+      {
+        "value": "Published",
+        "count": 2
+      },
+      {
+        "value": "Put your name on it.",
+        "count": 2
+      },
+      {
+        "value": "Read terms & risks",
+        "count": 2
+      },
+      {
+        "value": "Read the vision",
+        "count": 2
+      },
+      {
+        "value": "Reading onchain releases...",
+        "count": 2
+      },
+      {
+        "value": "Recent curve activity",
+        "count": 2
+      },
+      {
+        "value": "Refresh",
+        "count": 2
+      },
+      {
+        "value": "Releasable now",
+        "count": 2
+      },
+      {
+        "value": "release cycle.",
+        "count": 2
+      },
+      {
+        "value": "Release studio",
+        "count": 2
+      },
+      {
+        "value": "Release vested tokens",
+        "count": 2
+      },
+      {
+        "value": "Remove",
+        "count": 2
+      },
+      {
+        "value": "REQUIRED",
+        "count": 2
+      },
+      {
+        "value": "Retry connection",
+        "count": 2
+      },
+      {
+        "value": "Return to",
+        "count": 2
+      },
+      {
+        "value": "Review release",
+        "count": 2
+      },
+      {
+        "value": "Review your market, fees and rights before publishing.",
+        "count": 2
+      },
+      {
+        "value": "s /",
+        "count": 2
+      },
+      {
+        "value": "SCROLL TO DISCOVER",
+        "count": 2
+      },
+      {
+        "value": "seconds. The creator and fee recipient are exempt. You may exempt up to 32 additional wallets.",
+        "count": 2
+      },
+      {
+        "value": "seconds. Your quote includes your current tax. Creator and listed wallets are exempt. Wait for the window to end for ordinary pricing.",
+        "count": 2
+      },
+      {
+        "value": "Sell",
+        "count": 2
+      },
+      {
+        "value": "Set it in motion.",
+        "count": 2
+      },
+      {
+        "value": "SIGNAL",
+        "count": 2
+      },
+      {
+        "value": "Skip to content",
+        "count": 2
+      },
+      {
+        "value": "SMALL SOUND.",
+        "count": 2
+      },
+      {
+        "value": "Smart contracts may contain defects and have not received an independent audit. Markets begin on a curve and can graduate into a Uniswap v4 pool with a permanently locked liquidity position. Enabled stock-named assets are test tokens, not real stock exposure. Issuer pause, blocklist, upgrade and administrative-burn controls can affect these assets.",
+        "count": 2
+      },
+      {
+        "value": "sonira",
+        "count": 4
+      },
+      {
+        "value": "Sonira",
+        "count": 2
+      },
+      {
+        "value": "SONIRA — Business Plan · September 2026",
+        "count": 1
+      },
+      {
+        "value": "SONIRA / RELEASE STUDIO",
+        "count": 2
+      },
+      {
+        "value": "SONIRA / SIGNAL 001",
+        "count": 2
+      },
+      {
+        "value": "Sonira is experimental software on Robinhood Chain testnet. Test assets have no monetary value. There is no promise of profits, liquidity, royalties or future airdrops.",
+        "count": 2
+      },
+      {
+        "value": "sonira.xyz",
+        "count": 2
+      },
+      {
+        "value": "Sound archive",
+        "count": 2
+      },
+      {
+        "value": "Sound buyback & five-year vesting",
+        "count": 2
+      },
+      {
+        "value": "Sound name",
+        "count": 2
+      },
+      {
+        "value": "Sound provenance",
+        "count": 2
+      },
+      {
+        "value": "SOUND, IN MOTION",
+        "count": 2
+      },
+      {
+        "value": "SOUNDS",
+        "count": 2
+      },
+      {
+        "value": "Start a release",
+        "count": 2
+      },
+      {
+        "value": "Start with something original.",
+        "count": 2
+      },
+      {
+        "value": "Stored onchain",
+        "count": 2
+      },
+      {
+        "value": "supply",
+        "count": 2
+      },
+      {
+        "value": "Supply",
+        "count": 2
+      },
+      {
+        "value": "surplus sound tokens permanently locked.",
+        "count": 2
+      },
+      {
+        "value": "Switch to Robinhood testnet",
+        "count": 2
+      },
+      {
+        "value": "Telegram",
+        "count": 2
+      },
+      {
+        "value": "Terms & risks",
+        "count": 2
+      },
+      {
+        "value": "TERMS & RISKS / PREVIEW",
+        "count": 2
+      },
+      {
+        "value": "Test assets only. Audio tokens do not transfer copyright or royalty rights. Publishing requires an active testnet deployment.",
+        "count": 2
+      },
+      {
+        "value": "THE FINE TUNING",
+        "count": 2
+      },
+      {
+        "value": "The launch fee and network gas are paid in test ETH. Audio tokens do not transfer copyright. Use test assets only.",
+        "count": 2
+      },
+      {
+        "value": "The launch studio is ready to explore. Onchain publishing will open after our testnet contract deployment.",
+        "count": 2
+      },
+      {
+        "value": "The opening tax starts at",
+        "count": 2
+      },
+      {
+        "value": "The process",
+        "count": 2
+      },
+      {
+        "value": "The protocol owner can change settings for future launches, pause launches, rotate the fee operator, redirect creator recipients after a 3-day timelock, and rescue failed swept graduations after 7 days. Existing launch trading-fee terms are frozen; permanently locked liquidity cannot be withdrawn. This preview is not offered as a production financial service. The operator entity, jurisdictional terms, privacy contact and complaint process must be established before a public commercial launch.",
+        "count": 2
+      },
+      {
+        "value": "THE SOUND RELEASE SYSTEM",
+        "count": 2
+      },
+      {
+        "value": "This original studio sound is a playable preview. It has no token, price or trading history. Your sound could be next.",
+        "count": 2
+      },
+      {
+        "value": "This site does not collect email addresses, use advertising trackers or send wallet signatures to a server. Wallet connection and optional ownership verification are held in this tab’s memory and cleared on refresh or disconnect.",
+        "count": 2
+      },
+      {
+        "value": "Ticker",
+        "count": 2
+      },
+      {
+        "value": "Ticker: 2-10 letters or numbers, starting with a letter.",
+        "count": 2
+      },
+      {
+        "value": "TO DISCOVER",
+        "count": 2
+      },
+      {
+        "value": "Tokens",
+        "count": 2
+      },
+      {
+        "value": "tokens released so far. Buybacks reduce immediate creator cash and do not guarantee returns.",
+        "count": 2
+      },
+      {
+        "value": "Total deposited",
+        "count": 2
+      },
+      {
+        "value": "TRACK / ARTIST",
+        "count": 2
+      },
+      {
+        "value": "Trade",
+        "count": 2
+      },
+      {
+        "value": "Trade this sound.",
+        "count": 2
+      },
+      {
+        "value": "Transfer fee recipient",
+        "count": 2
+      },
+      {
+        "value": "Transfer recipient",
+        "count": 2
+      },
+      {
+        "value": "Understand every step that follows.",
+        "count": 2
+      },
+      {
+        "value": "Upload",
+        "count": 2
+      },
+      {
+        "value": "Upload a file, record a moment, or explore with our sample.",
+        "count": 2
+      },
+      {
+        "value": "Upload an original clip or record right here. Preview your audio, add a cover and make it yours.",
+        "count": 2
+      },
+      {
+        "value": "UPLOAD OR RECORD / UP TO 35 SECONDS",
+        "count": 2
+      },
+      {
+        "value": "Use",
+        "count": 2
+      },
+      {
+        "value": "V",
+        "count": 2
+      },
+      {
+        "value": "View factory",
+        "count": 2
+      },
+      {
+        "value": "View transaction",
+        "count": 4
+      },
+      {
+        "value": "Virtual reserve curve",
+        "count": 2
+      },
+      {
+        "value": "VOL. 001",
+        "count": 2
+      },
+      {
+        "value": "Wallet",
+        "count": 2
+      },
+      {
+        "value": "Website",
+        "count": 2
+      },
+      {
+        "value": "When enabled,",
+        "count": 2
+      },
+      {
+        "value": "Where we are.",
+        "count": 2
+      },
+      {
+        "value": "X profile",
+        "count": 2
+      },
+      {
+        "value": "You are responsible for wallet security, transaction review and the rights to uploaded content. Publishing audio stores it permanently onchain. Token ownership grants no copyright or commercial license.",
+        "count": 2
+      },
+      {
+        "value": "Your choice.",
+        "count": 2
+      },
+      {
+        "value": "Your claimable fees",
+        "count": 2
+      },
+      {
+        "value": "Your cover, onchain.",
+        "count": 2
+      },
+      {
+        "value": "Your creator fees go to this wallet. Leaving it blank uses the wallet that launches the sound.",
+        "count": 2
+      },
+      {
+        "value": "YOUR KEY TO THE SOUND",
+        "count": 2
+      },
+      {
+        "value": "Your market currency",
+        "count": 2
+      },
+      {
+        "value": "YOUR NEXT RELEASE",
+        "count": 2
+      },
+      {
+        "value": "Your next release.",
+        "count": 2
+      },
+      {
+        "value": "Your session.",
+        "count": 2
+      },
+      {
+        "value": "Your tokens",
+        "count": 2
+      },
+      {
+        "value": "Your wallet provider and the Robinhood Chain RPC receive requests when you connect, fetch chain data or transact. Blockchain addresses, transactions, sound metadata and published audio are public and persistent.",
+        "count": 2
+      }
+    ],
+    "hiddenText": [
+      {
+        "value": "Sort sounds",
+        "count": 2
+      },
+      {
+        "value": "View transaction",
+        "count": 2
+      }
+    ],
+    "attributes": [
+      {
+        "name": "alt",
+        "value": "Release artwork",
+        "count": 2
+      },
+      {
+        "name": "alt",
+        "value": "Your sound cover preview",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "/docs/business-plan.pdf",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "#explore",
+        "count": 6
+      },
+      {
+        "name": "href",
+        "value": "#how-it-works",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "#main",
+        "count": 6
+      },
+      {
+        "name": "href",
+        "value": "https://docs.robinhood.com/chain/",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "https://faucet.testnet.chain.robinhood.com",
+        "count": 2
+      },
+      {
+        "name": "href",
+        "value": "https://metamask.io/download/",
+        "count": 2
+      },
+      {
+        "name": "meta:description",
+        "value": "SONIRA business plan: a sound-token creation and discovery platform for Robinhood Chain. Testnet implementation, curve and pool economics, commercial assumptions and 90-day operating plan.",
+        "count": 1
+      },
+      {
+        "name": "name",
+        "value": "slide",
+        "count": 4
+      },
+      {
+        "name": "placeholder",
+        "value": "0",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "0x…",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "0x... one address per line",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "Find a sound...",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "Give this sound a name",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "https://discord.gg/yourserver",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "https://farcaster.xyz/yourname",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "https://t.me/yourname",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "https://x.com/yourname",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "https://your-site.xyz",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "SOUND",
+        "count": 2
+      },
+      {
+        "name": "placeholder",
+        "value": "The story behind your sound. What should people hear?",
+        "count": 2
+      },
+      {
+        "name": "src",
+        "value": "/logo.svg?v=sonira-2.1",
+        "count": 2
+      }
+    ],
+    "bindings": [
+      {
+        "kind": "asset",
+        "expr": "coverPreview",
+        "count": 4
+      },
+      {
+        "kind": "asset",
+        "expr": "currentSound.art",
+        "count": 2
+      },
+      {
+        "kind": "asset",
+        "expr": "metadata?.cover||art",
+        "count": 2
+      },
+      {
+        "kind": "asset",
+        "expr": "previewUrl",
+        "count": 2
+      },
+      {
+        "kind": "asset",
+        "expr": "selected.art",
+        "count": 2
+      },
+      {
+        "kind": "asset",
+        "expr": "sound.art",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/address/${address}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/address/${creator}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/address/${state.operator}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/address/${state.recipient}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/tx/${record.hash}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${explorer}/tx/${txHash}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${name} cover`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${NETWORK.blockExplorerUrls[0]}/address/${factoryAddress}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${NETWORK.blockExplorerUrls[0]}/tx/${txHash}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`${selected.name} cover`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "`Cover artwork for ${sound.name}`",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "12000",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "16000",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "24000",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "asset.address",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "connectedAccount || 'Your connected wallet by default'",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "coverPreview",
+        "count": 4
+      },
+      {
+        "kind": "attr",
+        "expr": "currentSound.art",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "metadata?.cover||art",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "playbackTime",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "preparationProgress",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "previewUrl",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "recipient",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "selected.art",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "selected.name",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "sound.art",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "sound.progress || 0",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "state?.progress||0",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "taxBps < 0 ? '' : taxBps / 100",
+        "count": 2
+      },
+      {
+        "kind": "attr",
+        "expr": "url",
+        "count": 2
+      },
+      {
+        "kind": "form",
+        "expr": "selected.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(mediaBytes / 1024).toFixed(1)",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(metadata.audioBytes/1024).toFixed(1)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(state?.progress||0).toFixed(3)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(state?.snipeStartBps||0)/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "(state?.taxBps||0)/100",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "100 - creatorShareBps / 100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "100-state.protocolShareBps/100",
+        "count": 6
+      },
+      {
+        "kind": "interpolation",
+        "expr": "account ? 'You’re connected.' : 'Come on in.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "account ? short(account) : 'Connect wallet'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "activityError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "asset.address === nativeQuote.address ? 'Test ETH' : `Test ${asset.symbol}`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "asset.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "audioDuration.toFixed(1)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "audioFile ? 'Audio ready. Give it an identity next.' : 'Add an audio clip to continue.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "audioFile ? `${audioDuration.toFixed(1)}s · ${(audioFile.size / 1024).toFixed(1)} KB · Ready to preview` : 'Up to 35 seconds · MP3, WAV, M4A, OGG or WebM'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "audioFile ? audioFile.name : 'Start with your sound'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "audioFile && originalBytes > audioFile.size ? `${Math.round((1 - audioFile.size / originalBytes) * 100)}% smaller · ` : ''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "baseFee/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "busy ? 'Confirming your launch…' : chainReady ? 'Launch on testnet' : 'Publishing opens soon'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "busy?'Confirming…':wrongNetwork?'Switch network & continue':`${side==='buy'?'Buy':'Sell'} ${symbol}`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "busy?'Creating pool…':'Complete graduation'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "buybackShareBps / 100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chainReady ? 'Testnet connected' : 'Studio preview'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chainReady ? 'Testnet factory deployed; onchain publishing enabled' : 'Testnet contract deployment pending'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chainReady ? 'TESTNET' : 'PREVIEW'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "chainReady ? `${liveSounds.length} of ${totalSoundCount} onchain sounds loaded. Filters apply to loaded sounds.` : 'Studio demos are playable previews. No token, price or trading history.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "channel",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "clock(duration)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "clock(playbackTime)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(allocation)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(record.amount)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state?.balance||'0')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.claimableToken)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.lockedSurplus)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.pendingToken)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.vestLocked)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.vestReleasable)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "compact(state.vestReleased)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "copied==='link'?'Copied':'Share sound'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "copied==='pool'?'Copied':'Copy pool ID'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "coverPreparing ? 'Preparing cover...' : coverFile ? 'Change cover' : 'Choose cover'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "creatorError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "creatorShareBps / 100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "currency",
+        "count": 24
+      },
+      {
+        "kind": "interpolation",
+        "expr": "currentSound.demo ? 'Sonira Studio · Original demo' : short(currentSound.creator)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "currentSound.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "dataError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "demos.length + liveSounds.length",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "demos[0].name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "filter === 'Onchain' ? 'Onchain releases appear here when testnet publishing is available.' : 'Try a different search or clear your filters.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "filter === 'Onchain' ? 'Open release studio' : 'Reset filters'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "filter === 'Onchain' ? 'Your sound could be first.' : 'No matching frequencies.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "genre",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "Intl.NumberFormat('en',{notation:'compact'}).format(Number(sound.totalSupply))",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.a",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "item.q",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "label",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "launchTerms.baseFeeBps/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "launchTerms.creatorShareBps/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "launchTerms.fee",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "launchTerms.snipeSeconds",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "launchTerms.snipeStartBps/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "loading?'Reading confirmed events…':'No curve trades in this block range.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "loadingSounds ? 'Loading sounds...' : 'Load more onchain sounds'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "loadingSounds ? 'Refreshing...' : chainReady ? 'Refresh archive' : 'Preview status'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "Math.max(0,creatorTaxBps)/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "Math.round(preparationProgress * 100)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "message",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "metadata.audioHash",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "metadata.description",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "metadataError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "networkError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "new Date().getFullYear()",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "new Date(metadata.createdAt*1000).toLocaleDateString('en')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "notice",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(formatUnits(quoted.refund,quoted.feeDecimals))",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(formatUnits(quoted.snipeTax,quoted.feeDecimals))",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "Number(launchTerms.supply).toLocaleString('en')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "Number(preset)<1?number(preset):compact(preset)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(record.quote)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state?.quoteBalance||'0')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state.basePrice)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state.claimableQuote)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state.pendingQuote)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state.phantom)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "number(state.terminalPrice)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "phaseLabel",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "playing === selected.id ? 'Pause sound' : 'Listen to sound'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "pool?'Hook fees are deducted from swap output. The quote includes them.':'Buy fees are deducted from your spend. Sell fees are deducted from proceeds.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "pool?'MARKET PHASE':'PRICE / TOKEN'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "pool?'Pool trading':state?.price?number(state.price):'—'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "pool?'V4 POOL':`TEST ${currency}`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoteAssets.find(asset=>asset.address===quoteChoice)?.symbol",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoteAssets.find(asset=>asset.address===quoteChoice)?.target",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoteChoice === nativeQuote.address ? 'Trade this sound with native test ETH.' : 'Test asset only. Issuer transfer restrictions may apply; this is not real stock exposure.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoted&&!pool?` · ${number(formatUnits(quoted.baseFee,quoted.feeDecimals))} ${currency}`:''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoted&&!pool?` · ${number(formatUnits(quoted.creatorTax,quoted.feeDecimals))} ${currency}`:''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoteError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "quoting?'Getting quote…':quoted?`${number(formatUnits(quoted.output,quoted.outputDecimals))} ${side==='buy'?symbol:currency}`:'—'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "recipientError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "record.side",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "recording ? `Stop · ${recordSeconds.toFixed(0)}s` : microphonePending ? 'Allow microphone…' : 'Record sound'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selected.creator",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "selected.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(account)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(address)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(creator)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(record.account)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "short(state.recipient)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "side==='buy'?'Amount to spend':'Token amount'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "side==='buy'?currency:symbol",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "signedIn ? 'Ownership verified for this browser session.' : 'Connected · Optional signature verifies wallet ownership locally.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "signedIn ? 'Session verified' : 'Sign in with wallet'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.demo ? 'Details' : 'Trade'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.demo ? 'Studio demo' : sound.phase === 2 ? 'Uniswap v4' : sound.phase === 1 ? 'Awaiting pool' : sound.phase === 3 ? 'Rescued' : 'On curve'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.demo ? sound.creator : short(sound.creator)",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.genre",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.graduated ? 'Liquidity locked' : `${(sound.progress || 0).toFixed(1)}% to graduation`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "sound.phase === 2 ? 'Pool trading' : sound.phase === 1 ? 'Awaiting pool' : sound.phase === 3 ? 'Rescued' : `${Number(sound.price).toExponential(2)} ${sound.quoteSymbol}`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?.phase?'CURVE TARGET':'REAL CURVE RESERVE'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?.phase===2?'Liquidity is permanently locked in Uniswap v4.':state?.phase===1?'Curve reserves are held by the factory, awaiting pool creation.':`Reserve target: ${state?.target||'—'} ${currency}. The final buy can partially fill and refund.`",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?.phase===3?'Market rescued.':'Ready for the next stage.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?.phase===3?'This market was rescued after failed graduation. Trading is closed. Review contract events for the reserve recipients.':'The curve is complete. Pool creation is a separate transaction anyone can submit. A failed pool attempt can be retried; swept reserves remain in the factory.'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?.snipeSeconds",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?compact(state.supply):'—'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state?number(state.phase?state.target:state.reserve):'—'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.buybackEnabled?'Buyback enabled':'Direct fees'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.buybackEnabled?'Buybacks use part of the creator base-fee allocation.':''",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.buybackEnabled?'Disable future buybacks':'Enable future buybacks'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.buybackShareBps/100",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.positionId",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "state.protocolShareBps/100",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "String(demos.length + liveSounds.length).padStart(2, '0')",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "String(index + 1).padStart(2, '0')",
+        "count": 4
+      },
+      {
+        "kind": "interpolation",
+        "expr": "symbol",
+        "count": 14
+      },
+      {
+        "kind": "interpolation",
+        "expr": "taxError",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "ticker",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "title",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "wallet.name",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletBusy ? 'Connecting…' : 'Connect browser wallet'",
+        "count": 2
+      },
+      {
+        "kind": "interpolation",
+        "expr": "walletReturn === 'create' ? 'launch studio' : 'sound'",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/address/${address}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/address/${creator}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/address/${state.operator}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/address/${state.recipient}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/tx/${record.hash}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${explorer}/tx/${txHash}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${NETWORK.blockExplorerUrls[0]}/address/${factoryAddress}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "`${NETWORK.blockExplorerUrls[0]}/tx/${txHash}`",
+        "count": 2
+      },
+      {
+        "kind": "link",
+        "expr": "url",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "amount",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "bitrate",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "buybackEnabled",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "creatorRecipient",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "creatorTaxBps",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "description",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "discordLink",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "exemptions",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "farcasterLink",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "newRecipient",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "query",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "quoteChoice",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "rights",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "socialLink",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "sort",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "telegramLink",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "ticker",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "title",
+        "count": 2
+      },
+      {
+        "kind": "model",
+        "expr": "websiteLink",
+        "count": 2
+      }
+    ],
+    "events": [
+      {
+        "event": "change",
+        "handler": "emit('update:buybackEnabled', ($event.target as HTMLInputElement).checked)",
+        "count": 2
+      },
+      {
+        "event": "change",
+        "handler": "fileChange",
+        "count": 2
+      },
+      {
+        "event": "change",
+        "handler": "pickCover",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "($event.target === dialog) && closeModal()",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>claimFees(address,pending),'Vested tokens claimed to your wallet.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>claimFees(state!.quote.address,pending),'Fees claimed to your wallet.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>distributeFees(address,pending),'Fees distributed to escrow. They are now available to claim.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>graduateSound(address,pending),'Pool created. The liquidity position and surplus tokens are permanently locked.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>releaseVested(address,pending),'Vested tokens released to beneficiary escrow balances.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>toggleBuyback(address,!state!.buybackEnabled,pending),'Buyback preference updated. Previously earmarked funds retain their existing treatment.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "action(()=>transferRecipient(address,newRecipient,pending),'Fee recipient transferred.')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "amount=preset",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "amount=state?.balance||'0'",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "chainReady ? loadSounds() : openModal('status')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "changeStudioStep(1)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "changeStudioStep(2)",
+        "count": 6
+      },
+      {
+        "event": "click",
+        "handler": "changeStudioStep(3)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "changeStudioStep(index + 1)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "clearCover",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "closeModal",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "closePlayer",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "copy(address,'address')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "copy(shareUrl,'link')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "copy(state.poolId,'pool')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "copyAddress",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "disconnect(); message = ''",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "emit('connect')",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "emit('play')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "execute",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "filter = genre",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "filter === 'Onchain' ? openModal('create') : (query = '', filter = 'All sounds')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "initializeChain().then(loadSounds)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "inspectSound(sound)",
+        "count": 6
+      },
+      {
+        "event": "click",
+        "handler": "loadMore",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "mobileMenu = !mobileMenu",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "mobileMenu = false",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "notice = ''",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "openModal('create')",
+        "count": 10
+      },
+      {
+        "event": "click",
+        "handler": "openModal('privacy')",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "openModal('status')",
+        "count": 6
+      },
+      {
+        "event": "click",
+        "handler": "openModal('terms')",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "openModal('wallet')",
+        "count": 4
+      },
+      {
+        "event": "click",
+        "handler": "openModal(walletReturn)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "playSound(currentSound)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "playSound(demos[0])",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "playSound(selected)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "playSound(sound)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "preparation?.abort()",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "query = ''",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "recordSound",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "refresh().then(updateQuote)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "side='buy'",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "side='sell'",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "walletConnect()",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "walletConnect(wallet.provider)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "withFeedback(signIn)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "withFeedback(switchNetwork)",
+        "count": 2
+      },
+      {
+        "event": "click",
+        "handler": "withFeedback(useSample)",
+        "count": 2
+      },
+      {
+        "event": "input",
+        "handler": "changeTax",
+        "count": 2
+      },
+      {
+        "event": "input",
+        "handler": "emit('update:recipient', ($event.target as HTMLInputElement).value)",
+        "count": 2
+      },
+      {
+        "event": "input",
+        "handler": "player.currentTime = Number(($event.target as HTMLInputElement).value)",
+        "count": 2
+      },
+      {
+        "event": "input",
+        "handler": "ticker = ticker.toUpperCase().replace(/[^A-Z0-9]/g, '')",
+        "count": 2
+      },
+      {
+        "event": "submit",
+        "handler": "studioStep === 3 ? publish() : undefined",
+        "count": 2
+      }
+    ],
+    "links": [
+      {
+        "kind": "href",
+        "target": "/docs/business-plan.pdf",
+        "count": 2
+      },
+      {
+        "kind": "href",
+        "target": "#explore",
+        "count": 6
+      },
+      {
+        "kind": "href",
+        "target": "#how-it-works",
+        "count": 2
+      },
+      {
+        "kind": "href",
+        "target": "#main",
+        "count": 6
+      },
+      {
+        "kind": "href",
+        "target": "https://docs.robinhood.com/chain/",
+        "count": 2
+      },
+      {
+        "kind": "href",
+        "target": "https://faucet.testnet.chain.robinhood.com",
+        "count": 2
+      },
+      {
+        "kind": "href",
+        "target": "https://metamask.io/download/",
+        "count": 2
+      }
+    ],
+    "assets": [
+      {
+        "kind": "src",
+        "value": "/logo.svg?v=sonira-2.1",
+        "count": 2
+      }
+    ],
+    "forms": [
+      {
+        "tag": "input",
+        "name": "",
+        "type": "",
+        "count": 12
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "checkbox",
+        "count": 4
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "file",
+        "count": 4
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "number",
+        "count": 2
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "range",
+        "count": 2
+      },
+      {
+        "tag": "input",
+        "name": "",
+        "type": "url",
+        "count": 10
+      },
+      {
+        "tag": "select",
+        "name": "",
+        "type": "",
+        "count": 6
+      },
+      {
+        "tag": "textarea",
+        "name": "",
+        "type": "",
+        "count": 4
+      }
+    ],
+    "i18n": [],
+    "i18nKeys": [],
+    "i18nFiles": [],
+    "api": [],
+    "env": []
+  },
+  "contentContractHash": "a96ea6d3bd62ad2203fd6c3d646694fa55a461a7911b97bf108339369f1835f2"
+}

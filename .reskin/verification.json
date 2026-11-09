@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T17:54:10.200Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/710/website",
+    "name": "sonira-website",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": true,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "attributes: \"href=/docs/business-plan.pdf\" count increased 2 -> 4",
+        "attributes: added \"href=/\"",
+        "links: \"href:/docs/business-plan.pdf\" count increased 2 -> 4",
+        "links: added \"href:/\""
+      ],
+      "hash": "6827e768d39932cec25a5eb5b35468b5d3a8f6cd22ac47e336de195bf52e026f"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "dashboard-shell",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": true,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "marketing-stack",
+        "family": "editorial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#265dff",
+        "current": "#ff0000",
+        "deltaE": 156.74,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "aria attribute added: aria-label=Business plan document",
+          "aria attribute added: aria-label=Project links",
+          "aria attribute added: aria-label=Release studio",
+          "aria attribute added: aria-label=Sonira home",
+          "link target added: /",
+          "link target added: /docs/business-plan.pdf"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.249,
+          "landmarkSimilarity": 0.667,
+          "classOverlap": 0.087
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 19,
+              "total": 33
+            },
+            "current": {
+              "tokens": 19,
+              "total": 33
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [],
+  "warnings": [
+    "attributes: \"href=/docs/business-plan.pdf\" count increased 2 -> 4",
+    "attributes: added \"href=/\"",
+    "links: \"href:/docs/business-plan.pdf\" count increased 2 -> 4",
+    "links: added \"href:/\"",
+    "/: aria attribute added: aria-label=Business plan document",
+    "/: aria attribute added: aria-label=Project links",
+    "/: aria attribute added: aria-label=Release studio",
+    "/: aria attribute added: aria-label=Sonira home",
+    "/: link target added: /",
+    "/: link target added: /docs/business-plan.pdf"
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-21T17:19:18.301Z",
+    "routes": [
+      "/"
+    ]
+  }
+}

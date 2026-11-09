@@ -1,0 +1,24 @@
+{
+  "brand": "Sonira",
+  "slug": "sonira",
+  "ticker": "SNRA",
+  "meaning": "sonar + aura; a heard signal that travels out to listeners and is released as a sound token",
+  "checked_at_utc": "2026-10-21T16:53:45Z",
+  "method": "Authoritative RDAP for .xyz; registrar availability page in Chrome; X public profile page and username availability check in Chrome",
+  "domains": {
+    "sonira.xyz": "available at query time: RDAP returned no registered object; registrar page listed a standard first-year price (USD 2.04, renews at USD 14.21)"
+  },
+  "alternatives": {
+    "sonira.fun": "not checked in this run",
+    "sonira.top": "not checked in this run"
+  },
+  "x": "available at query time; x.com/sonira returned HTTP 404 with 'This account doesn't exist' and no public profile",
+  "evidence": [
+    ".rebrand/availability/sonira-xyz-rdap.png",
+    ".rebrand/availability/sonira-xyz-registrar-porkbun.png",
+    ".rebrand/availability/sonira-x.png",
+    ".rebrand/availability.json",
+    ".rebrand/CHECK.md"
+  ],
+  "limitations": "Availability can change immediately. This is a preliminary collision screen, not trademark clearance or ownership. No domain or account was registered."
+}

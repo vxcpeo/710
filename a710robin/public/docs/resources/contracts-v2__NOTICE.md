@@ -1,0 +1,11 @@
+# Source attribution and scope
+
+SONIRA v2 adapts the MIT-licensed Groove project contracts published as verified source for Robinhood Chain mainnet factory `0x8C36645F6f1Ee058FF2aE4f05BCfE5A066b04765`. The upstream archive is `../research/parity/sources/grooveFactory.json`, retrieved from Sourcify. The 17 upstream project files each declare `SPDX-License-Identifier: MIT`. Original file hashes, source URL and the archive hash are recorded in `reference-provenance.json`; the unmodified archive remains available for exact comparison. Attribution is preserved rather than representing the economic protocol as wholly original SONIRA work.
+
+Source: https://sourcify.dev/server/v2/contract/4663/0x8C36645F6f1Ee058FF2aE4f05BCfE5A066b04765?fields=all
+
+Adaptations: project contract identifiers were changed from Groove to Sonira. SONIRA independently deploys its own project contracts and fee recipients. Token/deployer media wiring uses an authenticated SONIRA media registry; the original hardcoded Groove registry is not used. The new studio keeps atomic publishing with a shared 96 KiB audio/cover limit and optional 16 KiB JPEG cover. SONIRA adds quote-lens and deadline-router integration. The constant-product curve, snapshotted fees, optional per-sound buyback vest, launch protections, recipient controls and graduation state machine derive from the attributed MIT sources.
+
+The 75 vendored dependency source files preserve their upstream content and SPDX identifiers. OpenZeppelin, Uniswap, Permit2 and Solmate license texts are included under `licenses/`; source-specific notices take precedence. Vendored Uniswap v4 core files include BUSL-1.1 notices alongside MIT files. This project interfaces with independently verified existing PoolManager/PositionManager/Permit2 deployments; it does not claim those deployments, deploy upstream core as SONIRA code, or relicense third-party material under the SONIRA MIT notice.
+
+Branding and media belong to the new SONIRA project. No affiliation, endorsement, commercial audit or inherited security guarantee from Groove, Robinhood or Uniswap is claimed. Source verification is evidence of published code, not evidence that the modified system has passed its own required tests.

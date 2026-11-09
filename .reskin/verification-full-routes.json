@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T17:45:34.529Z",
+  "project": {
+    "root": "E:/workspace/chuangye/ROBIN/710/website",
+    "name": "sonira-website",
+    "baseUrl": "http://127.0.0.1:4317/"
+  },
+  "passed": false,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [
+        "attributes: \"href=/docs/business-plan.pdf\" count increased 2 -> 4",
+        "attributes: added \"href=/\"",
+        "links: \"href:/docs/business-plan.pdf\" count increased 2 -> 4",
+        "links: added \"href:/\""
+      ],
+      "hash": "6827e768d39932cec25a5eb5b35468b5d3a8f6cd22ac47e336de195bf52e026f"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "dashboard-shell",
+        "family": "shell",
+        "traits": {
+          "sidebar": true,
+          "topbar": true,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "current": {
+        "id": "marketing-stack",
+        "family": "editorial",
+        "traits": {
+          "sidebar": false,
+          "topbar": false,
+          "cards": true,
+          "hero": true,
+          "table": true,
+          "grid": true,
+          "tabs": true,
+          "modal": true,
+          "charts": true,
+          "sticky": true,
+          "orbital": false,
+          "terminal": true,
+          "bento": false,
+          "ticker": true,
+          "gallery": false
+        }
+      },
+      "accent": {
+        "original": "#265dff",
+        "current": "#ff0000",
+        "deltaE": 156.74,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "aria attribute added: aria-label=Business plan document",
+          "aria attribute added: aria-label=Project links",
+          "aria attribute added: aria-label=Release studio",
+          "aria attribute added: aria-label=Sonira home",
+          "link target added: /",
+          "link target added: /docs/business-plan.pdf"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.249,
+          "landmarkSimilarity": 0.667,
+          "classOverlap": 0.087
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 19,
+              "total": 33
+            },
+            "current": {
+              "tokens": 19,
+              "total": 33
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      },
+      {
+        "route": "/docs/business-plan.pdf",
+        "passed": false,
+        "skipped": false,
+        "failures": [
+          "skeleton too similar: DOM fingerprint 1 > 0.5",
+          "landmark layout too similar: 1 > 0.68",
+          "CSS class reuse too high: 1 > 0.1",
+          "console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "mobile: route navigation is not reachable (no visible links or menu toggle)"
+        ],
+        "warnings": [
+          "desktop: empty document title",
+          "desktop: no h1",
+          "mobile: empty document title",
+          "mobile: no h1"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 1,
+          "landmarkSimilarity": 1,
+          "classOverlap": 1
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 0,
+              "total": 0
+            },
+            "current": {
+              "tokens": 0,
+              "total": 0
+            }
+          }
+        },
+        "usability": {
+          "passed": false,
+          "failures": [
+            "console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+            "mobile: route navigation is not reachable (no visible links or menu toggle)"
+          ],
+          "warnings": [
+            "desktop: empty document title",
+            "desktop: no h1",
+            "mobile: empty document title",
+            "mobile: no h1"
+          ],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/docs-business-plan-pdf-desktop.png",
+          "mobile": "current/docs-business-plan-pdf-mobile.png"
+        }
+      }
+    ]
+  },
+  "failures": [
+    "/docs/business-plan.pdf: skeleton too similar: DOM fingerprint 1 > 0.5",
+    "/docs/business-plan.pdf: landmark layout too similar: 1 > 0.68",
+    "/docs/business-plan.pdf: CSS class reuse too high: 1 > 0.1",
+    "/docs/business-plan.pdf: console/page error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "/docs/business-plan.pdf: mobile: route navigation is not reachable (no visible links or menu toggle)"
+  ],
+  "warnings": [
+    "attributes: \"href=/docs/business-plan.pdf\" count increased 2 -> 4",
+    "attributes: added \"href=/\"",
+    "links: \"href:/docs/business-plan.pdf\" count increased 2 -> 4",
+    "links: added \"href:/\"",
+    "/: aria attribute added: aria-label=Business plan document",
+    "/: aria attribute added: aria-label=Project links",
+    "/: aria attribute added: aria-label=Release studio",
+    "/: aria attribute added: aria-label=Sonira home",
+    "/: link target added: /",
+    "/: link target added: /docs/business-plan.pdf",
+    "/docs/business-plan.pdf: desktop: empty document title",
+    "/docs/business-plan.pdf: desktop: no h1",
+    "/docs/business-plan.pdf: mobile: empty document title",
+    "/docs/business-plan.pdf: mobile: no h1"
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-21T17:19:18.301Z",
+    "routes": [
+      "/",
+      "/docs/business-plan.pdf"
+    ]
+  }
+}

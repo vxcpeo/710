@@ -1,0 +1,3200 @@
+{
+  "retrievedAt": "2026-09-17T11:26:02.445Z",
+  "networks": {
+    "testnet": {
+      "rpc": "https://rpc.testnet.chain.robinhood.com",
+      "chainId": 46630,
+      "blockNumber": 120766832,
+      "blockTag": "0x732c170",
+      "blockHash": "0x701aaa660529747565683deb66a89d8fb21cc707ea5c5488a93620f391ba3aea",
+      "blockTimestamp": "2026-09-17T11:26:01.000Z"
+    },
+    "mainnet": {
+      "rpc": "https://rpc.mainnet.chain.robinhood.com",
+      "chainId": 4663,
+      "blockNumber": 65329613,
+      "blockTag": "0x3e4d9cd",
+      "blockHash": "0x4a1db59afd612436aac29f358efd9bb872d0c13707eeefd764e289e51343c927",
+      "blockTimestamp": "2026-09-17T11:26:03.000Z"
+    }
+  },
+  "testnetAddresses": {
+    "TSLA": {
+      "address": "0xC9f9c86933092BbbfFF3CCb4b105A4A94bf3Bd4E",
+      "codeBytes": 283,
+      "codeHash": "0x2f367e6a678e7b30ab613d5963e541e6f4d3ca586de76e2f441fbfeb1a27c440",
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "decimals": "18",
+      "totalSupply": "6153100000000000000000000"
+    },
+    "AMZN": {
+      "address": "0x5884aD2f920c162CFBbACc88C9C51AA75eC09E02",
+      "codeBytes": 283,
+      "codeHash": "0x2f367e6a678e7b30ab613d5963e541e6f4d3ca586de76e2f441fbfeb1a27c440",
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "decimals": "18",
+      "totalSupply": "6153100000000000000000000"
+    },
+    "AMD": {
+      "address": "0x71178BAc73cBeb415514eB542a8995b82669778d",
+      "codeBytes": 283,
+      "codeHash": "0x2f367e6a678e7b30ab613d5963e541e6f4d3ca586de76e2f441fbfeb1a27c440",
+      "name": "AMD",
+      "symbol": "AMD",
+      "decimals": "18",
+      "totalSupply": "6153100000000000000000000"
+    },
+    "PLTR": {
+      "address": "0x1FBE1a0e43594b3455993B5dE5Fd0A7A266298d0",
+      "codeBytes": 283,
+      "codeHash": "0x2f367e6a678e7b30ab613d5963e541e6f4d3ca586de76e2f441fbfeb1a27c440",
+      "name": "Palantir Technologies",
+      "symbol": "PLTR",
+      "decimals": "18",
+      "totalSupply": "6153100000000000000000000"
+    },
+    "NFLX": {
+      "address": "0x3b8262A63d25f0477c4DDE23F83cfe22Cb768C93",
+      "codeBytes": 283,
+      "codeHash": "0x2f367e6a678e7b30ab613d5963e541e6f4d3ca586de76e2f441fbfeb1a27c440",
+      "name": "Netflix",
+      "symbol": "NFLX",
+      "decimals": "18",
+      "totalSupply": "6153100000000000000000000"
+    },
+    "canonicalTestWETH": {
+      "address": "0x7943e237c7F95DA44E0301572D358911207852Fa",
+      "codeBytes": 2202,
+      "codeHash": "0x5706be52f64875fee65a2cec0d80e47a23d8793cbe85d214b48445e2d05f5353",
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": "18",
+      "totalSupply": "2133139196906380410337"
+    },
+    "Permit2": {
+      "address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+      "codeBytes": 9152,
+      "codeHash": "0x0117e0ed818bc3f2a8729ffc336c837e63e965f04b473047b39b35ad86aac259"
+    },
+    "mainnetPoolManager": {
+      "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+      "codeBytes": 24009,
+      "codeHash": "0xbd3881180b547f5fe817545743cfb4343e96b1bc6640dcd70c106b0066e95626"
+    },
+    "mainnetPositionManager": {
+      "address": "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+      "codeBytes": 23877,
+      "codeHash": "0xf3a0edb689229fa4bf135a728f2ec2eb4a2fbee2e41e3e74ffadb7b4c56e8a6d"
+    },
+    "mainnetUniversalRouter": {
+      "address": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "codeBytes": 24546,
+      "codeHash": "0xfdd90802f39ce5fc8bac4c2f1b3ac7bac530fd17ff46b0630f1bd00f1e14082f"
+    },
+    "mainnetStateView": {
+      "address": "0xF3334192D15450CdD385c8B70e03f9A6bD9E673b",
+      "codeBytes": 3531,
+      "codeHash": "0x7d9c591e0956fd89d98feb4ffcfe8bf1f7a62bd485edd979fa21d104b49878a6"
+    },
+    "mainnetQuoter": {
+      "address": "0x8Dc178eFB8111BB0973Dd9d722ebeFF267c98F94",
+      "codeBytes": 6118,
+      "codeHash": "0xd707b1da8cb165e5ea35a3b4450d971eb562ec171e23492aa117036b78a868f6"
+    }
+  },
+  "uniswapFeed": {
+    "url": "https://docs.uniswap.org/deployments.json",
+    "generatedAt": "2026-07-15T22:25:40.000Z",
+    "source": {
+      "repo": "https://github.com/Uniswap/contracts",
+      "commit": "37936185dee7decf681360ec799c124e0e034672"
+    },
+    "testnetRecords": [],
+    "mainnetV4": [
+      {
+        "id": "v4-poolmanager-robinhood-chain",
+        "protocol": "v4",
+        "contract": "PoolManager",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "56928a9",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-core/blob/main/src/PoolManager.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x8366a39CC670B4001A1121B8F6A443A643e40951",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-positionmanager-robinhood-chain",
+        "protocol": "v4",
+        "contract": "PositionManager",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "56928a9",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-periphery/blob/main/src/PositionManager.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-positiondescriptor-robinhood-chain",
+        "protocol": "v4",
+        "contract": "PositionDescriptor",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x9639443158E8C5efa35Bd45287bf2EFfd3D8dC06",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "56928a9",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-periphery/blob/main/src/PositionDescriptor.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x9639443158E8C5efa35Bd45287bf2EFfd3D8dC06",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-v4quoter-robinhood-chain",
+        "protocol": "v4",
+        "contract": "V4Quoter",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x8Dc178eFB8111BB0973Dd9d722ebeFF267c98F94",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "56928a9",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-periphery/blob/main/src/lens/V4Quoter.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x8Dc178eFB8111BB0973Dd9d722ebeFF267c98F94",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-stateview-robinhood-chain",
+        "protocol": "v4",
+        "contract": "StateView",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0xF3334192D15450CdD385c8B70e03f9A6bD9E673b",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "56928a9",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-periphery/blob/main/src/lens/StateView.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0xF3334192D15450CdD385c8B70e03f9A6bD9E673b",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-reserveslens-robinhood-chain",
+        "protocol": "v4",
+        "contract": "ReservesLens",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x0000001b173C3bbF3984D417d8614E3eed34865B",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "b08eb66",
+        "sourceCodeUrl": "https://github.com/Uniswap/v4-periphery/blob/main/src/lens/ReservesLens.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x0000001b173C3bbF3984D417d8614E3eed34865B",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "v4-erc7914detector-robinhood-chain",
+        "protocol": "v4",
+        "contract": "ERC7914Detector",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0xc470458fc6A7E43471b31e6a2eB2612215A7102e",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/v4-core",
+        "sourceRef": "e5b4eed",
+        "sourceCodeUrl": "https://github.com/Uniswap/util-contracts/blob/main/src/ERC7914Detector.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0xc470458fc6A7E43471b31e6a2eB2612215A7102e",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "permit2-permit2-robinhood-chain",
+        "protocol": "permit2",
+        "contract": "Permit2",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/permit2",
+        "sourceRef": "permit2@1.0.0",
+        "sourceCodeUrl": "https://github.com/Uniswap/permit2/blob/main/src/Permit2.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x000000000022D473030F116dDEE9F6B43aC78BA3",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "universal-router-universalrouter-robinhood-chain",
+        "protocol": "universal-router",
+        "contract": "UniversalRouter",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x06AfBA43Fd06227fA663b0DAecF536f6EaA6bf99",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/universal-router",
+        "sourceRef": "023196a",
+        "sourceCodeUrl": "https://github.com/Uniswap/universal-router/blob/main/contracts/UniversalRouter.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x06AfBA43Fd06227fA663b0DAecF536f6EaA6bf99",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      },
+      {
+        "id": "universal-router-swapproxy-robinhood-chain",
+        "protocol": "universal-router",
+        "contract": "SwapProxy",
+        "chain": "Robinhood Chain",
+        "chainId": 4663,
+        "address": "0x0000000085E102724e78eCd2F45DC9cA239Affad",
+        "tier": "labs-supported",
+        "sourceRepo": "https://github.com/Uniswap/universal-router",
+        "sourceRef": "484b405",
+        "sourceCodeUrl": "https://github.com/Uniswap/universal-router/blob/main/contracts/SwapProxy.sol",
+        "explorerUrl": "https://robinhoodchain.blockscout.com/address/0x0000000085E102724e78eCd2F45DC9cA239Affad",
+        "env": "mainnet",
+        "status": "active",
+        "aliases": [
+          "robinhood"
+        ]
+      }
+    ]
+  },
+  "groove": {
+    "factory": "0x8C36645F6f1Ee058FF2aE4f05BCfE5A066b04765",
+    "creationMatch": null,
+    "runtimeMatch": "match",
+    "compiler": "0.8.30+commit.73712a01",
+    "getters": {
+      "poolManager": [
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951"
+      ],
+      "positionManager": [
+        "0x58daec3116aae6D93017bAAea7749052E8a04fA7"
+      ],
+      "permit2": [
+        "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      ],
+      "locker": [
+        "0x3C5B08C2bBEcDd423FC70A8278b160145877311f"
+      ],
+      "memeHook": [
+        "0xfEDaB4F95ae0FfcFd02eD4993Ab704a17B422044"
+      ],
+      "graduationExecutor": [
+        "0xC19B3fA246ce9686BFfE732E13505c2AD28e0371"
+      ],
+      "graduationGuard": [
+        "0x29846E22cF9162f2052bE115f2155926F033AEAe"
+      ],
+      "launchDeployer": [
+        "0x4669f91a560950E117E2A8495C170bBeEbd6AA5c"
+      ],
+      "feeEscrow": [
+        "0xFEE5C0DEA81E1eB07ccE09F65ff7F2D26C1f391c"
+      ],
+      "buybackVault": [
+        "0xe8B5afCc92694c444632562Ef6f7ff99aE8C0Db3"
+      ],
+      "launchConfigCount": [
+        "1"
+      ],
+      "launchFee": [
+        "500000000000000"
+      ],
+      "GRADUATION_RESCUE_DELAY": [
+        "604800"
+      ]
+    },
+    "functions": [
+      {
+        "name": "CREATOR_FEE_RECIPIENT_EXECUTION_WINDOW",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "CREATOR_FEE_RECIPIENT_TIMELOCK",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "GRADUATION_RESCUE_DELAY",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "acceptOwnership",
+        "inputs": [],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "addLaunchConfig",
+        "inputs": [
+          {
+            "name": "config",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "supply",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "curveFeeBps",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "phantomQuote",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "graduationThreshold",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "poolFee",
+                "type": "uint24",
+                "internalType": "uint24"
+              },
+              {
+                "name": "tickSpacing",
+                "type": "int24",
+                "internalType": "int24"
+              },
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.LaunchConfig"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "id",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "approvedPairTokens",
+        "inputs": [
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "approved",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "buybackVault",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveBuybackVault"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "canLaunch",
+        "inputs": [
+          {
+            "name": "launcher",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "cancelCreatorFeeRecipientChange",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "createGraduatedPool",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "positionId",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "executeCreatorFeeRecipientChange",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "feeEscrow",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IGrooveFeeEscrow"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "forceSweptGraduation",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "getLaunchConfig",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "supply",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "curveFeeBps",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "phantomQuote",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "graduationThreshold",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "poolFee",
+                "type": "uint24",
+                "internalType": "uint24"
+              },
+              {
+                "name": "tickSpacing",
+                "type": "int24",
+                "internalType": "int24"
+              },
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.LaunchConfig"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "getLaunchFeePolicy",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "protocolFeeRecipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "protocolFeeShareBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "buybackBurnBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "hookFeeBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "maxInternalPriceImpactBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              }
+            ],
+            "internalType": "struct FeePolicySnapshot"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "getLaunchedToken",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "token",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "curve",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "deployer",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "creatorFeeRecipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "pairToken",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "graduationThreshold",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "poolFee",
+                "type": "uint24",
+                "internalType": "uint24"
+              },
+              {
+                "name": "tickSpacing",
+                "type": "int24",
+                "internalType": "int24"
+              },
+              {
+                "name": "creatorTaxBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "buybackEnabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "phase",
+                "type": "uint8",
+                "internalType": "enum GraduationPhase"
+              },
+              {
+                "name": "sweptQuote",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "sweptTokens",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "sweptAt",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "exists",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ],
+            "internalType": "struct IGrooveLaunchFactory.LaunchedToken"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "graduate",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "graduationExecutor",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveGraduationExecutor"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "graduationGuard",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveGraduationGuard"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchConfigCount",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchDeployer",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveLaunchDeployer"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchEnabled",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchFee",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchForwarder",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "launchToken",
+        "inputs": [
+          {
+            "name": "params",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "name",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "symbol",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "logo",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "description",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "socials",
+                "type": "tuple",
+                "components": [
+                  {
+                    "name": "twitter",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "telegram",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "discord",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "website",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "farcaster",
+                    "type": "string",
+                    "internalType": "string"
+                  }
+                ],
+                "internalType": "struct GrooveToken.Socials"
+              },
+              {
+                "name": "creatorFeeRecipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "creatorTaxBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "buybackEnabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "expectedEconomics",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "salt",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.TokenParams"
+          },
+          {
+            "name": "launchConfigId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "snipeTaxExemptions",
+            "type": "address[]",
+            "internalType": "address[]"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "curve",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "payable"
+      },
+      {
+        "name": "launchToken",
+        "inputs": [
+          {
+            "name": "params",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "name",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "symbol",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "logo",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "description",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "socials",
+                "type": "tuple",
+                "components": [
+                  {
+                    "name": "twitter",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "telegram",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "discord",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "website",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "farcaster",
+                    "type": "string",
+                    "internalType": "string"
+                  }
+                ],
+                "internalType": "struct GrooveToken.Socials"
+              },
+              {
+                "name": "creatorFeeRecipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "creatorTaxBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "buybackEnabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "expectedEconomics",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "salt",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.TokenParams"
+          },
+          {
+            "name": "launchConfigId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "curve",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "payable"
+      },
+      {
+        "name": "launchTokenFor",
+        "inputs": [
+          {
+            "name": "params",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "name",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "symbol",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "logo",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "description",
+                "type": "string",
+                "internalType": "string"
+              },
+              {
+                "name": "socials",
+                "type": "tuple",
+                "components": [
+                  {
+                    "name": "twitter",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "telegram",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "discord",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "website",
+                    "type": "string",
+                    "internalType": "string"
+                  },
+                  {
+                    "name": "farcaster",
+                    "type": "string",
+                    "internalType": "string"
+                  }
+                ],
+                "internalType": "struct GrooveToken.Socials"
+              },
+              {
+                "name": "creatorFeeRecipient",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "creatorTaxBps",
+                "type": "uint16",
+                "internalType": "uint16"
+              },
+              {
+                "name": "buybackEnabled",
+                "type": "bool",
+                "internalType": "bool"
+              },
+              {
+                "name": "expectedEconomics",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              },
+              {
+                "name": "salt",
+                "type": "bytes32",
+                "internalType": "bytes32"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.TokenParams"
+          },
+          {
+            "name": "launchConfigId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "originalDeployer",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "snipeTaxExemptions",
+            "type": "address[]",
+            "internalType": "address[]"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "curve",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "payable"
+      },
+      {
+        "name": "locker",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveLaunchLocker"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "maxCreatorTaxBps",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "memeHook",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract GrooveHook"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "owner",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "pairTokenEconomics",
+        "inputs": [
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "phantomQuote",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "graduationThreshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "decimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "pendingCreatorFeeRecipient",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "newRecipient",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "effectiveAt",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "expiresAt",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "pendingOwner",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "permit2",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IAllowanceTransfer"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "poolManager",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IPoolManager"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "positionManager",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "address",
+            "internalType": "contract IPositionManager"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "previewLaunchEconomics",
+        "inputs": [
+          {
+            "name": "launchConfigId",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32",
+            "internalType": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "renounceOwnership",
+        "inputs": [],
+        "outputs": [],
+        "stateMutability": "pure"
+      },
+      {
+        "name": "rescueCurveFees",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "rescueSweptGraduation",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "recipient",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setBuybackEnabled",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setCreatorFeeRecipient",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "newRecipient",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setGraduationExecutor",
+        "inputs": [
+          {
+            "name": "executor",
+            "type": "address",
+            "internalType": "contract GrooveGraduationExecutor"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setLaunchDeployer",
+        "inputs": [
+          {
+            "name": "deployer",
+            "type": "address",
+            "internalType": "contract GrooveLaunchDeployer"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setLaunchEnabled",
+        "inputs": [
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setLaunchFee",
+        "inputs": [
+          {
+            "name": "newLaunchFee",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setLaunchForwarder",
+        "inputs": [
+          {
+            "name": "forwarder",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setMaxCreatorTaxBps",
+        "inputs": [
+          {
+            "name": "bps",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setPairTokenApproved",
+        "inputs": [
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "approved",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setPairTokenEconomics",
+        "inputs": [
+          {
+            "name": "pairToken",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "phantomQuote",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "graduationThreshold",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "expectedDecimals",
+            "type": "uint8",
+            "internalType": "uint8"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setSnipeTaxSeconds",
+        "inputs": [
+          {
+            "name": "secondsWindow",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setSnipeTaxStartBps",
+        "inputs": [
+          {
+            "name": "bps",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setWhitelistedLauncher",
+        "inputs": [
+          {
+            "name": "launcher",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "snipeTaxSeconds",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "snipeTaxStartBps",
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "transferCreatorFeeRecipient",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "newRecipient",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "transferOwnership",
+        "inputs": [
+          {
+            "name": "newOwner",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "updateLaunchConfig",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "config",
+            "type": "tuple",
+            "components": [
+              {
+                "name": "supply",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "curveFeeBps",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "phantomQuote",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "graduationThreshold",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "poolFee",
+                "type": "uint24",
+                "internalType": "uint24"
+              },
+              {
+                "name": "tickSpacing",
+                "type": "int24",
+                "internalType": "int24"
+              },
+              {
+                "name": "enabled",
+                "type": "bool",
+                "internalType": "bool"
+              }
+            ],
+            "internalType": "struct GrooveLaunchFactory.LaunchConfig"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "whitelistedLaunchers",
+        "inputs": [
+          {
+            "name": "launcher",
+            "type": "address",
+            "internalType": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "enabled",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      }
+    ],
+    "sourceNames": [
+      "src/GrooveLaunchFactory.sol",
+      "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "lib/openzeppelin-contracts/contracts/access/Ownable2Step.sol",
+      "lib/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol",
+      "lib/v4-core/src/interfaces/IPoolManager.sol",
+      "lib/v4-core/src/interfaces/IHooks.sol",
+      "lib/v4-core/src/types/PoolKey.sol",
+      "lib/v4-core/src/types/PoolId.sol",
+      "lib/v4-core/src/types/Currency.sol",
+      "lib/v4-core/src/libraries/TickMath.sol",
+      "lib/v4-core/src/libraries/FullMath.sol",
+      "lib/v4-periphery/src/interfaces/IPositionManager.sol",
+      "lib/permit2/src/interfaces/IAllowanceTransfer.sol",
+      "src/GrooveToken.sol",
+      "src/GrooveBondingCurve.sol",
+      "src/GrooveBuybackVault.sol",
+      "src/GrooveLaunchLocker.sol",
+      "src/GrooveHook.sol",
+      "src/GrooveGraduationExecutor.sol",
+      "src/GrooveLaunchDeployer.sol",
+      "src/GrooveGraduationGuard.sol",
+      "src/GrooveGraduationMath.sol",
+      "src/GrooveBondingCurveMath.sol",
+      "src/IGrooveLaunchpad.sol",
+      "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "lib/openzeppelin-contracts/contracts/utils/StorageSlot.sol",
+      "lib/openzeppelin-contracts/contracts/interfaces/IERC20Metadata.sol",
+      "lib/openzeppelin-contracts/contracts/interfaces/IERC1363.sol",
+      "lib/v4-core/src/interfaces/external/IERC6909Claims.sol",
+      "lib/v4-core/src/interfaces/IProtocolFees.sol",
+      "lib/v4-core/src/types/BalanceDelta.sol",
+      "lib/v4-core/src/interfaces/IExtsload.sol",
+      "lib/v4-core/src/interfaces/IExttload.sol",
+      "lib/v4-core/src/types/PoolOperation.sol",
+      "lib/v4-core/src/types/BeforeSwapDelta.sol",
+      "lib/v4-core/src/interfaces/external/IERC20Minimal.sol",
+      "lib/v4-core/src/libraries/CustomRevert.sol",
+      "lib/v4-core/src/libraries/BitMath.sol",
+      "lib/v4-periphery/src/libraries/PositionInfoLibrary.sol",
+      "lib/v4-periphery/src/interfaces/INotifier.sol",
+      "lib/v4-periphery/src/interfaces/IImmutableState.sol",
+      "lib/v4-periphery/src/interfaces/IERC721Permit_v4.sol",
+      "lib/v4-periphery/src/interfaces/IEIP712_v4.sol",
+      "lib/v4-periphery/src/interfaces/IMulticall_v4.sol",
+      "lib/v4-periphery/src/interfaces/IPoolInitializer_v4.sol",
+      "lib/v4-periphery/src/interfaces/IUnorderedNonce.sol",
+      "lib/v4-periphery/src/interfaces/IPermit2Forwarder.sol",
+      "lib/permit2/src/interfaces/IEIP712.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "lib/openzeppelin-contracts/contracts/utils/Base64.sol",
+      "src/GrooveAudio.sol",
+      "src/GrooveAudioRegistry.sol",
+      "src/GrooveAddresses.sol",
+      "lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+      "src/IGrooveGraduation.sol",
+      "lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol",
+      "lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol",
+      "lib/v4-core/src/interfaces/callback/IUnlockCallback.sol",
+      "lib/v4-core/src/libraries/Hooks.sol",
+      "lib/v4-core/src/libraries/StateLibrary.sol",
+      "lib/v4-hooks-public/src/base/BaseHook.sol",
+      "lib/v4-periphery/src/libraries/Actions.sol",
+      "lib/v4-periphery/src/libraries/LiquidityAmounts.sol",
+      "lib/openzeppelin-contracts/contracts/utils/Create2.sol",
+      "lib/v4-core/src/libraries/Pool.sol",
+      "src/GrooveFeeEscrow.sol",
+      "lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol",
+      "lib/openzeppelin-contracts/contracts/interfaces/IERC165.sol",
+      "lib/v4-core/src/libraries/SafeCast.sol",
+      "lib/v4-periphery/src/interfaces/ISubscriber.sol",
+      "lib/openzeppelin-contracts/contracts/interfaces/IERC6093.sol",
+      "lib/openzeppelin-contracts/contracts/utils/Panic.sol",
+      "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+      "lib/v4-core/src/libraries/LPFeeLibrary.sol",
+      "lib/v4-core/src/libraries/ParseBytes.sol",
+      "lib/v4-core/src/libraries/Position.sol",
+      "lib/v4-periphery/src/base/ImmutableState.sol",
+      "lib/v4-core/src/libraries/FixedPoint96.sol",
+      "lib/openzeppelin-contracts/contracts/utils/Errors.sol",
+      "lib/openzeppelin-contracts/contracts/utils/LowLevelCall.sol",
+      "lib/v4-core/src/libraries/TickBitmap.sol",
+      "lib/v4-core/src/libraries/UnsafeMath.sol",
+      "lib/v4-core/src/libraries/FixedPoint128.sol",
+      "lib/v4-core/src/libraries/SqrtPriceMath.sol",
+      "lib/v4-core/src/libraries/SwapMath.sol",
+      "lib/v4-core/src/types/Slot0.sol",
+      "lib/v4-core/src/libraries/ProtocolFeeLibrary.sol",
+      "lib/v4-core/src/libraries/LiquidityMath.sol"
+    ],
+    "launchConfig0": [
+      [
+        "1000000000000000000000000000",
+        "100",
+        "1680000000000000000",
+        "4200000000000000000",
+        "0",
+        "200",
+        true
+      ]
+    ],
+    "sourceSemantics": [
+      {
+        "file": "src/GrooveLaunchFactory.sol",
+        "hits": [
+          {
+            "line": 42,
+            "excerpt": " * @title GrooveLaunchFactory\n * @notice Deploys a bonding curve and its launch token for every Groove\n * launch, then graduates the curve into a permanently locked, full-range\n * Uniswap V4 position governed by the shared GrooveHook.\n *\n * Each curve already trades in the quote asset its pool will use, so\n * graduation never converts between assets and therefore needs no router and\n * no price oracle. It stays split into two permissionless phases so a failed\n * pool seed cannot strand a curve's reserves:\n * - `graduate`: drains the curve's own reserves into this factory. Purely\n *   internal bookkeeping, so it is safe to call automatically from within\n *   the crossing buy itself.\n * - `createGraduatedPool`: seeds the new V4 pool with those reserves, and\n *   stays retryable until it succeeds."
+          },
+          {
+            "line": 77,
+            "excerpt": "    // Smallest supply a launch may declare, and the reference supply the\n    // quotability check assumes when it runs before any config is known.\n    uint256 private constant MIN_LAUNCH_SUPPLY = 1 ether;\n    // The quotability check prices a buy of one millionth of the phantom\n    // reserve. Expressing the reference trade as a fraction of the reserve\n    // rather than a fixed amount keeps it meaningful across quote assets of\n    // different decimals, where a wei-denominated constant would be either\n    // trivial or unreachable.\n    uint256 private constant REFERENCE_BUY_DIVISOR = 1e6;\n    // Widest ticks usable at any tick spacing, matching v4-core's own MIN/MAX_TICK.\n    int24 private constant MIN_USABLE_TICK = -887272;\n    int24 private constant MAX_USABLE_TICK = 887272;\n    // Largest tick spacing v4-core's PoolManager will accept; a launch config\n    // above this would deploy a curve and token but then revert forever at"
+          },
+          {
+            "line": 84,
+            "excerpt": "    // trivial or unreachable.\n    uint256 private constant REFERENCE_BUY_DIVISOR = 1e6;\n    // Widest ticks usable at any tick spacing, matching v4-core's own MIN/MAX_TICK.\n    int24 private constant MIN_USABLE_TICK = -887272;\n    int24 private constant MAX_USABLE_TICK = 887272;\n    // Largest tick spacing v4-core's PoolManager will accept; a launch config\n    // above this would deploy a curve and token but then revert forever at\n    // pool creation, stranding the swept reserves.\n    int24 private constant MAX_TICK_SPACING = 32767;\n    // Largest amount either side of a seed may carry. V4 settles pool balance\n    // changes through a BalanceDelta of two int128 halves, so the signed\n    // maximum binds even though the PositionManager's ABI accepts a uint128.\n    // Mirrors GrooveGraduationGuard's own ceiling.\n    uint256 private constant MAX_SEED_AMOUNT = uint256(uint128(type(int128).max));"
+          },
+          {
+            "line": 90,
+            "excerpt": "    // above this would deploy a curve and token but then revert forever at\n    // pool creation, stranding the swept reserves.\n    int24 private constant MAX_TICK_SPACING = 32767;\n    // Largest amount either side of a seed may carry. V4 settles pool balance\n    // changes through a BalanceDelta of two int128 halves, so the signed\n    // maximum binds even though the PositionManager's ABI accepts a uint128.\n    // Mirrors GrooveGraduationGuard's own ceiling.\n    uint256 private constant MAX_SEED_AMOUNT = uint256(uint128(type(int128).max));\n    // Advance notice the protocol owner's creator-fee-recipient override must\n    // wait out before it can be executed. The creator's own self-service\n    // transferCreatorFeeRecipient is never subject to this delay.\n    uint256 public constant CREATOR_FEE_RECIPIENT_TIMELOCK = 3 days;\n    // How long a launch must sit in Swept before its reserves may be released\n    // manually. Seeding is permissionless and retryable, so this window is"
+          },
+          {
+            "line": 104,
+            "excerpt": "    // what separates a genuinely unseedable launch from one that merely hit a\n    // transient failure, and it denies the owner a same-block escape hatch.\n    uint256 public constant GRADUATION_RESCUE_DELAY = 7 days;\n    // A matured override must execute during this window. Expiration prevents\n    // an old, forgotten proposal from remaining executable indefinitely.\n    uint256 public constant CREATOR_FEE_RECIPIENT_EXECUTION_WINDOW = 3 days;\n\n    struct TokenParams {\n        string name;\n        string symbol;\n        string logo;\n        string description;\n        GrooveToken.Socials socials;\n        address creatorFeeRecipient;"
+          },
+          {
+            "line": 1084,
+            "excerpt": "     * instant a buy crosses the graduation threshold.\n     */\n    function graduate(address token) external nonReentrant {\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        if (launch.phase != GraduationPhase.NotGraduated) revert WrongGraduationPhase();\n        GrooveBondingCurve curve = GrooveBondingCurve(launch.curve);\n        if (!curve.readyToGraduate()) {\n            revert GrooveBondingCurve.NotReadyToGraduate();\n        }\n        _assertGraduationSeedable(token, launch, curve.realQuoteReserve(), curve.tokenReserve());\n        _sweepCurve(token, launch, curve);\n    }\n"
+          },
+          {
+            "line": 1187,
+            "excerpt": "    /**\n     * @notice Initializes the V4 pool with the swept reserves, mints a\n     * full-range position directly to the locker, and registers the pool with\n     * the meme hook. The curve already holds the pool's quote asset, so this\n     * seeds with exactly what it swept and needs no slippage bound.\n     * Permissionless and retryable: a launch stays in Swept until a seed\n     * succeeds, so a transient failure can never strand reserves.\n     */\n    function createGraduatedPool(address token) external nonReentrant returns (uint256 positionId) {\n        if (address(graduationExecutor) == address(0)) revert GraduationExecutorNotSet();\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        if (launch.phase != GraduationPhase.Swept) revert WrongGraduationPhase();\n"
+          },
+          {
+            "line": 1193,
+            "excerpt": "     * succeeds, so a transient failure can never strand reserves.\n     */\n    function createGraduatedPool(address token) external nonReentrant returns (uint256 positionId) {\n        if (address(graduationExecutor) == address(0)) revert GraduationExecutorNotSet();\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        if (launch.phase != GraduationPhase.Swept) revert WrongGraduationPhase();\n\n        uint256 sweptQuote = launch.sweptQuote;\n        _assertGraduationSeedable(token, launch, sweptQuote, launch.sweptTokens);\n        uint256 tokenAmount = _lockExcessGraduationTokens(token, launch, sweptQuote, launch.sweptTokens);\n\n        launch.sweptQuote = 0;\n        launch.sweptTokens = 0;"
+          },
+          {
+            "line": 1222,
+            "excerpt": "     * a no-op and lets graduation proceed.\n     */\n    function rescueCurveFees(address token) external onlyOwner nonReentrant {\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        GrooveBondingCurve(payable(launch.curve)).rescueFees();\n    }\n\n    /**\n     * @notice Releases a swept launch's reserves to `recipient` when its quote\n     * asset can no longer satisfy the seed step. `graduate` accepts a quote\n     * asset that under-delivers, because it credits the balance it actually\n     * received, but the seed leg funds the executor through `_transferExact`\n     * and requires the full nominal amount. An asset that becomes"
+          },
+          {
+            "line": 1245,
+            "excerpt": "     * many holders in an asset that cannot pay one.\n     *\n     * The owner is trusted here, bounded by GRADUATION_RESCUE_DELAY. What\n     * makes that bound meaningful is that seeding stays permissionless\n     * throughout the wait: any holder can end the window early, and\n     * permanently, with one call to createGraduatedPool. Reserves only stay\n     * reachable by this path if nobody could seed them.\n     *\n     * Mirrors GrooveHook.rescuePoolFees, which covers the same asset class\n     * for the post-graduation pool.\n     */\n    function rescueSweptGraduation(address token, address recipient) external onlyOwner nonReentrant {\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();"
+          },
+          {
+            "line": 1248,
+            "excerpt": "     * makes that bound meaningful is that seeding stays permissionless\n     * throughout the wait: any holder can end the window early, and\n     * permanently, with one call to createGraduatedPool. Reserves only stay\n     * reachable by this path if nobody could seed them.\n     *\n     * Mirrors GrooveHook.rescuePoolFees, which covers the same asset class\n     * for the post-graduation pool.\n     */\n    function rescueSweptGraduation(address token, address recipient) external onlyOwner nonReentrant {\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        if (launch.phase != GraduationPhase.Swept) revert WrongGraduationPhase();\n        if (recipient == address(0)) revert ZeroAddress();\n"
+          },
+          {
+            "line": 1254,
+            "excerpt": "     * for the post-graduation pool.\n     */\n    function rescueSweptGraduation(address token, address recipient) external onlyOwner nonReentrant {\n        LaunchedToken storage launch = _launchedTokens[token];\n        if (!launch.exists) revert TokenNotFound();\n        if (launch.phase != GraduationPhase.Swept) revert WrongGraduationPhase();\n        if (recipient == address(0)) revert ZeroAddress();\n\n        uint256 availableAt = launch.sweptAt + GRADUATION_RESCUE_DELAY;\n        if (block.timestamp < availableAt) revert GraduationRescueTooEarly(availableAt);\n\n        uint256 quoteAmount = launch.sweptQuote;\n        uint256 tokenAmount = launch.sweptTokens;\n        address pairToken = launch.pairToken;"
+          },
+          {
+            "line": 1260,
+            "excerpt": "        if (recipient == address(0)) revert ZeroAddress();\n\n        uint256 availableAt = launch.sweptAt + GRADUATION_RESCUE_DELAY;\n        if (block.timestamp < availableAt) revert GraduationRescueTooEarly(availableAt);\n\n        uint256 quoteAmount = launch.sweptQuote;\n        uint256 tokenAmount = launch.sweptTokens;\n        address pairToken = launch.pairToken;\n\n        launch.sweptQuote = 0;\n        launch.sweptTokens = 0;\n        launch.sweptAt = 0;\n        launch.phase = GraduationPhase.Rescued;\n"
+          },
+          {
+            "line": 1290,
+            "excerpt": "     * @dev Uses only the token amount that preserves the terminal curve price\n     * against the physically held graduation quote asset. The virtual-reserve\n     * remainder is permanently locked in the launch locker and never enters\n     * circulation.\n     */\n    function _lockExcessGraduationTokens(\n        address token,\n        LaunchedToken storage launch,\n        uint256 sweptQuote,\n        uint256 totalTokenAmount\n    ) private returns (uint256 poolTokenAmount) {\n        poolTokenAmount = _poolTokenAmount(launch, sweptQuote, totalTokenAmount);\n\n        uint256 excess = totalTokenAmount - poolTokenAmount;"
+          },
+          {
+            "line": 1476,
+            "excerpt": "        if (config.phantomQuote == 0) revert InvalidPhantomQuote();\n        if (config.graduationThreshold == 0) revert InvalidGraduationThreshold();\n        if (config.tickSpacing <= 0 || config.tickSpacing > MAX_TICK_SPACING) revert InvalidTickSpacing();\n        if (config.poolFee != 0) revert CoreLpFeeMustBeZero();\n        _requireQuotable(config.phantomQuote, config.supply, config.curveFeeBps);\n    }\n\n    /**\n     * @notice Reverts unless a small reference buy against a fresh curve with\n     * these terms would return a non-zero amount of tokens.\n     * @dev A phantom reserve set far too large against the supply prices every\n     * realistic trade to zero, and the curve reverts on all of them. That\n     * launch is dead on arrival but still deployable, and its creator has\n     * already paid the launch fee, so the terms are rejected before any"
+          }
+        ]
+      },
+      {
+        "file": "src/GrooveLaunchLocker.sol",
+        "hits": [
+          {
+            "line": 94,
+            "excerpt": "     * @notice Registers and verifies permanent custody of a graduated position.\n     * @dev Called once per launch by the factory, immediately after minting\n     * the full-range position directly to this locker's address.\n     */\n    function lockPosition(address token, uint256 tokenId) external onlyFactory {\n        if (_locked[token]) revert PositionAlreadyLocked();\n        if (IERC721(positionManager).ownerOf(tokenId) != address(this)) revert PositionNotHeld();\n\n        _locked[token] = true;\n        lockedPositions[token] = tokenId;\n        emit PositionLocked(token, tokenId);\n    }\n\n    /**"
+          },
+          {
+            "line": 96,
+            "excerpt": "     * the full-range position directly to this locker's address.\n     */\n    function lockPosition(address token, uint256 tokenId) external onlyFactory {\n        if (_locked[token]) revert PositionAlreadyLocked();\n        if (IERC721(positionManager).ownerOf(tokenId) != address(this)) revert PositionNotHeld();\n\n        _locked[token] = true;\n        lockedPositions[token] = tokenId;\n        emit PositionLocked(token, tokenId);\n    }\n\n    /**\n     * @notice Permanently locks the virtual-reserve token remainder that\n     * cannot enter the graduated pool without lowering its opening price."
+          },
+          {
+            "line": 109,
+            "excerpt": "     * cannot enter the graduated pool without lowering its opening price.\n     */\n    function lockTokenSupply(address token, uint256 amount) external onlyFactory {\n        if (token == address(0)) revert ZeroAddress();\n        if (amount == 0) return;\n        IERC20(token).safeTransferFrom(msg.sender, address(this), amount);\n        lockedTokenSupply[token] += amount;\n        emit TokenSupplyLocked(token, amount);\n    }\n\n    /**\n     * @notice Returns whether a launch's position has been locked here.\n     */\n    function isLocked(address token) external view returns (bool) {"
+          }
+        ]
+      },
+      {
+        "file": "src/GrooveGraduationExecutor.sol",
+        "hits": [
+          {
+            "line": 22,
+            "excerpt": " * @notice Performs the two heaviest steps of Groove graduation on\n * GrooveLaunchFactory's behalf: swapping swept ETH for a non-native\n * pairToken, and minting the full-range Uniswap V4 position. Split out into\n * its own contract purely so GrooveLaunchFactory's own bytecode stays under\n * EIP-170's 24576-byte deployed-code limit: the swap-router branching,\n * Permit2 approval dance, PositionManager action encoding, and post-mint\n * dust sweep account for a large share of that size on their own. The\n * factory transfers exactly the assets a mint needs here immediately before\n * calling in, so this contract never holds a balance between transactions.\n */\ncontract GrooveGraduationExecutor {\n    using SafeERC20 for IERC20;\n\n    uint256 private constant MINT_DEADLINE_WINDOW = 300;"
+          },
+          {
+            "line": 33,
+            "excerpt": "    using SafeERC20 for IERC20;\n\n    uint256 private constant MINT_DEADLINE_WINDOW = 300;\n\n    error NotFactory();\n    error ZeroAddress();\n    error FeeTransferFailed();\n    error SlippageExceeded(uint256 actual, uint256 minimum);\n    error MintAmountOverflow();\n\n    event GraduationDustSwept(address indexed launchToken, address indexed currency, uint256 amount);\n    event GraduationDustRetained(address indexed launchToken, address indexed currency, uint256 amount);\n\n    IPositionManager public immutable positionManager;"
+          },
+          {
+            "line": 71,
+            "excerpt": "\n    /**\n     * @notice Mints a full-range position directly to the locker from\n     * balances the factory just transferred here, then forwards any\n     * post-mint rounding dust on either leg to `protocolFeeRecipient`.\n     * @dev Full-range liquidity is derived here from the pool's starting\n     * price and the target amounts, rather than by the factory, because the\n     * tick and liquidity math inlines a large amount of code that the\n     * factory has no room for. The exact amounts SETTLE_PAIR ends up pulling\n     * almost always round down slightly against those targets, so the\n     * post-mint sweep prevents dust piling up here.\n     */\n    function mintFullRangePosition(\n        address launchToken,"
+          },
+          {
+            "line": 132,
+            "excerpt": "\n        positionManager.modifyLiquidities{value: msg.value}(\n            abi.encode(actions, params), block.timestamp + MINT_DEADLINE_WINDOW\n        );\n\n        _sweepResidualBalance(launchToken, currency0, protocolFeeRecipient);\n        _sweepResidualBalance(launchToken, currency1, protocolFeeRecipient);\n    }\n\n    /**\n     * @dev Grants Permit2 a standard ERC-20 approval, then records a\n     * matching Permit2 allowance for the PositionManager, the two-step\n     * approval Permit2-based transfers always require from the token owner.\n     */"
+          },
+          {
+            "line": 149,
+            "excerpt": "        // forge-lint: disable-next-line(unsafe-typecast)\n        permit2.approve(\n            token, address(positionManager), uint160(amount), uint48(block.timestamp + MINT_DEADLINE_WINDOW)\n        );\n    }\n\n    /**\n     * @dev Sends any leftover balance of `currency` held by this contract to\n     * the protocol treasury, or to the locker when the currency is the launch\n     * token itself. Covers both native dust returned by the position\n     * manager's own SWEEP action and ERC-20 dust that was simply never pulled\n     * out via Permit2 in the first place.\n     *\n     * Routing the launch-token leg to the locker keeps the guarantee that"
+          }
+        ]
+      },
+      {
+        "file": "src/GrooveGraduationGuard.sol",
+        "hits": [
+          {
+            "line": 20,
+            "excerpt": " * PositionManager's ABI field widths alone. Phase one is irreversible: it\n * marks the curve graduated and moves its reserves to the factory, so a seed\n * that passes here and reverts in V4 leaves the launch permanently unseedable\n * and recoverable only through the owner's delayed rescue path.\n */\ncontract GrooveGraduationGuard {\n    int24 private constant MIN_USABLE_TICK = -887272;\n    int24 private constant MAX_USABLE_TICK = 887272;\n\n    /**\n     * @dev V4 carries pool balance changes in a `BalanceDelta` whose halves are\n     * `int128`, and `Pool.modifyLiquidity` narrows each side with\n     * `SafeCast.toInt128`. The PositionManager's `MINT_POSITION` ABI accepts\n     * `uint128`, so an amount in between passes every field-width check and"
+          },
+          {
+            "line": 40,
+            "excerpt": "\n    /**\n     * @notice Verifies a launch can initialize and mint a nonzero, full-range\n     * V4 position without lossy amount narrowing.\n     * @param token Launch token being seeded.\n     * @param pairToken Quote asset of the pool; the zero address for native ETH.\n     * @param tickSpacing Pool tick spacing the position spans.\n     * @param quoteAmount Quote-asset side of the seed.\n     * @param tokenAmount Launch-token side of the seed.\n     */\n    function assertSeedable(\n        address token,\n        address pairToken,\n        int24 tickSpacing,"
+          },
+          {
+            "line": 116,
+            "excerpt": "\n    /**\n     * @dev Derives V4's usable full-range ticks for the configured spacing.\n     */\n    function _fullRangeTicks(int24 tickSpacing) private pure returns (int24 tickLower, int24 tickUpper) {\n        // Truncation toward zero is required to derive V4's usable boundary ticks.\n        // forge-lint: disable-next-line(divide-before-multiply)\n        tickLower = (MIN_USABLE_TICK / tickSpacing) * tickSpacing;\n        // forge-lint: disable-next-line(divide-before-multiply)\n        tickUpper = (MAX_USABLE_TICK / tickSpacing) * tickSpacing;\n    }\n}\n"
+          }
+        ]
+      },
+      {
+        "file": "src/GrooveGraduationMath.sol",
+        "hits": [
+          {
+            "line": 10,
+            "excerpt": " * @title GrooveGraduationMath\n * @notice Derives the sqrtPriceX96 needed to seed a brand-new Uniswap V4 pool\n * with a single full-range position from two known token amounts. In the\n * full-range limit (tickLower/tickUpper at the usable min/max ticks), a\n * position's amount0 and amount1 approach `liquidity / sqrtPrice` and\n * `liquidity * sqrtPrice`, so `amount1 / amount0` converges to the pool\n * price. This is exact enough for seeding a graduation pool, since both\n * amounts here are the bonding curve's real, non-extreme final reserves.\n */\nlibrary GrooveGraduationMath {\n    error ZeroAmount();\n    error UnsupportedPrice();\n\n    /**"
+          },
+          {
+            "line": 11,
+            "excerpt": " * @notice Derives the sqrtPriceX96 needed to seed a brand-new Uniswap V4 pool\n * with a single full-range position from two known token amounts. In the\n * full-range limit (tickLower/tickUpper at the usable min/max ticks), a\n * position's amount0 and amount1 approach `liquidity / sqrtPrice` and\n * `liquidity * sqrtPrice`, so `amount1 / amount0` converges to the pool\n * price. This is exact enough for seeding a graduation pool, since both\n * amounts here are the bonding curve's real, non-extreme final reserves.\n */\nlibrary GrooveGraduationMath {\n    error ZeroAmount();\n    error UnsupportedPrice();\n\n    /**\n     * @notice Computes sqrtPriceX96 = sqrt(amount1 / amount0) * 2^96."
+          }
+        ]
+      },
+      {
+        "file": "src/GrooveBondingCurveMath.sol",
+        "hits": []
+      },
+      {
+        "file": "src/IGrooveLaunchpad.sol",
+        "hits": [
+          {
+            "line": 88,
+            "excerpt": " *   the remaining token supply pulled into the factory); still needs a V4\n *   pool.\n * - PoolCreated: the V4 pool exists, its full-range position is locked, and\n *   the meme hook is registered for it.\n * - Rescued: the swept reserves were released manually because the launch's\n *   quote asset stopped being able to deliver an exact transfer, which no\n *   retry of the seed step could ever satisfy. Terminal, like PoolCreated.\n */\nenum GraduationPhase {\n    NotGraduated,\n    Swept,\n    PoolCreated,\n    Rescued\n}"
+          },
+          {
+            "line": 94,
+            "excerpt": " *   retry of the seed step could ever satisfy. Terminal, like PoolCreated.\n */\nenum GraduationPhase {\n    NotGraduated,\n    Swept,\n    PoolCreated,\n    Rescued\n}\n\n/**\n * @notice Record kept by GrooveLaunchFactory for every launch, readable by\n * the locker and by off-chain indexers.\n */\ninterface IGrooveLaunchFactory {"
+          },
+          {
+            "line": 140,
+            "excerpt": "    function pairToken() external view returns (address);\n    function graduationThreshold() external view returns (uint256);\n    function graduated() external view returns (bool);\n    function quoteReserve() external view returns (uint256);\n    function realQuoteReserve() external view returns (uint256);\n    function tokenReserve() external view returns (uint256);\n    function readyToGraduate() external view returns (bool);\n    function sweepFees(uint256 minBuybackTokensOut) external;\n    function graduate(address recipient) external returns (uint256 ethOut, uint256 tokenOut);\n}\n"
+          },
+          {
+            "line": 146,
+            "excerpt": "    function readyToGraduate() external view returns (bool);\n    function sweepFees(uint256 minBuybackTokensOut) external;\n    function graduate(address recipient) external returns (uint256 ethOut, uint256 tokenOut);\n}\n"
+          }
+        ]
+      }
+    ]
+  },
+  "identityChecks": {
+    "mainnetPoolManager": {
+      "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+      "explorerContractName": "PoolManager",
+      "verified": true,
+      "fullyVerified": false,
+      "verifiedAt": "2026-09-08T19:46:59.721750Z",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "file": "src/PoolManager.sol",
+      "constructor": [
+        [
+          "0x9701fb0aDe1E269c8f64Ec0C7b3cfADB31A13A52",
+          {
+            "internalType": "address",
+            "name": "initialOwner",
+            "type": "address"
+          }
+        ]
+      ],
+      "mainnetCodeHash": "0xbd3881180b547f5fe817545743cfb4343e96b1bc6640dcd70c106b0066e95626",
+      "mainnetCodeBytes": 24009,
+      "exactSameRuntimeAsMainnet": true,
+      "getters": {
+        "owner": [
+          "0x9701fb0aDe1E269c8f64Ec0C7b3cfADB31A13A52"
+        ],
+        "protocolFeeController": [
+          "0x0000000000000000000000000000000000000000"
+        ]
+      },
+      "functions": [
+        "allowance",
+        "approve",
+        "balanceOf",
+        "burn",
+        "clear",
+        "collectProtocolFees",
+        "donate",
+        "extsload",
+        "extsload",
+        "extsload",
+        "exttload",
+        "exttload",
+        "initialize",
+        "isOperator",
+        "mint",
+        "modifyLiquidity",
+        "owner",
+        "protocolFeeController",
+        "protocolFeesAccrued",
+        "setOperator",
+        "setProtocolFee",
+        "setProtocolFeeController",
+        "settle",
+        "settleFor",
+        "supportsInterface",
+        "swap",
+        "sync",
+        "take",
+        "transfer",
+        "transferFrom",
+        "transferOwnership",
+        "unlock",
+        "updateDynamicLPFee"
+      ]
+    },
+    "mainnetPositionManager": {
+      "address": "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+      "mainnetCodeHash": "0xc873e135dc9aaec88489cfbad146b4cb49d6a32e0d80326377784b7ba17670b2",
+      "mainnetCodeBytes": 23877,
+      "exactSameRuntimeAsMainnet": false,
+      "getters": {}
+    },
+    "mainnetUniversalRouter": {
+      "address": "0x8876789976decbfcbbbe364623c63652db8c0904",
+      "mainnetCodeHash": "0x2ce6aaaf9f4151f5e1cbf774668772f17f532ae11b15e9284fd0a072a8b0fbde",
+      "mainnetCodeBytes": 24546,
+      "exactSameRuntimeAsMainnet": false,
+      "getters": {}
+    },
+    "mainnetStateView": {
+      "address": "0xF3334192D15450CdD385c8B70e03f9A6bD9E673b",
+      "mainnetCodeHash": "0x7d9c591e0956fd89d98feb4ffcfe8bf1f7a62bd485edd979fa21d104b49878a6",
+      "mainnetCodeBytes": 3531,
+      "exactSameRuntimeAsMainnet": true,
+      "getters": {}
+    },
+    "mainnetQuoter": {
+      "address": "0x8Dc178eFB8111BB0973Dd9d722ebeFF267c98F94",
+      "explorerContractName": "V4Quoter",
+      "verified": false,
+      "fullyVerified": false,
+      "verifiedAt": "2026-09-05T15:28:42.746474Z",
+      "compiler": "v0.8.26+commit.8a97fa7a",
+      "file": "src/lens/V4Quoter.sol",
+      "constructor": null,
+      "mainnetCodeHash": "0xd707b1da8cb165e5ea35a3b4450d971eb562ec171e23492aa117036b78a868f6",
+      "mainnetCodeBytes": 6118,
+      "exactSameRuntimeAsMainnet": true,
+      "getters": {
+        "poolManager": [
+          "0x8366a39CC670B4001A1121B8F6A443A643e40951"
+        ]
+      },
+      "functions": [
+        "_quoteExactInput",
+        "_quoteExactInputSingle",
+        "_quoteExactOutput",
+        "_quoteExactOutputSingle",
+        "msgSender",
+        "poolManager",
+        "quoteExactInput",
+        "quoteExactInputSingle",
+        "quoteExactOutput",
+        "quoteExactOutputSingle",
+        "unlockCallback"
+      ]
+    },
+    "Permit2": {
+      "address": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+      "explorerContractName": "Permit2",
+      "verified": true,
+      "fullyVerified": false,
+      "verifiedAt": "2026-02-09T19:39:29.726301Z",
+      "compiler": "v0.8.17+commit.8df45f5f",
+      "file": "src/Permit2.sol",
+      "constructor": null,
+      "mainnetCodeHash": "0x5208783f52488f7d3493e5e38311ab707c1d75457fe472a19b0b4d57d66a7fca",
+      "mainnetCodeBytes": 9152,
+      "exactSameRuntimeAsMainnet": false,
+      "getters": {},
+      "functions": [
+        "DOMAIN_SEPARATOR",
+        "allowance",
+        "approve",
+        "invalidateNonces",
+        "invalidateUnorderedNonces",
+        "lockdown",
+        "nonceBitmap",
+        "permit",
+        "permit",
+        "permitTransferFrom",
+        "permitTransferFrom",
+        "permitWitnessTransferFrom",
+        "permitWitnessTransferFrom",
+        "transferFrom",
+        "transferFrom"
+      ]
+    }
+  },
+  "stockImplementation": {
+    "address": "0xBd14156E05c6AF28ad39aA53a2AB8eB9CDf657DA",
+    "name": "Stock",
+    "file": "src/Stock.sol",
+    "verified": true,
+    "verifiedAt": "2026-03-13T19:48:53.275395Z",
+    "functions": [
+      {
+        "name": "ACCESS_CONTROLLED_REGISTRY",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "DOMAIN_SEPARATOR",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "adminBurn",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "allowance",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "approve",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "balanceOf",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "balanceOfUI",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "burn",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "decimals",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint8",
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "effectiveAt",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "eip712Domain",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "bytes1",
+            "name": "fields",
+            "type": "bytes1"
+          },
+          {
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "version",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "chainId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "verifyingContract",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "salt",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "extensions",
+            "type": "uint256[]"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "initialize",
+        "inputs": [
+          {
+            "internalType": "bytes32",
+            "name": "uid_",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "string",
+            "name": "name_",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "symbol_",
+            "type": "string"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "mint",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "name",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "newUIMultiplier",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "nonces",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "pause",
+        "inputs": [],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "paused",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "permit",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "spender",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "deadline",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint8",
+            "name": "v",
+            "type": "uint8"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "r",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "s",
+            "type": "bytes32"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "setMetadata",
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "_symbol",
+            "type": "string"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "supportsInterface",
+        "inputs": [
+          {
+            "internalType": "bytes4",
+            "name": "interfaceId",
+            "type": "bytes4"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "symbol",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "tokenPaused",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "totalSupply",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "totalSupplyUI",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "transfer",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "transferFrom",
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "uiMultiplier",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "uid",
+        "inputs": [],
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "view"
+      },
+      {
+        "name": "unpause",
+        "inputs": [],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "updateMultiplier",
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "newMultiplier",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      },
+      {
+        "name": "updateMultiplier",
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "newMultiplier",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "effectiveAt_",
+            "type": "uint256"
+          }
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+      }
+    ],
+    "sourceNames": [
+      "src/Stock.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/ERC20Upgradeable.sol",
+      "src/interfaces/IScaledUIAmount.sol",
+      "src/interfaces/IScaledUIAmountBalances.sol",
+      "src/interfaces/IScaledUIAmountNewUIMultiplier.sol",
+      "src/interfaces/IStock.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/interfaces/IERC5267.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/extensions/ERC20PermitUpgradeable.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/utils/NoncesUpgradeable.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/utils/cryptography/EIP712Upgradeable.sol",
+      "lib/openzeppelin-contracts-upgradeable/contracts/utils/introspection/ERC165Upgradeable.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/access/IAccessControl.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/interfaces/draft-IERC6093.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/proxy/utils/Initializable.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Bytes.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Panic.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/Strings.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/cryptography/ECDSA.sol",
+      "src/Roles.sol",
+      "src/interfaces/IAccessControlsRegistry.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/cryptography/MessageHashUtils.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/math/Math.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/math/SafeCast.sol",
+      "lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/utils/math/SignedMath.sol",
+      "src/AccessControlled.sol",
+      "src/ERC20ScaledUIUpgradeable.sol"
+    ],
+    "sourceReview": [
+      {
+        "file": "src/Stock.sol",
+        "lines": [
+          "import \"./Roles.sol\";",
+          "    error IsPaused();",
+          "        bool paused;",
+          "    modifier onlyNotPaused() {",
+          "        if (paused()) {",
+          "            revert IsPaused();",
+          "    function initialize(bytes32 uid_, string calldata name_, string calldata symbol_) external override initializer {",
+          "    function _getStockStorage() private pure returns (StockStorage storage $) {",
+          "    function _getERC20StorageFromBase() internal pure returns (ERC20Storage storage $) {",
+          "    function transfer(address to, uint256 value)",
+          "        onlyNotPaused",
+          "        return super.transfer(to, value);",
+          "    function transferFrom(address from, address to, uint256 value)",
+          "        onlyNotPaused",
+          "        return super.transferFrom(from, to, value);",
+          "    function approve(address spender, uint256 value)",
+          "        onlyNotPaused",
+          "    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s)",
+          "        onlyNotPaused",
+          "    function mint(address to, uint256 amount)",
+          "        onlyRole(MINTER_ROLE)",
+          "        onlyNotPaused",
+          "        _mint(to, amount);",
+          "    function burn(address from, uint256 amount)",
+          "        onlyRole(BURNER_ROLE)",
+          "        onlyNotPaused",
+          "        _burn(from, amount);",
+          "    function adminBurn(address from, uint256 amount) public override onlyRole(ADMIN_BURNER_ROLE) {",
+          "        _burn(from, amount);",
+          "    function uid() public view returns (bytes32) {",
+          "    function paused() public view returns (bool) {",
+          "        return $.paused || IAccessControlsRegistry(ACCESS_CONTROLLED_REGISTRY).paused();",
+          "    function tokenPaused() public view returns (bool) {",
+          "        return $.paused;",
+          "    function pause() public onlyRole(TOKEN_PAUSER_ROLE) {",
+          "        $.paused = true;",
+          "        emit Paused();",
+          "    function unpause() public onlyRole(TOKEN_PAUSER_ROLE) {",
+          "        $.paused = false;",
+          "        emit Unpaused();",
+          "    function updateMultiplier(uint256 newMultiplier) public onlyNotPaused onlyRole(MULTIPLIER_UPDATER_ROLE) {",
+          "        _updateUIMultiplier(newMultiplier);",
+          "    function updateMultiplier(uint256 newMultiplier, uint256 effectiveAt_)",
+          "        onlyNotPaused",
+          "        onlyRole(MULTIPLIER_UPDATER_ROLE)",
+          "        _updateUIMultiplier(newMultiplier, effectiveAt_);",
+          "    function setMetadata(string calldata _name, string calldata _symbol) public onlyRole(METADATA_UPDATER_ROLE) {",
+          "    function _EIP712Name() internal view virtual override returns (string memory) {",
+          "    function _EIP712Version() internal view virtual override returns (string memory) {"
+        ]
+      },
+      {
+        "file": "src/interfaces/IScaledUIAmount.sol",
+        "lines": [
+          "    event TransferWithScaledUI(address indexed from, address indexed to, uint256 value, uint256 uiValue);",
+          "    function uiMultiplier() external view returns (uint256);"
+        ]
+      },
+      {
+        "file": "src/interfaces/IScaledUIAmountBalances.sol",
+        "lines": [
+          "    function balanceOfUI(address account) external view returns (uint256);",
+          "    function totalSupplyUI() external view returns (uint256);"
+        ]
+      },
+      {
+        "file": "src/interfaces/IScaledUIAmountNewUIMultiplier.sol",
+        "lines": [
+          "    function newUIMultiplier() external view returns (uint256);",
+          "    function effectiveAt() external view returns (uint256);"
+        ]
+      },
+      {
+        "file": "src/interfaces/IStock.sol",
+        "lines": [
+          "    event Paused();",
+          "    event Unpaused();",
+          "    function initialize(bytes32 uid_, string calldata name_, string calldata symbol_) external;",
+          "    function mint(address to, uint256 amount) external;",
+          "    function burn(address from, uint256 amount) external;",
+          "    function adminBurn(address from, uint256 amount) external;",
+          "    function uid() external view returns (bytes32);"
+        ]
+      },
+      {
+        "file": "src/Roles.sol",
+        "lines": [
+          "bytes32 constant DEFAULT_ADMIN_ROLE = bytes32(0);",
+          "bytes32 constant MINTER_ROLE = keccak256(\"MINTER_ROLE\");",
+          "bytes32 constant BURNER_ROLE = keccak256(\"BURNER_ROLE\");",
+          "bytes32 constant PAUSER_ROLE = keccak256(\"PAUSER_ROLE\");",
+          "bytes32 constant TOKEN_DEPLOYER_ROLE = keccak256(\"TOKEN_DEPLOYER_ROLE\");",
+          "bytes32 constant BEACON_UPGRADER_ROLE = keccak256(\"BEACON_UPGRADER_ROLE\");",
+          "bytes32 constant FACTORY_UPGRADER_ROLE = keccak256(\"FACTORY_UPGRADER_ROLE\");",
+          "bytes32 constant MULTIPLIER_UPDATER_ROLE = keccak256(\"MULTIPLIER_UPDATER_ROLE\");",
+          "bytes32 constant METADATA_UPDATER_ROLE = keccak256(\"METADATA_UPDATER_ROLE\");",
+          "bytes32 constant BLOCKER_ROLE = keccak256(\"BLOCKER_ROLE\");",
+          "bytes32 constant ADMIN_BURNER_ROLE = keccak256(\"ADMIN_BURNER_ROLE\");",
+          "bytes32 constant TOKEN_PAUSER_ROLE = keccak256(\"TOKEN_PAUSER_ROLE\");"
+        ]
+      },
+      {
+        "file": "src/interfaces/IAccessControlsRegistry.sol",
+        "lines": [
+          "    event Paused();",
+          "    event Unpaused();",
+          "    function isBlocked(address account) external view returns (bool);",
+          "    function blockAccounts(address[] calldata accounts) external;",
+          "    function unblockAccounts(address[] calldata accounts) external;",
+          "    function pause() external;",
+          "    function unpause() external;",
+          "    function paused() external view returns (bool);"
+        ]
+      },
+      {
+        "file": "src/AccessControlled.sol",
+        "lines": [
+          "    error AccessControlUnauthorizedAccount(address account, bytes32 neededRole);",
+          "    function _checkRole(bytes32 role, address account) internal view virtual {",
+          "        if (!IAccessControlsRegistry(ACCESS_CONTROLLED_REGISTRY).hasRole(role, account)) {",
+          "            revert AccessControlUnauthorizedAccount(account, role);",
+          "    function _checkRole(bytes32 role) internal view virtual {",
+          "        _checkRole(role, _msgSender());",
+          "    modifier onlyRole(bytes32 role) {",
+          "        _checkRole(role);",
+          "    modifier onlyNotBlocked(address account) {"
+        ]
+      },
+      {
+        "file": "src/ERC20ScaledUIUpgradeable.sol",
+        "lines": [
+          "    function _getERC20ScaledUIStorage() private pure returns (ERC20ScaledUIStorage storage $) {",
+          "    function _updateUIMultiplier(uint256 newMultiplier) internal virtual {",
+          "        _updateUIMultiplier(newMultiplier, block.timestamp);",
+          "    function _updateUIMultiplier(uint256 newMultiplier, uint256 effectiveAt_) internal virtual {",
+          "    function uiMultiplier() public view virtual returns (uint256) {",
+          "    function newUIMultiplier() public view virtual returns (uint256) {",
+          "    function effectiveAt() public view virtual returns (uint256) {",
+          "    function balanceOfUI(address account) public view virtual returns (uint256) {",
+          "    function totalSupplyUI() public view virtual returns (uint256) {",
+          "    function _update(address from, address to, uint256 value) internal virtual override {",
+          "        super._update(from, to, value);",
+          "        emit TransferWithScaledUI(from, to, value, Math.mulDiv(value, uiMultiplier(), DENOMINATOR));",
+          "    function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {"
+        ]
+      }
+    ],
+    "sampleRead": {
+      "ACCESS_CONTROLLED_REGISTRY": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "newUIMultiplier": [
+        "1000000000000000000"
+      ],
+      "paused": [
+        false
+      ],
+      "tokenPaused": [
+        false
+      ],
+      "totalSupply": [
+        "6153100000000000000000000"
+      ],
+      "totalSupplyUI": [
+        "6153100000000000000000000"
+      ],
+      "uiMultiplier": [
+        "1000000000000000000"
+      ]
+    }
+  },
+  "directGetterChecks": {
+    "mainnetPositionManager": {
+      "function poolManager() view returns(address)": [
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951"
+      ],
+      "function permit2() view returns(address)": [
+        "0x000000000022D473030F116dDEE9F6B43aC78BA3"
+      ],
+      "function WETH9() view returns(address)": [
+        "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73"
+      ],
+      "function weth9() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function nextTokenId() view returns(uint256)": [
+        "4849"
+      ]
+    },
+    "mainnetStateView": {
+      "function poolManager() view returns(address)": [
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951"
+      ],
+      "function permit2() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function WETH9() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function weth9() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function nextTokenId() view returns(uint256)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      }
+    },
+    "mainnetUniversalRouter": {
+      "function poolManager() view returns(address)": [
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951"
+      ],
+      "function permit2() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function WETH9() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function weth9() view returns(address)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "function nextTokenId() view returns(uint256)": {
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      }
+    }
+  },
+  "stockTransferChecks": {
+    "TSLA": {
+      "paused": [
+        false
+      ],
+      "registry": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "multiplier": [
+        "1000000000000000000"
+      ]
+    },
+    "AMZN": {
+      "paused": [
+        false
+      ],
+      "registry": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "multiplier": [
+        "1000000000000000000"
+      ]
+    },
+    "AMD": {
+      "paused": [
+        false
+      ],
+      "registry": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "multiplier": [
+        "1000000000000000000"
+      ]
+    },
+    "PLTR": {
+      "paused": [
+        false
+      ],
+      "registry": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "multiplier": [
+        "1000000000000000000"
+      ]
+    },
+    "NFLX": {
+      "paused": [
+        false
+      ],
+      "registry": [
+        "0x1dF3cA0fD30ED5eeb09eB01938f4E9c5196E6Ca5"
+      ],
+      "multiplier": [
+        "1000000000000000000"
+      ]
+    }
+  },
+  "existingPositionEvidence": [
+    {
+      "tokenId": 4848,
+      "owner": [
+        "0xA22BD17813Fc40a4698668c695e60203f055cCA2"
+      ],
+      "poolKey": [
+        "0x000000E08bC9a3Eb9dabE6D8fF855dd48CC4F34f",
+        "0x0BAc2FE52eae05EEe469f12F9545A30C381aF60f",
+        "8388608",
+        "60",
+        "0xA8Ff5dCaa96641CFFedd17310DA62499C894F044"
+      ],
+      "positionInfo": "43352634337905463771885483148716633101268958468036685706565472089779085921280",
+      "poolId": "0x5fd8b8b358bbdc471854041cb46080c60d92397a4cf03bd17dd44ee828572824",
+      "slot0": [
+        "37186754758444728559745908067878",
+        "123033",
+        "0",
+        "0"
+      ],
+      "liquidity": [
+        "1983866107107429902229270"
+      ]
+    },
+    {
+      "tokenId": 4847,
+      "owner": [
+        "0xA8Ff5dCaa96641CFFedd17310DA62499C894F044"
+      ],
+      "poolKey": [
+        "0x000000E08bC9a3Eb9dabE6D8fF855dd48CC4F34f",
+        "0x0BAc2FE52eae05EEe469f12F9545A30C381aF60f",
+        "8388608",
+        "60",
+        "0xA8Ff5dCaa96641CFFedd17310DA62499C894F044"
+      ],
+      "positionInfo": "43352634337905463771885483148716633101268958468036685706565472193111957612544",
+      "poolId": "0x5fd8b8b358bbdc471854041cb46080c60d92397a4cf03bd17dd44ee828572824",
+      "slot0": [
+        "37186754758444728559745908067878",
+        "123033",
+        "0",
+        "0"
+      ],
+      "liquidity": [
+        "1983866107107429902229270"
+      ]
+    },
+    {
+      "tokenId": 1,
+      "owner": [
+        "0x17486A01bb8c3Ac90d94AeD9A16e8fE33b28F300"
+      ],
+      "poolKey": [
+        "0x0000000000000000000000000000000000000000",
+        "0x17486A01bb8c3Ac90d94AeD9A16e8fE33b28F300",
+        "3000",
+        "60",
+        "0x0000000000000000000000000000000000000000"
+      ],
+      "positionInfo": "83163946872803721110712450316081631717777983098577057870320082649597045263360",
+      "poolId": "0xb7dd20388f79fb8c3800da596dff299f11f6ae3afa3b33ddea71438fd5915cbd",
+      "slot0": [
+        "792281625142643375935439503360000",
+        "184216",
+        "0",
+        "3000"
+      ],
+      "liquidity": [
+        "100000000000000000000"
+      ]
+    }
+  ],
+  "positionManagerWrappedEther": {
+    "address": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+    "codeBytes": 0,
+    "codeHash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+    "symbol": {
+      "error": "could not decode result data (value=\"0x\", info={ \"method\": \"symbol\", \"signature\": \"symbol()\" }, code=BAD_DATA, version=6.17.0)"
+    }
+  },
+  "stockReadOnlySimulations": {
+    "caller": "0x1111111111111111111111111111111111111111",
+    "recipient": "0x2222222222222222222222222222222222222222",
+    "note": "eth_call only; zero-value transfer and approval simulation; no transaction sent; not proof nonzero balance transfer works",
+    "TSLA": {
+      "approve": [
+        true
+      ],
+      "zeroTransfer": [
+        true
+      ],
+      "zeroTransferFrom": [
+        true
+      ]
+    },
+    "AMZN": {
+      "approve": [
+        true
+      ],
+      "zeroTransfer": [
+        true
+      ],
+      "zeroTransferFrom": [
+        true
+      ]
+    },
+    "AMD": {
+      "approve": [
+        true
+      ],
+      "zeroTransfer": [
+        true
+      ],
+      "zeroTransferFrom": [
+        true
+      ]
+    },
+    "PLTR": {
+      "approve": [
+        true
+      ],
+      "zeroTransfer": [
+        true
+      ],
+      "zeroTransferFrom": [
+        true
+      ]
+    },
+    "NFLX": {
+      "approve": [
+        true
+      ],
+      "zeroTransfer": [
+        true
+      ],
+      "zeroTransferFrom": [
+        true
+      ]
+    }
+  },
+  "positionManagerNormalizedComparison": {
+    "mainnetSourcifyRuntimeMatch": "match",
+    "compiler": "0.8.26+commit.8a97fa7a",
+    "mainnetLength": 23877,
+    "testnetLength": 23877,
+    "differingByteCount": 34,
+    "differencesOutsideCompilerImmutableReferences": [],
+    "immutableRanges": 40,
+    "identicalAfterMaskingCompilerImmutableReferences": true,
+    "normalizedHash": "0xcfd46cf5610444f7dcc8760cb6281fae59ce9c8d434bb6e816c7e2d410bd88c9"
+  }
+}

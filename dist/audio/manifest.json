@@ -1,0 +1,71 @@
+{
+  "rights": "All compositions and recordings generated originally for SONIRA. No external samples or third-party recordings. Reuse within this project and its demos is permitted.",
+  "generator": "scripts/generate-audio.mjs",
+  "tracks": [
+    {
+      "filename": "chrome-bloom.wav",
+      "format": "PCM WAV",
+      "sampleRate": 44100,
+      "bitsPerSample": 16,
+      "channels": 2,
+      "durationSeconds": 8,
+      "bytes": 1411244,
+      "peakDbFS": -1.51,
+      "rmsDbFS": -16.56,
+      "description": "120 BPM melodic electronic groove in C minor; rounded arpeggio, bass and soft percussion.",
+      "source": "Original deterministic synthesis; no external audio samples"
+    },
+    {
+      "filename": "softer-signal.wav",
+      "format": "PCM WAV",
+      "sampleRate": 44100,
+      "bitsPerSample": 16,
+      "channels": 2,
+      "durationSeconds": 8,
+      "bytes": 1411244,
+      "peakDbFS": -1.51,
+      "rmsDbFS": -12.97,
+      "description": "Ambient original: airy D-major-seventh and B-minor textures with sparse stereo bell notes.",
+      "source": "Original deterministic synthesis; no external audio samples"
+    },
+    {
+      "filename": "heat-in-motion.wav",
+      "format": "PCM WAV",
+      "sampleRate": 44100,
+      "bitsPerSample": 16,
+      "channels": 2,
+      "durationSeconds": 8,
+      "bytes": 1411244,
+      "peakDbFS": -1.51,
+      "rmsDbFS": -16.57,
+      "description": "Warm syncopated electronic groove: original minor-seventh stabs, rounded bass and light electro drums.",
+      "source": "Original deterministic synthesis; no external audio samples"
+    },
+    {
+      "filename": "blue-hour.wav",
+      "format": "PCM WAV",
+      "sampleRate": 44100,
+      "bitsPerSample": 16,
+      "channels": 2,
+      "durationSeconds": 8,
+      "bytes": 1411244,
+      "peakDbFS": -1.51,
+      "rmsDbFS": -14.2,
+      "description": "Experimental original: stereo FM bells, a slow E-minor drone and an asymmetric pulse.",
+      "source": "Original deterministic synthesis; no external audio samples"
+    },
+    {
+      "filename": "launch-sample.wav",
+      "format": "PCM WAV",
+      "sampleRate": 8000,
+      "bitsPerSample": 8,
+      "channels": 1,
+      "durationSeconds": 0.95,
+      "bytes": 7644,
+      "peakDbFS": -5.16,
+      "rmsDbFS": -16.53,
+      "description": "Original short three-note launch chime in canonical 8 kHz, 8-bit mono PCM WAV.",
+      "source": "Original deterministic synthesis; no external audio samples"
+    }
+  ]
+}

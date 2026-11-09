@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-17T11:54:11.441Z",
+  "rpc": "https://rpc.testnet.chain.robinhood.com",
+  "chainId": 46630,
+  "block": "0x732e1c1",
+  "token": "0xC9f9c86933092BbbfFF3CCb4b105A4A94bf3Bd4E",
+  "holder": "0x13aF0afcBf609928440d7285263EC872850faFFb",
+  "holderCode": "0x",
+  "balance": "23605018661880961817988",
+  "balanceFormatted": "23605.018661880961817988",
+  "transferSimulation": {
+    "recipient": "0x1111111111111111111111111111111111111111",
+    "amount": "100000000000000000000",
+    "success": true
+  },
+  "source": "https://explorer.testnet.chain.robinhood.com/api/v2/tokens/0xC9f9c86933092BbbfFF3CCb4b105A4A94bf3Bd4E/holders",
+  "scope": "Read-only public RPC. Any impersonation or transfer must occur only in the local fork; no control over this public holder is asserted."
+}

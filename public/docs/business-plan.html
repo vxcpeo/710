@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="SONIRA business plan: a sound-token creation and discovery platform for Robinhood Chain. Testnet implementation, curve and pool economics, commercial assumptions and 90-day operating plan.">
+<title>SONIRA — Business Plan · September 2026</title><link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTAiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNjUwIDEyOCIgcm9sZT0iaW1nIj48dGl0bGU+U29uaXJhIHdvcmRtYXJrIG9uIGEgdHJhbnNwYXJlbnQgYmFja2dyb3VuZDwvdGl0bGU+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAuNDk2IDApIHNjYWxlKDEpIiBmaWxsPSJub25lIiBzdHJva2U9IiMyNjVkZmYiIHN0cm9rZS13aWR0aD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGNpcmNsZSBjeD0iMjAiIGN5PSI2NCIgcj0iOCIgZmlsbD0iI2I4ZWZkNiIgc3Ryb2tlPSJub25lIi8+PHBhdGggZD0iTTM0IDQwQTI0IDI0IDAgMCAxIDM0IDg4Ii8+PHBhdGggZD0iTTM0IDIyQTQyIDQyIDAgMCAxIDM0IDEwNiIgb3BhY2l0eT0iLjYyIi8+PHBhdGggZD0iTTM0IDhBNTYgNTYgMCAwIDEgMzQgMTIwIiBvcGFjaXR5PSIuMzQiLz48L2c+PHRleHQgeD0iMTU3IiB5PSI5MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjcwIiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTQyNDNhIiBsZXR0ZXItc3BhY2luZz0iLTIiPlNPTklSQTwvdGV4dD48L3N2Zz4="><style>
+:root{--ink:#14243a;--muted:#61727d;--paper:#f4f7f5;--accent:#265dff;--mint:#b8efd6;--line:#d7e0dc;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#e8f0ed;color:var(--ink);font:15px/1.65 'Segoe UI',Arial,sans-serif}
+a{color:#265dff;text-decoration:underline;text-underline-offset:3px}a:hover{color:#1646d8}img{max-width:100%}
+.toolbar{position:sticky;top:0;z-index:10;background:var(--ink);color:var(--paper);padding:15px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:12px;letter-spacing:.04em}
+ .toolbar a{color:var(--mint);text-decoration:none}.toolbar nav{display:flex;gap:24px}.document{max-width:1080px;margin:32px auto;background:var(--paper);box-shadow:0 8px 64px #14243a18}
+.cover{position:relative;overflow:hidden;min-height:1100px;padding:68px 70px;display:flex;flex-direction:column;justify-content:space-between;border-bottom:1px solid var(--line)}
+ .cover:after{content:'';position:absolute;width:630px;height:630px;border-radius:0;background:repeating-linear-gradient(90deg,transparent 0,transparent 15px,#265dff26 16px,#265dff26 22px);transform:rotate(-18deg);right:-210px;top:275px;pointer-events:none}
+.cover>*{position:relative;z-index:1}.cover-top{display:flex;justify-content:space-between;align-items:center}.wordmark{width:230px;height:56px;object-fit:contain;object-position:left}.edition{text-align:right;font-size:11px;letter-spacing:.12em;line-height:1.8}
+.eyebrow{font-size:12px;letter-spacing:.19em;text-transform:uppercase;font-weight:650;margin:0 0 28px}.cover h1{font-size:90px;letter-spacing:-.065em;line-height:1.03;font-weight:600;margin:0 0 32px;max-width:650px}.cover h1 em{font-family:Georgia,serif;font-weight:400;letter-spacing:-.07em}
+ .cover .intro{font-size:20px;max-width:580px;line-height:1.55;margin:0}.cover .status{display:inline-flex;background:var(--mint);color:#0e3c32;padding:9px 15px;border-radius:99px;font-size:11px;letter-spacing:.08em;font-weight:650;margin-top:35px;text-transform:uppercase}
+.cover-bottom{border-top:1px solid var(--ink);padding-top:24px}.cover-summary{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}.cover-summary strong{display:block;font-size:27px;letter-spacing:-.04em;line-height:1.2}.cover-summary span{font-size:11px;color:var(--muted)}.cover-note{font-size:10px;color:var(--muted);margin:26px 0 0;max-width:630px}
+ .contents{padding:62px 70px;background:var(--ink);color:var(--paper)}.contents h2{margin:0 0 32px;font-size:35px;letter-spacing:-.04em}.contents-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 42px}.contents-grid a{display:flex;gap:18px;align-items:baseline;color:var(--paper);text-decoration:none;padding:14px 0;border-top:1px solid #ffffff28;font-size:12px;line-height:1.35}.contents-grid span{color:var(--mint);font:11px ui-monospace,Consolas,monospace}.contents-grid strong{font-weight:500}
+ .content{padding:52px 70px 75px}.content h2{font-size:28px;line-height:1.25;letter-spacing:-.035em;margin:48px 0 20px;padding-top:20px;border-top:1px solid var(--line);scroll-margin-top:90px}.content h3{font-size:18px;line-height:1.35;margin:28px 0 12px}.content p{margin:0 0 15px}.content ul,.content ol{padding-left:22px;margin:0 0 20px}.content li{margin:7px 0}.content code{font: .89em ui-monospace,Consolas,monospace;background:#edf2f0;padding:2px 4px;border-radius:3px;overflow-wrap:anywhere}.content strong{font-weight:650}.content em{font-style:italic}
+ .table-scroll{overflow-x:auto;margin:22px 0 28px;border:1px solid var(--line);border-radius:6px}table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.5;table-layout:auto}thead{background:#e5ebff}th{font-size:11px;text-transform:uppercase;letter-spacing:.035em;text-align:left;padding:12px 11px;border-bottom:1px solid var(--line);vertical-align:top}td{padding:12px 11px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:break-word}tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#ffffff70}
+ .content blockquote{margin:20px 0;padding:18px 25px;border-left:4px solid var(--accent);background:#e5ebff}.content blockquote p:last-child{margin:0}.print-only{display:none}.endmark{padding:28px 70px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-size:10px;color:var(--muted);letter-spacing:.06em}
+@media screen and (max-width:760px){body{font-size:14px}.document{margin:0}.toolbar{padding:12px 20px}.toolbar-label{display:none}.toolbar nav{gap:16px}.cover{padding:36px 28px;min-height:920px}.cover h1{font-size:67px}.cover .intro{font-size:18px}.cover-top{gap:15px}.wordmark{width:145px}.edition{font-size:9px}.cover-summary{gap:10px}.cover-summary strong{font-size:23px}.cover-summary span{font-size:10px}.contents,.content{padding:36px 26px}.contents-grid{grid-template-columns:1fr}.content h2{font-size:25px}.table-scroll{border-radius:0}table{min-width:620px}.endmark{padding:22px 26px}}
+@page{size:A4;margin:18mm 16mm 18mm}
+@media print{
+ html{scroll-behavior:auto}body{background:#fff;font-size:10pt;line-height:1.44;color:#14243a;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .toolbar{display:none}.document{max-width:none;margin:0;box-shadow:none;background:white}.cover{height:259mm;min-height:0;padding:10mm 3mm 9mm;background:var(--paper);break-after:page;border:0}.cover:after{width:160mm;height:160mm;right:-51mm;top:71mm}.wordmark{width:58mm;height:15mm}.edition{font-size:7.5pt}.eyebrow{font-size:8pt;margin-bottom:9mm}.cover h1{font-size:62pt;line-height:1.04;margin:0 0 10mm;max-width:160mm}.cover .intro{font-size:13.5pt;max-width:147mm;line-height:1.48}.cover .status{font-size:7pt;padding:2.5mm 4mm;margin-top:9mm}.cover-bottom{padding-top:6mm}.cover-summary strong{font-size:20pt}.cover-summary span{font-size:7.5pt}.cover-note{font-size:7.2pt;margin-top:7mm}
+ .contents{padding:15mm 10mm;min-height:210mm;break-after:page}.contents h2{font-size:30pt;margin-bottom:12mm}.contents-grid{gap:0 8mm}.contents-grid a{font-size:9pt;padding:5mm 0;break-inside:avoid}.contents-grid span{font-size:8pt}
+ .content{padding:0}.content h2{font-size:19pt;line-height:1.22;margin:8mm 0 4mm;padding-top:4mm;break-after:avoid}.content h3{font-size:12pt;break-after:avoid}.content p{margin:0 0 3.6mm;orphans:3;widows:3}.content ul,.content ol{margin:0 0 5mm;padding-left:5mm}.content li{margin:1.8mm 0;orphans:2;widows:2}
+ .content h2:first-of-type{margin-top:7mm}.content code{font-size:.84em;background:#edf2f0;overflow-wrap:anywhere}a{color:#265dff;text-decoration:none;overflow-wrap:anywhere}.table-scroll{overflow:visible;border:0;border-radius:0;margin:4mm 0 5mm;break-inside:auto}table{min-width:0;font-size:8.1pt;line-height:1.33}th{font-size:7.4pt;letter-spacing:0;padding:2.3mm 2mm}td{padding:2.3mm 2mm}thead{display:table-header-group}tr{break-inside:avoid}th,td{border:1px solid #d7e0dc}tbody tr:nth-child(even){background:#f4f7f5}
+ .content h2 + p{break-after:avoid}.table-scroll{break-inside:avoid}
+ .screen-only{display:none!important}.print-only{display:inline}.endmark{padding:6mm 0 0;font-size:7pt;break-inside:avoid}
+}
+</style></head>
+<body><div class="toolbar"><span class="toolbar-label">SONIRA / BUSINESS PLAN / V2.1</span><nav><a href="#contents">Contents</a><a href="business-plan.pdf" download>Download PDF ↗</a><a href="#14-sources-and-evidence-status">Sources</a></nav></div>
+<main class="document"><section class="cover" aria-label="Business plan cover">
+<div class="cover-top"><img class="wordmark" alt="sonira" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTAiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNjUwIDEyOCIgcm9sZT0iaW1nIj48dGl0bGU+U29uaXJhIHdvcmRtYXJrIG9uIGEgdHJhbnNwYXJlbnQgYmFja2dyb3VuZDwvdGl0bGU+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAuNDk2IDApIHNjYWxlKDEpIiBmaWxsPSJub25lIiBzdHJva2U9IiMyNjVkZmYiIHN0cm9rZS13aWR0aD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGNpcmNsZSBjeD0iMjAiIGN5PSI2NCIgcj0iOCIgZmlsbD0iI2I4ZWZkNiIgc3Ryb2tlPSJub25lIi8+PHBhdGggZD0iTTM0IDQwQTI0IDI0IDAgMCAxIDM0IDg4Ii8+PHBhdGggZD0iTTM0IDIyQTQyIDQyIDAgMCAxIDM0IDEwNiIgb3BhY2l0eT0iLjYyIi8+PHBhdGggZD0iTTM0IDhBNTYgNTYgMCAwIDEgMzQgMTIwIiBvcGFjaXR5PSIuMzQiLz48L2c+PHRleHQgeD0iMTU3IiB5PSI5MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjcwIiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMTQyNDNhIiBsZXR0ZXItc3BhY2luZz0iLTIiPlNPTklSQTwvdGV4dD48L3N2Zz4="><div class="edition">BUSINESS PLAN<br>17 SEPTEMBER 2026 · V2.1</div></div>
+<div><p class="eyebrow">A new medium for onchain communities</p><h1>Hear it.<br>Set it<br><em>in motion.</em></h1><p class="intro">A creator-led platform for turning short original sounds into playable onchain community tokens.</p><div class="status">Robinhood Chain · Public testnet deployment pending</div></div>
+<div class="cover-bottom"><div class="cover-summary"><div><strong>1 billion</strong><span>initial token supply per sound</span></div><div><strong>70% / 30%</strong><span>creator / protocol share of the 1% base fee</span></div><div><strong>12 months</strong><span>operating and financial plan</span></div></div><p class="cover-note">An independent project with an attributed MIT-licensed Groove core adaptation. V2 local validation is complete. Commercial forecasts are assumptions. No acquired domain/X account, public SONIRA deployment, audited release, commercial traction or Robinhood affiliation is claimed.</p></div>
+</section><section class="contents" id="contents"><p class="eyebrow">The business, from creation to sustainability</p><h2>Inside the plan.</h2><div class="contents-grid"><a href="#1-executive-thesis"><span>01</span><strong>Executive thesis</strong></a><a href="#2-the-user-problem-and-initial-customer"><span>02</span><strong>The user problem and initial customer</strong></a><a href="#3-market-evidence-and-competition"><span>03</span><strong>Market evidence and competition</strong></a><a href="#4-product-scope-and-honest-parity"><span>04</span><strong>Product, scope and honest parity</strong></a><a href="#5-exact-launch-curve-and-money-flow"><span>05</span><strong>Exact launch curve and money flow</strong></a><a href="#6-closed-loop-business-model"><span>06</span><strong>Closed-loop business model</strong></a><a href="#7-revenue-model-and-unit-economics"><span>07</span><strong>Revenue model and unit economics</strong></a><a href="#8-twelve-month-operating-budget-and-funding"><span>08</span><strong>Twelve-month operating budget and funding</strong></a><a href="#9-financial-scenarios-not-a-demand-forecast"><span>09</span><strong>Financial scenarios, not a demand forecast</strong></a><a href="#10-first-90-days-and-commercial-gates"><span>10</span><strong>First 90 days and commercial gates</strong></a><a href="#11-roadmap-and-practical-defensibility"><span>11</span><strong>Roadmap and practical defensibility</strong></a><a href="#12-governance-safety-and-rights-operations"><span>12</span><strong>Governance, safety and rights operations</strong></a><a href="#13-measurement-accountability-and-stop-rules"><span>13</span><strong>Measurement, accountability and stop rules</strong></a><a href="#14-sources-and-evidence-status"><span>14</span><strong>Sources and evidence status</strong></a></div></section>
+<article class="content"><p class="screen-only" style="font-size:12px;color:var(--muted)">Companion documents: <a href="resources/docs__GO_TO_MARKET.md">90-day launch playbook</a> · <a href="resources/research__market-and-design.md">Market and design research</a></p><p><strong>Prepared 17 September 2026 · Version 2.1 · English-language launch plan</strong></p>
+<p><strong>Brand:</strong> SONIRA, pronounced so-NEE-rah; an original blend of sonar and aura, giving a heard signal room to travel.<br />
+<strong>Selected domain:</strong> <code>sonira.xyz</code><br />
+<strong>Selected X handle:</strong> <code>@sonira</code><br />
+<strong>Positioning:</strong> Turn an original sound into a playable onchain community.</p>
+<p>Live checks on 21 October 2026 found no RDAP registration object for <code>sonira.xyz</code>, X's public profile page returned not found for <code>@sonira</code>, and a registrar search listed the domain at a standard first-year price. These are time-bound observations, not reservations or proof of worldwide historical uniqueness; see <a class="screen-only" href="resources/research__brand-verification.md">brand verification</a><span class="print-only">brand verification</span>. Neither the domain nor the handle has been acquired.</p>
+<p><strong>Release status:</strong> The v2 protocol has completed local contract and fork validation; historical browser evidence is retained and current rebrand/UI validation is recorded separately in docs/VALIDATION.md. Public testnet deployment is pending. This plan describes the validated local implementation and commercial assumptions; public deployment must still be confirmed with its own receipts and configuration checks. No public SONIRA deployment, commercial traction or audit is claimed.</p>
+<h2 id="1-executive-thesis">1. Executive thesis</h2>
+<p>SONIRA aims to become a creation and discovery platform for audio-native communities. A creator publishes a short original sound, listeners play its chain-stored bytes, and eligible participants can interact with a community token under visible market rules. The initial wedge is a recognizable audio signature: a beat, original sound effect, spoken phrase or community jingle.</p>
+<p>The creator and company share a 1% base trading fee through both the initial curve and the graduated Uniswap v4 pool. Creators can select an additional 0–10% creator tax and optionally direct half of their base-fee bucket into buying the same sound token for a five-year linear vest. These controls create clear accounting obligations; they do not promise earnings, price support or demand. No separate SONIRA platform token is required.</p>
+<p>The long-term ambition is a reusable sound identity and distribution network: useful players, creator profiles, community analytics and integration APIs built around a catalog of original or properly licensed sounds. The first business milestone is repeated voluntary use by a narrow creator segment. Only then should SONIRA expand distribution or introduce paid professional tools.</p>
+<p>The supplied product is a <strong>locally validated v2 testnet implementation awaiting public deployment</strong>. It includes a Vue 3 website, EVM wallet flows, English branding/social assets, media preparation and Solidity launch infrastructure for Robinhood Chain. The economic core adapts <strong>MIT-licensed Groove contracts with attribution</strong>; SONIRA's branding, website, media adapter, quote lens and swap router are separate work. Verified upstream source and local testing are not an independent audit of the modified system. No public SONIRA deployment is established by this plan. Deployment is outside this branding and interface release; any local credential remains private and unused.</p>
+<h2 id="2-the-user-problem-and-initial-customer">2. The user problem and initial customer</h2>
+<p>Short sounds already communicate identity in online groups. Yet the clip, attribution, community conversation and financial experiment usually live in separate places. General token launchpads organize discovery around tickers, price changes and pictures. A creator who wants the sound to be the central object must combine audio hosting, a player, wallet interactions and market tools.</p>
+<p>This is a focused problem, not a claim that every musician needs a token.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Segment</th>
+<th>Existing behavior</th>
+<th>Initial job</th>
+<th>Evidence to collect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Independent beat makers and sound designers</td>
+<td>Publish short original loops or sound packs</td>
+<td>Give a recognizable clip a portable community presence</td>
+<td>Unassisted publication, repeat listening, creator return</td>
+</tr>
+<tr>
+<td>Small gaming, streaming and internet communities</td>
+<td>Reuse original jingles, voice clips and sound effects</td>
+<td>Create a shared audio identity with inspectable rules</td>
+<td>Use after launch day, useful sharing, fee comprehension</td>
+</tr>
+<tr>
+<td>Onchain experimenters who create media</td>
+<td>Already use wallets and test new primitives</td>
+<td>Launch a sound-based market with explicit economics</td>
+<td>Sustained activity without volume rewards</td>
+</tr>
+</tbody>
+</table></div>
+<p>The first users are English-speaking adults who understand basic self-custody and can use the relevant network in an eligible jurisdiction. The pilot is not aimed at minors or people seeking investment returns. A sound token does not convey copyright, royalties, company equity or a share of protocol income. Chain provenance records a publication address and content; it does not prove originality or ownership.</p>
+<p>Interview creators about an actual recent sound-sharing experience before pitching the product. Prefer a small community with a recurring use over a large audience attracted only by a launch. Listener value must remain visible without a wallet: play first, inspect the creator and market terms, then decide whether to participate.</p>
+<h2 id="3-market-evidence-and-competition">3. Market evidence and competition</h2>
+<p><a href="https://www.groove.fun/">Groove</a> provides the direct same-chain reference: a sound-token launchpad with virtual-reserve curves, selectable quote assets and v4 graduation. A fresh read-only mainnet snapshot at <strong>block 65379259 on 17 September 2026</strong> identified seven factory launches, five native and two cbBTC, with no graduated markets. All seven had zero creator tax and buyback disabled. Consequently the snapshot verifies configuration and some curve-fee accrual; it does not demonstrate executed nonzero creator tax, buybacks or graduated-pool use. See the <a class="screen-only" href="resources/research__parity__v2-reference-mechanics.md">live reference mechanics</a><span class="print-only">live reference mechanics</span>.</p>
+<p>The same snapshot verified 66 currently approved quote assets: 64 with 18 decimals, USDG with 6 and cbBTC with 8. They are not 66 verified stocks, and mainnet addresses do not establish testnet availability. SONIRA enables only five independently checked stock-named test assets alongside native ETH in its initial testnet configuration.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Competitor or substitute</th>
+<th>Structural advantage</th>
+<th>SONIRA response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Groove</td>
+<td>Existing same-chain concept and public contracts</td>
+<td>Attributed core adaptation, original listening experience, clear creator accounting and distribution tools</td>
+</tr>
+<tr>
+<td>General token launchpads, including Pump.fun</td>
+<td>Existing liquidity and repeat trading habits</td>
+<td>Specialize in original sounds and returning communities</td>
+</tr>
+<tr>
+<td>Creator-token products</td>
+<td>Broader creator relationships</td>
+<td>Make a short playable sound the primary object</td>
+</tr>
+<tr>
+<td>Conventional audio/social services</td>
+<td>Familiar accounts, large audiences, low friction</td>
+<td>Serve creators who find open provenance and token mechanics useful</td>
+</tr>
+</tbody>
+</table></div>
+<p>The design research also reviewed Jupiter's action clarity, Aave's benefit-led explanation and Pendle's distinctive identity. SONIRA uses a black technical workspace with a red signal accent, a glyph command rail, a searchable ledger of sounds, a sticky release-studio margin and explicit transaction details. The sonar mark is original geometry, not a stock mark. These design references do not establish customer demand.</p>
+<p>No defensible top-down market size was established. Build a bottom-up estimate from reachable qualified creators, publishing activation, retained communities and observed fee-bearing activity. Do not assume Robinhood's brokerage users are an available acquisition channel or imply a Robinhood partnership.</p>
+<h2 id="4-product-scope-and-honest-parity">4. Product, scope and honest parity</h2>
+<p>The studio publishes media and launches its market in <strong>one atomic transaction</strong>. A separate ERC-20 sound token and bonding curve are created through the launch factory. Initial supply is one billion 18-decimal tokens, minted once to the curve. There is no ongoing mint authority or founder allocation; holders can burn tokens, so “fixed initial supply” is more precise than claiming total supply can never change.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>V2 architecture and terms</th>
+<th>Boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wallet interaction</td>
+<td>EVM connection, network selection and wallet-signed actions</td>
+<td>Connection is not identity verification or server authentication</td>
+</tr>
+<tr>
+<td>Publication</td>
+<td>Upload/record, local audio preparation and atomic studio launch with immutable media/metadata</td>
+<td>Browser codec support varies; rights checks remain necessary</td>
+</tr>
+<tr>
+<td>Media budget</td>
+<td>Up to 35 seconds; audio plus optional cover ≤98,304 bytes, cover ≤16,384 bytes</td>
+<td>Full-length clips need working Opus support; PCM fallback fits about 12 seconds without a cover</td>
+</tr>
+<tr>
+<td>Launch cost</td>
+<td>0.0005 test ETH plus gas, including ERC-20-quoted launches</td>
+<td>Test assets are not commercial revenue; future policy changes must be disclosed</td>
+</tr>
+<tr>
+<td>Quote assets</td>
+<td>Native ETH plus five verified testnet assets named TSLA, AMZN, AMD, PLTR and NFLX</td>
+<td>Test tokens do not establish real stock ownership or commercial eligibility</td>
+</tr>
+<tr>
+<td>Quote precision</td>
+<td>Core architecture supports approved quote assets with at least six decimals</td>
+<td>USDG6/cbBTC8 support does not mean those mainnet tokens are deployed/enabled on testnet</td>
+</tr>
+<tr>
+<td>Trading fees</td>
+<td>1% base fee in both curve and pool; 70% creator / 30% protocol; optional 0–10% extra creator tax</td>
+<td>Pool fees use the unspecified currency amount; exact transaction quotes govern</td>
+</tr>
+<tr>
+<td>Buyback option</td>
+<td>Half of the creator base-fee bucket buys that sound token; linear five-year vest</td>
+<td>Execution has operator, liquidity and slippage conditions; no platform-token burn</td>
+</tr>
+<tr>
+<td>Fee claims</td>
+<td>Shared escrow: accrue, sweep, then claim; vest releases also credit escrow</td>
+<td>Accrued, claimable and claimed amounts are distinct</td>
+</tr>
+<tr>
+<td>Graduation</td>
+<td>Curve closure/reserve sweep followed by permissionless pool creation; permanently locked seed LP</td>
+<td>Two phases can leave a waiting interval; owner rescue exists after seven days</td>
+</tr>
+<tr>
+<td>Creator controls</td>
+<td>Fee recipient transfer, launch-time tax, buyback toggle</td>
+<td>Owner recipient override has a three-day delay and a three-day execution window</td>
+</tr>
+</tbody>
+</table></div>
+<p>The five testnet stock-named assets are issuer-controlled proxies with pause, blocklist, upgrade and administrative-burn exposure. Their initial targets are configured per asset, not a universal 42-unit threshold: TSLA 26; AMZN approximately 29.330291; AMD 16.665505; PLTR 47.065125; NFLX 130.303046. Exact raw configuration is authoritative. These settings mirror a reference snapshot, not a current price oracle or a commercial recommendation.</p>
+<p>Published audio and optional cover live in immutable bytecode chunks. Text metadata and links are creator supplied. A hash establishes what was published, not whether it was licensed or safe. A frontend can delist material but cannot generally erase blockchain copies. Playback depends on the chain, RPC and decoding software. Demo content and local QA must be visibly separate from public market activity.</p>
+<p>Graduated trades use a deadline-bounded router with a minimum output. Curve quotes include recipient-dependent launch-window charges and threshold partial fills. The interface must show the actual fee, maximum spend, minimum received, deadline where applicable, and which asset is paid or received. A local signed-message session proves control for that client session only; a future backend needs nonce-based server authentication.</p>
+<h2 id="5-exact-launch-curve-and-money-flow">5. Exact launch curve and money flow</h2>
+<p>The native curve starts with <strong>1.68 ETH of phantom quote</strong>, a <strong>4.2 ETH real-reserve graduation target</strong> and <strong>one billion initial tokens</strong>. Phantom quote is a pricing parameter, not funded ETH. Let <code>P = 1.68</code>, <code>R</code> be actual trading reserve and <code>S = 1,000,000,000</code>. In the untouched constant-product model, <code>K = P × S</code>, virtual quote reserve is <code>Q = P + R</code>, token reserve is <code>K / Q</code>, and marginal price is <code>Q² / K</code>. Integer accounting, fees, burns, previous trades and buybacks require executable onchain quotes.</p>
+<p>For a normal buy, the trader supplies a gross quote budget. Base fee, creator tax and any launch-window charge are deducted from the amount actually spent; the remainder enters the curve. At the threshold, only the necessary budget is spent and excess is returned. A sell returns tokens to the curve, deducts base fee and creator tax from gross quote proceeds, and pays the recipient directly. Seller proceeds and refunds are not escrow fee claims or company revenue.</p>
+<p>After the launch window, with zero extra creator tax, an empty native curve receiving a <strong>0.01 ETH gross buy</strong> charges 0.0001 ETH base fee and adds 0.0099 ETH reserve. It returns approximately <strong>5,858,334.812711 tokens</strong>. An immediate full resale with no other activity yields approximately 0.0099 ETH gross and <strong>0.009801 ETH net</strong>, before integer rounding and gas. The round trip loses both fees and gas.</p>
+<p>The anti-snipe setting starts at <strong>99% nominal</strong> and decays over <strong>15 seconds</strong>. The effective cap leaves at least 1% for buying after base fee and creator tax; at 1% base fee and zero creator tax the maximum applied penalty is <strong>98%</strong>. The original creator, selected fee recipient and up to 32 additional declared addresses are exempt. These exemptions and the steep initial charge must be visible. This mechanism is not guaranteed bot prevention or equal launch access. Penalty proceeds enter the base-fee bucket, but the company forecast excludes them.</p>
+<p>Ignoring rounding and prior buybacks, the pristine native curve starts at <strong>0.00000000168 ETH/token</strong> and reaches approximately <strong>0.00000002058 ETH/token</strong> at the target. At that point approximately <strong>714.285714 million</strong> tokens have left curve inventory and <strong>285.714286 million</strong> remain. Matching the terminal price seeds approximately <strong>4.2 ETH plus 204.081633 million tokens</strong> into the LP, with <strong>81.632653 million</strong> excess tokens locked. These are illustrative baseline amounts; actual onchain reserves and the executed seed determine the final allocation.</p>
+<p>Graduation has two stages. A threshold-crossing buy attempts closure and reserve sweep; a failed attempt can be retried. The subsequent permissionless pool-creation call initializes and mints the full-range locked position. Trading can be unavailable between stages. The core LP fee is zero in this configuration; the custom hook continues the <strong>1% base fee and optional creator tax</strong>. Permanently locked liquidity is not a price guarantee. If a swept market remains unseeded, the owner has a <strong>seven-day delayed reserve rescue path</strong>; that authority is a material trust assumption.</p>
+<p>Base fees split <strong>30% protocol / 70% creator</strong>. With buyback enabled, half of the creator bucket is earmarked: each 100 units of base fee becomes 30 protocol, 35 immediate creator and 35 for buying the same sound token. The separate creator tax goes entirely to the creator. Curve buybacks can fall back into creator payout when reserve movement or available inventory prevents execution; the graduation sweep skips the buyback and pays that allocation to the creator. Enabling the option does not guarantee a purchase on every sweep.</p>
+<p>Bought-back tokens vest <strong>linearly over five years</strong>, not at a five-year cliff. A top-up preserves already vested value and blends the existing unvested amount's remaining duration with a new five-year deposit. Either current beneficiary can release vested tokens; 70% credits the creator and 30% the protocol through escrow, followed by a separate claim. This routes part of creator-funded value to the protocol over time. It is not a burn, immediate cash revenue or guaranteed appreciation.</p>
+<h2 id="6-closed-loop-business-model">6. Closed-loop business model</h2>
+<p>The operating loop is <strong>original creator publishes → community listens → some eligible users voluntarily interact → a subset returns → legitimate trades accrue fees → sweeps create claimable balances → creators claim and make more useful sounds → useful sharing brings new listeners</strong>. Graduated communities can continue contributing fees under the hook, keeping retention and monetization connected beyond the launch curve.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>User value</th>
+<th>Measurement</th>
+<th>Response if weak</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acquisition</td>
+<td>Recognizable sound or trusted creator</td>
+<td>Qualified visits by source</td>
+<td>Narrow the audience and improve examples</td>
+</tr>
+<tr>
+<td>Activation</td>
+<td>Play immediately; publish successfully</td>
+<td>Engaged plays, time to publish, wallet/codec failures</td>
+<td>Remove friction before increasing promotion</td>
+</tr>
+<tr>
+<td>Conversion</td>
+<td>Understand rules and choose an action</td>
+<td>Quote-to-confirm conversion, fee comprehension</td>
+<td>Clarify economics; avoid pressure and return claims</td>
+</tr>
+<tr>
+<td>Retention</td>
+<td>Sound stays part of a living community</td>
+<td>D7/D14/D30 creator return, repeat listening</td>
+<td>Improve distribution and creator utility</td>
+</tr>
+<tr>
+<td>Monetization</td>
+<td>Transparent creator/protocol claims</td>
+<td>Fee basis, accrued/swept/claimed amounts, both phases</td>
+<td>Repair accounting or payout delays before scaling</td>
+</tr>
+<tr>
+<td>Reinvestment</td>
+<td>Fund better creation and service</td>
+<td>Creator relaunches, support cost, contribution</td>
+<td>Spend on demonstrated retention drivers</td>
+</tr>
+</tbody>
+</table></div>
+<p>The north-star metric is <strong>weekly active original-sound communities</strong>: a creator maintains its community presence during the week, the sound receives at least three engaged listeners and at least two distinct non-creator wallet participants within seven days. An engaged play reaches five seconds or 50% of the clip, whichever comes first. These thresholds are provisional. Wallets are not unique people; obvious linked-wallet or self-trade activity is flagged and excluded from growth decisions where detectable.</p>
+<p>Fee operations are part of the product. An operator monitors curve and hook fee balances, checks fresh quotes and issuer status, simulates conversion/buyback sweeps, supplies nonzero minimum outputs, and submits only within configured price-movement limits. It reconciles receipt events against escrow credits and retries recoverable failures with a newly priced transaction. Internal conversion or buyback requires the designated fee-sweep operator; creators can distribute direct fees when no internal swap is needed. A frontend promise of instant autonomous payout would therefore be misleading.</p>
+<p>Run a daily sweep/reconciliation queue with alerts for stale fees, failed simulations, missed operator heartbeats and delayed graduations. Initial service targets should be measured before published; for the pilot, investigate any eligible unswept balance older than 24 hours. Never lower slippage protection to force a claim. Pending fees, escrow liabilities, pool/curve reserves and company treasury balances require separate ledgers.</p>
+<h2 id="7-revenue-model-and-unit-economics">7. Revenue model and unit economics</h2>
+<p>The modeled protocol share is <strong>0.3% of fee-basis volume in both phases</strong>: 1% base fee multiplied by a 30% protocol share. “Fee-basis volume” means the amount on which the base fee is actually assessed, valued under a documented USD policy and counted once per execution. Curve buys use actual gross spend; curve sells use gross quote proceeds. The pool hook uses the swap's unspecified currency, normally the output for exact-input swaps. Thus 0.3% of fee basis is not always exactly 0.3% of input notional. Conversion prices, rounding, timing and issuer restrictions affect realized quote receipts.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Per $1,000 of fee-basis volume</th>
+<th style="text-align: right;">Buyback off</th>
+<th style="text-align: right;">Buyback on, if executed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base trading fee</td>
+<td style="text-align: right;">$10.00</td>
+<td style="text-align: right;">$10.00</td>
+</tr>
+<tr>
+<td>Protocol base-fee share</td>
+<td style="text-align: right;">$3.00</td>
+<td style="text-align: right;">$3.00</td>
+</tr>
+<tr>
+<td>Creator immediate base-fee share</td>
+<td style="text-align: right;">$7.00</td>
+<td style="text-align: right;">$3.50</td>
+</tr>
+<tr>
+<td>Creator-funded buyback allocation</td>
+<td style="text-align: right;">$0.00</td>
+<td style="text-align: right;">$3.50</td>
+</tr>
+<tr>
+<td>Modeled variable expense, 10% of protocol revenue</td>
+<td style="text-align: right;">$0.30</td>
+<td style="text-align: right;">$0.30</td>
+</tr>
+<tr>
+<td>Protocol contribution before fixed costs</td>
+<td style="text-align: right;">$2.70</td>
+<td style="text-align: right;">$2.70</td>
+</tr>
+</tbody>
+</table></div>
+<p>An optional 2% creator tax adds $20 per $1,000 of its applicable basis, entirely for the creator and outside the base split. The company forecast excludes creator tax, anti-snipe windfalls, unrealized vested sound tokens, user reserves, inventory valuation and platform-token sales. Launch-fee income is also excluded from the base scenarios. For sensitivity only, 1,000 launches at 0.0005 ETH total 0.5 ETH; a hypothetical $2,000/ETH would equal $1,000. This is not a current ETH price or forecast.</p>
+<p>The 10% variable expense is an operating allowance for incremental support, services and attributable distribution above the fixed budget. It is not an onchain deduction. At $1,000 monthly fee-basis volume per active wallet, protocol revenue is $3 and contribution $2.70. Six active months produce $16.20 contribution LTV; a $15 acquisition cost implies <strong>1.08× LTV/CAC and 5.56 active months to pay back</strong>. This does not justify aggressive paid growth. Lower CAC, stronger retention or useful paid tools must be demonstrated.</p>
+<p>Account for each asset separately and reconcile fees from accrual through conversion, escrow and treasury claim. Do not add ETH and test-token units into one raw total. Testnet assets carry no recognized operating revenue. In commercial scenarios, valuation and collection assumptions must be replaced with actual lawful receipts; unrealized token holdings are not cash available for payroll.</p>
+<h2 id="8-twelve-month-operating-budget-and-funding">8. Twelve-month operating budget and funding</h2>
+<p>All amounts are <strong>USD planning assumptions</strong>, not quotations or committed financing. Compensation assumes a lean distributed team and must be adjusted for location, employment costs and actual scope.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Use of cash over 12 months</th>
+<th>Basis</th>
+<th style="text-align: right;">Budget</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Two engineers</td>
+<td>$6,000 each per month</td>
+<td style="text-align: right;">$144,000</td>
+</tr>
+<tr>
+<td>Founder/product/design</td>
+<td>$4,000 per month</td>
+<td style="text-align: right;">$48,000</td>
+</tr>
+<tr>
+<td>Community and creator operations</td>
+<td>$3,000 per month</td>
+<td style="text-align: right;">$36,000</td>
+</tr>
+<tr>
+<td>External security review and retest</td>
+<td>Scope-dependent audit quotations required</td>
+<td style="text-align: right;">$60,000</td>
+</tr>
+<tr>
+<td>Legal, accounting and setup</td>
+<td>Product/jurisdiction review, terms, IP process, books</td>
+<td style="text-align: right;">$30,000</td>
+</tr>
+<tr>
+<td>RPC, indexing, hosting and monitoring</td>
+<td>$1,000 monthly average</td>
+<td style="text-align: right;">$12,000</td>
+</tr>
+<tr>
+<td>Creator research and acquisition</td>
+<td>Staged, capped, never volume-based</td>
+<td style="text-align: right;">$36,000</td>
+</tr>
+<tr>
+<td>Brand, domains, tools and administration</td>
+<td>Modest acquisition allowance</td>
+<td style="text-align: right;">$8,000</td>
+</tr>
+<tr>
+<td>Contingency</td>
+<td>Controlled reserve</td>
+<td style="text-align: right;">$26,000</td>
+</tr>
+<tr>
+<td><strong>Total fixed/staged cash budget</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>$400,000</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Proposed pre-seed target: $500,000</strong>, through company financing on negotiated terms, with no token sale assumed. This is a planning recommendation, not an executed raise. The extra $100,000 buffers launch delays and unexpected security/legal work. At zero revenue and average $33,333 monthly burn it provides roughly 15 months of runway; hiring and audit payment timing change the cash trough.</p>
+<p>The staged envelope is $85,000 in Q1, $110,000 in Q2, $100,000 in Q3 and $105,000 in Q4. Q2 includes the largest review spend. A mainnet delay postpones acquisition spend and growth hiring, not the security gate. Daily operational ownership of fee sweeps and reconciliation must fit within engineering/operations staffing; costs beyond that envelope require a revised budget.</p>
+<h2 id="9-financial-scenarios-not-a-demand-forecast">9. Financial scenarios, not a demand forecast</h2>
+<p>Months 1–3 assume testnet validation and <strong>zero commercial volume</strong>. Months 4–12 depend on legal, security, operational and economic gates. If gates fail, revenue stays zero and the timeline shifts. Scenario volume includes both curves and graduated pools under the fee-basis definition above. It does not count testnet activity, self-generated QA or fake trades.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Monthly fee-basis volume in months 4–12, $ millions</th>
+<th style="text-align: right;">Annual fee basis</th>
+<th style="text-align: right;">Protocol revenue at 0.3%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conservative</td>
+<td>0.05, 0.10, 0.20, 0.25, 0.35, 0.40, 0.50, 0.60, 0.75</td>
+<td style="text-align: right;">$3.20m</td>
+<td style="text-align: right;">$9,600</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>0.25, 0.50, 1.00, 1.50, 2.50, 3.50, 4.00, 5.00, 6.00</td>
+<td style="text-align: right;">$24.25m</td>
+<td style="text-align: right;">$72,750</td>
+</tr>
+<tr>
+<td>Upside</td>
+<td>1, 2, 4, 6, 8, 10, 12, 16, 20</td>
+<td style="text-align: right;">$79.00m</td>
+<td style="text-align: right;">$237,000</td>
+</tr>
+</tbody>
+</table></div>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Cash outcome</th>
+<th style="text-align: right;">Conservative</th>
+<th style="text-align: right;">Base</th>
+<th style="text-align: right;">Upside</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Protocol revenue</td>
+<td style="text-align: right;">$9,600</td>
+<td style="text-align: right;">$72,750</td>
+<td style="text-align: right;">$237,000</td>
+</tr>
+<tr>
+<td>Variable expense at 10%</td>
+<td style="text-align: right;">$(960)</td>
+<td style="text-align: right;">$(7,275)</td>
+<td style="text-align: right;">$(23,700)</td>
+</tr>
+<tr>
+<td>Contribution</td>
+<td style="text-align: right;">$8,640</td>
+<td style="text-align: right;">$65,475</td>
+<td style="text-align: right;">$213,300</td>
+</tr>
+<tr>
+<td>Fixed/staged budget</td>
+<td style="text-align: right;">$(400,000)</td>
+<td style="text-align: right;">$(400,000)</td>
+<td style="text-align: right;">$(400,000)</td>
+</tr>
+<tr>
+<td>Year-one operating cash result</td>
+<td style="text-align: right;"><strong>$(391,360)</strong></td>
+<td style="text-align: right;"><strong>$(334,525)</strong></td>
+<td style="text-align: right;"><strong>$(186,700)</strong></td>
+</tr>
+<tr>
+<td>Closing cash after hypothetical $500,000 financing</td>
+<td style="text-align: right;">$108,640</td>
+<td style="text-align: right;">$165,475</td>
+<td style="text-align: right;">$313,300</td>
+</tr>
+</tbody>
+</table></div>
+<p>These figures exclude taxes, financing costs and working-capital timing. They assume modeled protocol fees can be converted, claimed and valued without net conversion drift; actual quote receipts may differ. None of the scenarios reaches full-year operating profitability. Optional buybacks do not reduce the modeled 30% protocol base-fee share, but their future protocol token releases are excluded from cash forecasts.</p>
+<p>At $33,333 average monthly fixed cost and a <strong>0.27% contribution rate</strong>, break-even requires approximately <strong>$12.35 million monthly fee-basis volume</strong>. Halving the protocol fee rate doubles that requirement. Halving base-case volume reduces annual protocol revenue to $36,375 and contribution to $32,737.50, requiring $367,262.50 of operating cash at unchanged costs. Delayed collection adds working-capital pressure even when accrual appears healthy.</p>
+<p>The month-12 base case could mean 6,000 active wallets averaging $1,000 fee-basis volume each. An illustrative acquisition bridge is 120,000 qualified visits × 5% wallet connection × 40% first-trade activation = 2,400 new wallets, plus 3,600 returning participants. None of these rates is established. Reconcile the scenario with observed creator cohorts, listener retention, active markets, curve/pool mix and concentration before using it to hire or raise spending.</p>
+<h2 id="10-first-90-days-and-commercial-gates">10. First 90 days and commercial gates</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Period</th>
+<th>Product and operations</th>
+<th>Evidence target</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Days 1–14</td>
+<td>Acquire brand assets; secure deployment process; verify v2 lifecycle; recruit design partners</td>
+<td>15 creator interviews, 10 usability sessions, no unresolved critical flow failures</td>
+<td>Confirm a repeated creator problem</td>
+</tr>
+<tr>
+<td>Days 15–30</td>
+<td>Small original-audio cohort, consented analytics, codec/wallet fixes</td>
+<td>25 testnet sounds; ≥70% unassisted publication; median under five minutes excluding funding</td>
+<td>Improve onboarding before reach</td>
+</tr>
+<tr>
+<td>Days 31–60</td>
+<td>Repeat cohorts; indexing; fee sweeps, claims and rights operations</td>
+<td>50 creators; ≥30% D14 creator return; functioning reconciliation and payout explanations</td>
+<td>Continue only with voluntary repeat use</td>
+</tr>
+<tr>
+<td>Days 61–90</td>
+<td>Mainnet economic review, independent security work, region policy and treasury controls</td>
+<td>≥25% D30 return across two cohorts; ≥80% fee comprehension; findings triaged</td>
+<td>Separate mainnet go/no-go from growth targets</td>
+</tr>
+</tbody>
+</table></div>
+<p>Targets are hypotheses, not traction. Testnet activity validates usability, not real-money demand. A limited commercial pilot requires independent review and remediation of the <strong>modified</strong> system; adversarial reserve/escrow/vesting tests; reviewed curve and fee economics; verified deployments; operational key controls; reliable sweep monitoring; redundant RPC/indexing; terms and applicable jurisdiction decisions; rights/reporting intake; and complete transaction disclosures. Growth goals cannot waive these requirements.</p>
+<p>Integration evidence must cover atomic media launch, recipient-specific anti-snipe, native and approved ERC-20 trades, partial fills/refunds, fee conversions and claims, buyback top-ups/releases, recipient transfer/override timing, two-phase graduation, locked LP, delayed rescue and deadline/slippage swaps. Record local tests, local forks and public receipts separately. Earlier v1 results cannot certify v2.</p>
+<h2 id="11-roadmap-and-practical-defensibility">11. Roadmap and practical defensibility</h2>
+<p><strong>Phase A: establish the public testnet lifecycle.</strong> Local v2 lifecycle and production-build validation are complete. Execute and verify the reproducible public deployment, then run original creator cohorts. Operate fee sweeps and support manually with monitored runbooks before automating further. Public deployment requires the intended secure key and verified receipts; never substitute reference addresses or local fork writes.</p>
+<p><strong>Phase B: improve media and reliability.</strong> Broaden browser compatibility, progressive playback, indexed search, pagination and mobile coverage based on measured friction. Duplicate detection and rights attestations assist moderation but do not prove ownership. Larger media budgets need gas and retrieval cost evidence.</p>
+<p><strong>Phase C: distribute useful sound identities.</strong> Build embeddable players, creator profiles, opt-in updates, lawful licensing metadata and community analytics. A future paid professional tier should sell useful software, not privileged financial outcomes. Any such revenue is excluded from current forecasts until tested.</p>
+<p><strong>Phase D: harden operations and selectively expand.</strong> Review hook fee conversion, sweep incentives, quote-asset concentration and market quality. Develop audited operating automation and published reconciliation. Real stock-denominated products require issuer documentation, eligibility controls, liquidity and jurisdiction review beyond five named test assets. A future cross-asset price display or conversion needs a defined pricing source; the same-asset curve/pool mechanics do not themselves create an oracle.</p>
+<p>Defensibility should come from creator relationships, a lawful original-sound catalog, useful embeds, measured distribution, reliable indexing and clear operations. MIT-licensed contract code and visual design can be replicated. There is no demonstrated moat, guaranteed network effect or automatic Robinhood distribution. The business must earn creator return and listener usefulness.</p>
+<h2 id="12-governance-safety-and-rights-operations">12. Governance, safety and rights operations</h2>
+<p>The owner has meaningful powers: changing future launch configurations and quote allowlists, rotating the designated sweep operator, managing supported policies, disabling a creator buyback route, initiating recipient recovery and rescuing swept graduation reserves after seven days. Launches snapshot economic terms; later policy changes do not silently rewrite those snapshots. The current fee recipient can transfer its role immediately. An owner-imposed change has a <strong>three-day delay followed by a three-day execution window</strong>. It is not limited by an onchain lost-key proof, and a creator transfer does not cancel a pending owner override. Newly directed fees and unreleased vesting follow the updated recipient; credits already in escrow remain assigned to their credited account.</p>
+<p>Disclose administrative fee-rescue paths as well as the reserve rescue. They can bypass a blocked escrow payment route under the implemented conditions; they do not guarantee recovery from an issuer pause, blocklist or burn. The permanent LP lock does not eliminate these other trust assumptions. Nor does a website shutdown stop direct contract interaction. Final published governance must identify the actual deployed owner, operator and treasury addresses and the exact authority each holds.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Risk</th>
+<th>Exposure</th>
+<th>Control and residual limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contract defects</td>
+<td>Reserve loss, wrong fee splits, stalled vesting or migration</td>
+<td>Independent review, invariants and limited pilot; upstream verification is insufficient</td>
+</tr>
+<tr>
+<td>Operator failure</td>
+<td>Unswept fees, stale conversion quotes or adverse execution</td>
+<td>Monitored queue, nonzero minimums, simulation, rotation and reconciliation; liveness still depends on operation</td>
+</tr>
+<tr>
+<td>Administrative compromise</td>
+<td>Recipient redirection, reserve rescue misuse or future policy changes</td>
+<td>Production multisig, separate roles, public monitoring, enforced delays where available</td>
+</tr>
+<tr>
+<td>Quote issuer</td>
+<td>Pause, blocklist, upgrade or administrative burn</td>
+<td>Narrow allowlist, issuer monitoring, per-asset accounting; no assured recovery</td>
+</tr>
+<tr>
+<td>Manipulation</td>
+<td>Linked wallets, concentrated supply and misleading volume</td>
+<td>Avoid rewards for trading; filter analytics; disclose launch exemptions and concentration</td>
+</tr>
+<tr>
+<td>Content/IP</td>
+<td>Stolen audio, impersonation or irreversible harmful material</td>
+<td>Rights attestation, report intake, human review, delisting and appeals; chain bytes remain</td>
+</tr>
+<tr>
+<td>Regulation</td>
+<td>Token, marketing, consumer and asset eligibility obligations</td>
+<td>Qualified counsel, scope restrictions and enforceable terms before commercial use</td>
+</tr>
+<tr>
+<td>Infrastructure</td>
+<td>RPC failures, stale indexer, chain or codec disruption</td>
+<td>Redundant providers, reconciliation and stale-state labeling</td>
+</tr>
+<tr>
+<td>Economics</td>
+<td>Small fee share fails to cover service and acquisition</td>
+<td>Contribution gates, retained-cohort evidence, cost discipline and cash stop rules</td>
+</tr>
+</tbody>
+</table></div>
+<p>Recommended production controls include a multisignature treasury/administration setup, separate least-privilege sweep operations, hardware-backed deployment, two-person treasury spending approval and a named incident commander. These are launch requirements, not claims that a production multisig is already configured. Never put private keys in frontend variables, logs, public artifacts or the repository.</p>
+<p>Establish a monitored rights/contact channel and intake form before inviting uploads. Acknowledge reports within one business day, restrict operated surfaces promptly for credible imminent harm, preserve evidence, notify parties where lawful, allow appeals and record decisions. An unconfigured email address is not a working response channel. State the permanence of publication before the creator signs.</p>
+<h2 id="13-measurement-accountability-and-stop-rules">13. Measurement, accountability and stop rules</h2>
+<p>The founder owns cohort decisions and monthly cash reporting. Engineering owns security, availability, sweeps, transaction failures and reconciliation. Creator operations owns interviews, support and rights intake. Separate treasury review checks that protocol withdrawals match credits and never treats user reserves as runway.</p>
+<p>The dashboard follows qualified visits, engaged plays, publishing completion, new/returning creators, quote-to-confirm conversion, creator relaunches, curve and pool fee basis, fees by asset, sweep age, escrow claims, vest releases, graduation delays, concentration, support hours and company cash. Preserve accrued, claimable, claimed and vested amounts separately. Exclude internal QA and obvious self-trades from growth metrics; disclose incomplete wallet-link detection.</p>
+<p>Collect minimal consented analytics with a retention policy. Public wallet addresses still have privacy implications. Do not store private messages or identity documents onchain. Cohort reports include sample size, numerator, denominator and observation cutoff; incomplete windows produce “insufficient evidence,” not a success claim.</p>
+<p>Rework the segment if D30 creator retention remains below 15% across two cohorts of at least 20 creators. Pause paid acquisition below 3× contribution LTV/CAC or above six months' payback. Stop expansion for unresolved critical findings, reserve/escrow reconciliation discrepancies or a failed rights-response process. Investigate a missed sweep service target before acquiring more creators. At six months of remaining company cash, reduce scope and pursue financing or an orderly wind-down; user assets never fund operating losses.</p>
+<h2 id="14-sources-and-evidence-status">14. Sources and evidence status</h2>
+<p>Web sources were accessed on <strong>17 September 2026</strong>. Publisher statements, source code, live chain reads and SONIRA validation are distinct evidence categories.</p>
+<ul>
+<li><a href="https://x.com/Grooveonrh">Groove X</a>, <a href="https://www.groove.fun/">board</a> and <a href="https://www.groove.fun/launch">launch form</a>: public reference product. Its advertised future platform token was not verified as deployed; do not conflate it with per-sound buyback vesting.</li>
+<li><a href="https://docs.robinhood.com/chain/">Robinhood Chain overview</a> and <a href="https://docs.robinhood.com/chain/connecting">connection details</a>: mainnet 4663 and testnet 46630 are separate networks.</li>
+<li><a href="https://docs.robinhood.com/chain/stock-tokens">Stock Tokens</a> and <a href="https://docs.robinhood.com/chain/building-with-stock-tokens">building guide</a>: classifications and issuer/eligibility dependencies.</li>
+<li><a href="https://aave.com/">Aave</a>, <a href="https://www.pendle.finance/">Pendle</a>, <a href="https://jup.ag/">Jupiter</a> and <a href="https://pump.fun/">Pump.fun</a>: design/product references, not SONIRA demand evidence.</li>
+<li><a class="screen-only" href="resources/research__market-and-design.md">Market/design research</a><span class="print-only">Market/design research</span>, <a class="screen-only" href="resources/research__brand-verification.md">brand checks</a><span class="print-only">brand checks</span> and <a class="screen-only" href="resources/research__parity-dependencies.md">testnet dependencies</a><span class="print-only">testnet dependencies</span>: dated findings and limitations.</li>
+<li><a class="screen-only" href="resources/research__parity__v2-reference-mechanics.md">Pinned live mechanics</a><span class="print-only">Pinned live mechanics</span> and <a class="screen-only" href="resources/research__parity__live-policy-verification.json">raw verification</a><span class="print-only">raw verification</span>: current reference parameters, seven launches, 66 approved mainnet assets and zero call errors at the recorded block.</li>
+<li><a class="screen-only" href="resources/contracts-v2__NOTICE.md">V2 source attribution</a><span class="print-only">V2 source attribution</span> and <a class="screen-only" href="resources/contracts-v2__reference-provenance.json">provenance</a><span class="print-only">provenance</span>: MIT adaptation and dependency licensing. Modified source and final release evidence determine SONIRA behavior.</li>
+<li><a class="screen-only" href="resources/docs__AUDIO.md">Audio preparation</a><span class="print-only">Audio preparation</span> and <a class="screen-only" href="resources/docs__GO_TO_MARKET.md">operating playbook</a><span class="print-only">operating playbook</span>: media boundaries and proposed execution.</li>
+</ul>
+<p>Every forecast, budget, conversion target and funding amount is a management assumption. This plan establishes no signed customer, acquired domain/X account, active partnership, audited deployment or commercial revenue. The delivery record distinguishes completed local validation from pending public deployment; neither local receipts nor a successful production build establish a public launch.</p></article><footer class="endmark"><span>SONIRA · BUSINESS PLAN · VERSION 2.1</span><span>17 SEPTEMBER 2026</span></footer></main></body></html>
